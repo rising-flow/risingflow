@@ -19,6 +19,8 @@ body {
     background-color: var(--color-background-light);
     color: var(--color-dark-grey);
     line-height: 1.6;
+    padding-top: 64px; /* Adjusted for larger header */
+    padding-bottom: 36px; /* Prevent content under footer */
 }
 
 .container {
@@ -29,12 +31,19 @@ body {
 
 /* --- Header / Top Bar --- */
 header {
-    background-color: var(--color-text-dark); /* Black background for header */
-    padding: 10px 0;
+    background-color: var(--color-text-dark);
+    padding: 4px 0; /* Thinner header */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--color-background-light); /* White text for contrast */
+    color: var(--color-background-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 64px; /* More comfortable height for logo */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .logo-area {
@@ -43,7 +52,7 @@ header {
 }
 
 .logo-area img {
-    max-height: 80px; /* Adjust as needed for your logo image */
+    max-height: 56px; /* Larger logo for better visibility */
     width: auto;
 }
 
@@ -218,6 +227,13 @@ footer {
     background-color: var(--color-text-dark);
     color: var(--color-background-light);
     text-align: center;
-    padding: 20px 0;
+    padding: 8px 0; /* Thinner footer */
     margin-top: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px; /* Slimmer height */
+    z-index: 1000;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.08);
 }

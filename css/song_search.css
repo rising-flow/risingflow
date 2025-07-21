@@ -1,14 +1,14 @@
 /* --- Song Search Specific Styles --- */
 
 .song-search-section {
-    padding: 40px 0;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .song-search-section h1 {
-    text-align: center;
-    color: var(--color-primary-yellow);
-    margin-bottom: 40px;
-    font-size: 2.8em;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 /* Unified container for input and tags */
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column; /* Stack input row, tags, and clear button vertically */
     gap: 15px; /* Space between the input row and the tags row */
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     padding: 15px;
     background-color: var(--color-neutral-grey); /* The #f0f0f0 background */
     border-radius: 8px;
@@ -128,7 +128,7 @@
 
 /* --- Category List Styles --- */
 .category-list {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 /* Adjusted for slimmer category header */
@@ -287,6 +287,162 @@
     }
     .letter-filter-button {
         padding: 5px 6px; /* Slightly reduce padding on small screens */
+    }
+}
+
+/* --- Game Selection Styles --- */
+.game-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px; /* Reduced from 32px */
+    margin-bottom: 12px;
+    min-height: unset; /* Remove min-height for compactness */
+    padding: 0;
+}
+
+.game-selection h2 {
+    font-size: 1.5em;
+    margin-bottom: 16px; /* Less space below title */
+    margin-top: 0;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px; /* Slightly reduced gap for compactness */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.game-btn {
+    position: relative;
+    min-width: 208px; /* 20% smaller than 260px */
+    min-height: 72px; /* 20% smaller than 90px */
+    padding: 19px 29px; /* 20% smaller than 24px 36px */
+    font-size: 1.04em; /* 20% smaller than 1.3em */
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s, background 0.18s;
+    z-index: 1;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.game-btn-label {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 3px 16px rgba(0,0,0,0.7), 0 1px 0 #222;
+    font-weight: bold;
+    font-size: 1.04em;
+    pointer-events: none;
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.game-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.35;
+    z-index: 0;
+    transition: opacity 0.2s;
+}
+
+.game-btn::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.35;
+    z-index: 1;
+    transition: opacity 0.2s;
+}
+
+/* Set background images for each game button */
+.game-btn[data-game="Dance Dance Revolution"]::before {
+    background-image: url('../images/ddr_bg.jpg');
+}
+.game-btn[data-game="YARG"]::before {
+    background-image: url('../images/yarg_bg.jpg');
+}
+.game-btn[data-game="Project Diva"]::before {
+    background-image: url('../images/diva_bg.jpg');
+}
+.game-btn[data-game="Taiko no Tatsujin"]::before {
+    background-image: url('../images/taiko_bg.jpg');
+}
+
+.game-btn:hover, .game-btn:focus {
+    transform: scale(1.06) translateY(-2px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.70);
+}
+
+.game-btn:hover::before, .game-btn:focus::before {
+    opacity: 0.55;
+}
+
+.game-btn:active {
+    transform: scale(0.98) translateY(1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    background: rgba(0,0,0,0.45);
+}
+
+.game-btn:active::before {
+    opacity: 0.25;
+}
+
+.game-btn.selected {
+    border: 2.5px solid var(--color-primary-yellow);
+    box-shadow: 0 0 0 4px rgba(242,214,6,0.18);
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    z-index: 5;
+}
+
+@media (max-width: 600px) {
+    .game-list {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+    .game-btn {
+        min-width: 0;
+        width: 100%;
+        max-width: 98vw;
+        min-height: 56px;
+        padding: 16px 10px;
+        font-size: 0.98em;
+        border-radius: 8px;
+    }
+    .game-btn-label {
+        font-size: 0.98em;
+    }
+    .game-selection {
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 }
 

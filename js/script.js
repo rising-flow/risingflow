@@ -21,7 +21,7 @@ const translations = {
         aboutEventsTitle: 'Eventos Emocionantes',
         aboutEventsDesc: 'Compita em torneios, participe de workshops e conecte-se com outros jogadores em nossos emocionantes eventos.'
     },
-    'en-US': { // Using en-US for consistency, but will display as UK English
+    'en-GB': { // UK English
         pageTitle: 'Rising Flow - Home',
         productsLink: 'Products',
         eventsLink: 'Events',
@@ -40,13 +40,13 @@ const translations = {
     }
 };
 
+let currentLang = 'pt-BR'; // Default language
+
 function updateContent(lang) {
     htmlElement.lang = lang; // Update HTML lang attribute
     document.title = translations[lang].pageTitle;
 
     // Navigation
-    // Using querySelector with attribute selector for links that have specific hrefs
-    // ChildNodes[0].nodeValue is used to update text content without removing the caret-down icon.
     document.querySelector('a[href="#products"]').childNodes[0].nodeValue = translations[lang].productsLink + ' ';
     document.querySelector('a[href="#events"]').childNodes[0].nodeValue = translations[lang].eventsLink + ' ';
     document.getElementById('song-search-link').textContent = translations[lang].songSearchLink;
@@ -67,25 +67,23 @@ function updateContent(lang) {
     document.getElementById('about-events-desc').textContent = translations[lang].aboutEventsDesc;
 }
 
-languageFlagButton.addEventListener('click', () => {
-    let currentLang = languageFlagButton.dataset.lang;
-    if (currentLang === 'en') {
-        languageFlagButton.dataset.lang = 'pt';
-        // Changed innerHTML to include the title for accessibility
-        languageFlagButton.innerHTML = '<span class="fi fi-br" title="Mudar para Português"></span>'; // Brazil flag for Portuguese
-        updateContent('pt-BR');
+function updateFlagButton(lang) {
+    if (lang === 'pt-BR') {
+        languageFlagButton.dataset.lang = 'en-GB';
+        languageFlagButton.innerHTML = '<span class="fi fi-gb" title="Switch to English"></span>';
     } else {
-        languageFlagButton.dataset.lang = 'en';
-        // Changed innerHTML to include the title for accessibility
-        languageFlagButton.innerHTML = '<span class="fi fi-gb" title="Switch to English"></span>'; // UK flag for English
-        updateContent('en-US');
+        languageFlagButton.dataset.lang = 'pt-BR';
+        languageFlagButton.innerHTML = '<span class="fi fi-br" title="Mudar para Português"></span>';
     }
+}
+
+languageFlagButton.addEventListener('click', () => {
+    // Toggle language
+    currentLang = (currentLang === 'pt-BR') ? 'en-GB' : 'pt-BR';
+    updateContent(currentLang);
+    updateFlagButton(currentLang);
 });
 
-// Initialize content on first load
-// The defer attribute on the script tag means it runs after HTML is parsed.
-// So, we can directly call updateContent here.
-// Initial setup assuming pt-BR is default, showing UK flag for switch
-languageFlagButton.dataset.lang = 'en'; // Flag currently shown is for EN, meaning current content is PT
-languageFlagButton.innerHTML = '<span class="fi fi-gb" title="Switch to English"></span>';
-updateContent('pt-BR'); // Set initial content to PT-BR
+// Initialize content and flag on first load
+updateContent(currentLang);
+updateFlagButton(currentLang);
