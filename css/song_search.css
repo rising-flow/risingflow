@@ -171,9 +171,47 @@
 }
 
 .category-content.expanded {
-    max-height: 1000000px; /* Increased to ensure all songs are visible */
+    max-height: 20000px; /* Increased to a very large value for effectively unlimited height */
     padding: 15px 20px;
 }
+
+/* Styles for the new Letter Filter Bar */
+.letter-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 15px; /* Space between filter and first song */
+    border-bottom: 1px dashed var(--color-neutral-grey);
+    margin-bottom: 15px;
+}
+
+.letter-filter-button {
+    background-color: var(--color-neutral-grey);
+    color: var(--color-dark-grey);
+    border: 1px solid var(--color-dark-grey);
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.letter-filter-button:hover {
+    background-color: var(--color-complementary-blue);
+    color: var(--color-background-light);
+    border-color: var(--color-complementary-blue);
+}
+
+.letter-filter-button.active {
+    background-color: var(--color-primary-yellow);
+    color: var(--color-text-dark);
+    border-color: var(--color-primary-yellow);
+}
+
 
 .song-item {
     display: flex;

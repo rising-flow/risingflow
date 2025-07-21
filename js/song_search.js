@@ -10,9 +10,9 @@ const categoryListContainer = document.getElementById('category-list');
 const loadingMessage = document.getElementById('loading-message');
 const clearFiltersBtn = document.getElementById('clear-filters-btn'); // Clear All button
 
-// Function to safely get text content from a potentially null field
-function getText(field) {
-    return field || ''; // Return empty string if null/undefined
+// Function to safely get text content from a potentially null field, prioritizing transliterated versions
+function getText(originalField, translitField) {
+    return translitField && translitField.trim() !== '' ? translitField : originalField || '';
 }
 
 // Function to load all JSON files
@@ -45,7 +45,6 @@ async function loadAllSongs() {
         'Dance Dance Revolution PS3 Exclusives.json',
         'Dance Dance Revolution SuperNOVA.json',
         'Dance Dance Revolution SuperNOVA2.json',
-        'Dance Dance Revolution Wii Exclusives.json',
         'Dance Dance Revolution X.json',
         'Dance Dance Revolution X2.json',
         'Dance Dance Revolution X3.json',
@@ -92,18 +91,22 @@ function renderSongItem(song) {
 
     const titleSpan = document.createElement('span');
     titleSpan.className = 'title';
-    titleSpan.textContent = getText(song.title);
+    // Use translit title if available, otherwise original title
+    titleSpan.textContent = getText(song.title, song.title_translit);
     songItem.appendChild(titleSpan);
 
     const artistSpan = document.createElement('span');
     artistSpan.className = 'artist';
-    artistSpan.textContent = getText(song.artist);
+    // Use translit artist if available, otherwise original artist
+    artistSpan.textContent = getText(song.artist, song.artist_translit);
     songItem.appendChild(artistSpan);
 
-    if (song.subtitle) {
+    // Only add subtitle if it exists (either original or translit)
+    const displaySubtitle = getText(song.subtitle, song.subtitle_translit);
+    if (displaySubtitle) {
         const subtitleSpan = document.createElement('span');
         subtitleSpan.className = 'subtitle';
-        subtitleSpan.textContent = getText(song.subtitle);
+        subtitleSpan.textContent = displaySubtitle;
         songItem.appendChild(subtitleSpan);
     }
 
@@ -139,14 +142,94 @@ function renderSongItem(song) {
 }
 
 // Function to render songs within a given categoryContent div
-function renderSongsIntoCategory(categoryContentDiv, categorySongs) {
-    // Clear existing content if any (important for re-rendering on filter changes if category was already open)
+// Now accepts an optional letterFilter
+function renderSongsIntoCategory(categoryContentDiv, categorySongs, letterFilter = 'All') {
+    // Clear existing content (important for re-rendering on filter changes or letter filter)
     categoryContentDiv.innerHTML = '';
-    categorySongs.forEach(song => {
+
+    // Filter songs by letter if a filter is active
+    let songsToDisplay = categorySongs;
+    if (letterFilter !== 'All') {
+        songsToDisplay = categorySongs.filter(song => {
+            // Prioritize translit title for letter filtering
+            const displayTitle = getText(song.title, song.title_translit);
+            const firstChar = displayTitle.trim().charAt(0).toLowerCase();
+            if (letterFilter === '#') {
+                return !/[a-z]/.test(firstChar); // Check if it's not an alphabet character
+            } else {
+                return firstChar === letterFilter.toLowerCase();
+            }
+        });
+    }
+
+    if (songsToDisplay.length === 0) {
+        const noSongsMessage = document.createElement('p');
+        noSongsMessage.style.textAlign = 'center';
+        noSongsMessage.style.padding = '10px 0';
+        noSongsMessage.style.color = 'var(--color-dark-grey)';
+        noSongsMessage.textContent = 'No songs found starting with this letter.';
+        categoryContentDiv.appendChild(noSongsMessage);
+        return;
+    }
+
+    songsToDisplay.forEach(song => {
         const songItem = renderSongItem(song);
         categoryContentDiv.appendChild(songItem);
     });
 }
+
+// Function to create and attach the letter filter bar
+function createLetterFilterBar(categoryContentDiv, categorySongs) {
+    const filterBar = document.createElement('div');
+    filterBar.className = 'letter-filter-bar';
+    filterBar.dataset.currentFilter = 'All'; // Store the currently active filter
+
+    // Create 'All' button
+    const allButton = document.createElement('button');
+    allButton.className = 'letter-filter-button active'; // 'All' is active by default
+    allButton.textContent = 'All';
+    allButton.dataset.filter = 'All';
+    filterBar.appendChild(allButton);
+
+    // Create A-Z buttons
+    for (let i = 0; i < 26; i++) {
+        const letter = String.fromCharCode(65 + i); // ASCII for 'A'
+        const button = document.createElement('button');
+        button.className = 'letter-filter-button';
+        button.textContent = letter;
+        button.dataset.filter = letter;
+        filterBar.appendChild(button);
+    }
+
+    // Create '#' button for numbers/symbols
+    const hashButton = document.createElement('button');
+    hashButton.className = 'letter-filter-button';
+    hashButton.textContent = '#';
+    hashButton.dataset.filter = '#';
+    filterBar.appendChild(hashButton);
+
+    // Add click listener to the filter bar (event delegation)
+    filterBar.addEventListener('click', (event) => {
+        const target = event.target;
+        if (target.classList.contains('letter-filter-button')) {
+            // Remove active class from previously active button
+            const currentActive = filterBar.querySelector('.letter-filter-button.active');
+            if (currentActive) {
+                currentActive.classList.remove('active');
+            }
+
+            // Add active class to clicked button
+            target.classList.add('active');
+            filterBar.dataset.currentFilter = target.dataset.filter; // Update active filter data
+
+            // Re-render songs with the new letter filter
+            renderSongsIntoCategory(categoryContentDiv, categorySongs, target.dataset.filter);
+        }
+    });
+
+    return filterBar;
+}
+
 
 // Function to apply filters and render the categories and songs
 function applyFilter() {
@@ -165,9 +248,10 @@ function applyFilter() {
 
             // Filter songs based on search term and active filter tags
             const filteredSongs = songsInCurrentCategory.filter(song => {
-                const title = getText(song.title).toLowerCase();
-                const artist = getText(song.artist).toLowerCase();
-                const subtitle = getText(song.subtitle).toLowerCase();
+                // Use translit fields for filtering if available, otherwise original
+                const title = getText(song.title, song.title_translit).toLowerCase();
+                const artist = getText(song.artist, song.artist_translit).toLowerCase();
+                const subtitle = getText(song.subtitle, song.subtitle_translit).toLowerCase();
                 const mix = categoryName.toLowerCase(); // Use category name as mix
 
                 // Check for search term match (title, artist, subtitle, mix)
@@ -189,6 +273,12 @@ function applyFilter() {
             });
 
             if (filteredSongs.length > 0) {
+                // Ensure songs within each category are sorted alphabetically by title
+                filteredSongs.sort((a, b) => {
+                    const titleA = getText(a.title, a.title_translit).toLowerCase(); // Use translit for sorting
+                    const titleB = getText(b.title, b.title_translit).toLowerCase(); // Use translit for sorting
+                    return titleA.localeCompare(titleB);
+                });
                 categoriesToRender[categoryName] = filteredSongs;
             }
         }
@@ -215,13 +305,6 @@ function applyFilter() {
     sortedCategoryNames.forEach(categoryName => {
         const categorySongs = categoriesToRender[categoryName];
 
-        // Sort Songs Alphabetically within each category
-        categorySongs.sort((a, b) => {
-            const titleA = getText(a.title).toLowerCase();
-            const titleB = getText(b.title).toLowerCase();
-            return titleA.localeCompare(titleB);
-        });
-
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'category';
         // Store the category songs data on the div for easy access during toggle
@@ -234,7 +317,6 @@ function applyFilter() {
 
         const categoryContent = document.createElement('div');
         categoryContent.className = 'category-content';
-        // We no longer render songs here initially
         categoryDiv.appendChild(categoryContent);
         categoryListContainer.appendChild(categoryDiv);
 
@@ -244,8 +326,17 @@ function applyFilter() {
             const icon = categoryHeader.querySelector('.toggle-icon');
 
             if (!isExpanded) {
-                // Expanding: Render songs and then expand
-                renderSongsIntoCategory(categoryContent, categorySongs);
+                // Expanding: Render letter filter bar and then songs
+                // Only create filter bar if it doesn't already exist
+                if (!categoryContent.querySelector('.letter-filter-bar')) {
+                    const letterFilterBar = createLetterFilterBar(categoryContent, categorySongs);
+                    categoryContent.prepend(letterFilterBar); // Add at the top of category content
+                }
+                // Check currentFilter from existing filter bar or default to 'All'
+                const currentLetterFilter = categoryContent.querySelector('.letter-filter-bar') ?
+                                            categoryContent.querySelector('.letter-filter-bar').dataset.currentFilter : 'All';
+                renderSongsIntoCategory(categoryContent, categorySongs, currentLetterFilter);
+
                 categoryContent.classList.add('expanded');
                 icon.classList.remove('fa-chevron-down');
                 icon.classList.add('fa-chevron-up');
@@ -258,7 +349,7 @@ function applyFilter() {
                 // Clear content after transition to free up memory
                 // Match this timeout to your CSS transition duration (0.5s)
                 setTimeout(() => {
-                    categoryContent.innerHTML = '';
+                    categoryContent.innerHTML = ''; // Clear songs and filter bar
                 }, 500);
             }
         });
