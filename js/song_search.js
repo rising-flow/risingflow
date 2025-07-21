@@ -180,7 +180,7 @@ async function fetchJsonFilesRecursively(folderPath) {
 
 // --- Update: Use recursive loader for all folder-based games ---
 async function loadSongsForGame(gameName) {
-    allSongsData = {};
+    Object.keys(allSongsData).forEach(key => delete allSongsData[key]);
     filterTerms.clear();
     filterInput.value = '';
     renderFilterTags();
