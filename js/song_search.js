@@ -431,7 +431,7 @@ function applyFilter() {
                 // Ensure songs within each category are sorted alphabetically by title
                 filteredSongs.sort((a, b) => {
                     const titleA = getText(a.title, a.title_translit).toLowerCase(); // Use translit for sorting
-                    const titleB = getText(b.title, b.title_translit).toLowerCase(); // Use translit for sorting
+                    const titleB = getText(b.title, a.title_translit).toLowerCase(); // Use translit for sorting
                     return titleA.localeCompare(titleB);
                 });
                 categoriesToRender[categoryName] = filteredSongs;
@@ -602,17 +602,21 @@ filterInput.addEventListener('input', () => {
 // --- Game Selection Visual Feedback & Data Loading ---
 document.addEventListener('DOMContentLoaded', function() {
     const gameButtons = document.querySelectorAll('.game-btn');
+    const searchUIWrapper = document.getElementById('search-ui-wrapper');
+    if (searchUIWrapper) searchUIWrapper.classList.remove('visible'); // Hide on load
     gameButtons.forEach(btn => {
         btn.addEventListener('click', function() {
             gameButtons.forEach(b => b.classList.remove('selected'));
             this.classList.add('selected');
             const gameName = this.dataset.game;
             loadSongsForGame(gameName);
+            if (searchUIWrapper) searchUIWrapper.classList.add('visible'); // Show search UI
         });
     });
     // On initial load, show select a game message
     categoryListContainer.innerHTML = '';
     loadingMessage.textContent = songSearcherTranslations[getCurrentLang()].selectGameTitle;
+    if (searchUIWrapper) searchUIWrapper.classList.remove('visible'); // Hide search UI
 });
 
 
