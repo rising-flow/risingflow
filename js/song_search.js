@@ -1,3 +1,4 @@
+(function() {
 // Data store for all songs, keyed by category name
 const allSongsData = {};
 const filterTerms = new Set(); // Using a Set to store unique filter terms
@@ -601,9 +602,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Listen for language changes from the main language switcher
-const languageFlagButton = document.getElementById('language-flag');
-if (languageFlagButton) {
-    languageFlagButton.addEventListener('click', () => {
+const songSearchLanguageFlagButton = document.getElementById('language-flag');
+if (songSearchLanguageFlagButton) {
+    songSearchLanguageFlagButton.addEventListener('click', () => {
         setTimeout(() => {
             updateSongSearcherUI();
             applyFilter();
@@ -614,3 +615,4 @@ if (languageFlagButton) {
 document.addEventListener('DOMContentLoaded', () => {
     updateSongSearcherUI();
 });
+})();

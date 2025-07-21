@@ -47,24 +47,38 @@ function updateContent(lang) {
     document.title = translations[lang].pageTitle;
 
     // Navigation
-    document.querySelector('a[href="#products"]').childNodes[0].nodeValue = translations[lang].productsLink + ' ';
-    document.querySelector('a[href="#events"]').childNodes[0].nodeValue = translations[lang].eventsLink + ' ';
-    document.getElementById('song-search-link').textContent = translations[lang].songSearchLink;
-    document.getElementById('contact-link').textContent = translations[lang].contactLink;
+    const productsLink = document.querySelector('a[href="#products"]');
+    if (productsLink && productsLink.childNodes[0]) productsLink.childNodes[0].nodeValue = translations[lang].productsLink + ' ';
+    const eventsLink = document.querySelector('a[href="#events"]');
+    if (eventsLink && eventsLink.childNodes[0]) eventsLink.childNodes[0].nodeValue = translations[lang].eventsLink + ' ';
+    const songSearchLink = document.getElementById('song-search-link');
+    if (songSearchLink) songSearchLink.textContent = translations[lang].songSearchLink;
+    const contactLink = document.getElementById('contact-link');
+    if (contactLink) contactLink.textContent = translations[lang].contactLink;
 
     // Hero Section
-    document.getElementById('hero-title').textContent = translations[lang].heroTitle;
-    document.getElementById('hero-description').textContent = translations[lang].heroDescription;
-    document.getElementById('learn-more-button').textContent = translations[lang].learnMoreButton;
+    const heroTitle = document.getElementById('hero-title');
+    if (heroTitle) heroTitle.textContent = translations[lang].heroTitle;
+    const heroDescription = document.getElementById('hero-description');
+    if (heroDescription) heroDescription.textContent = translations[lang].heroDescription;
+    const learnMoreButton = document.getElementById('learn-more-button');
+    if (learnMoreButton) learnMoreButton.textContent = translations[lang].learnMoreButton;
 
     // About Section
-    document.getElementById('about-heading').textContent = translations[lang].aboutHeading;
-    document.getElementById('about-music-title').textContent = translations[lang].aboutMusicTitle;
-    document.getElementById('about-music-desc').textContent = translations[lang].aboutMusicDesc;
-    document.getElementById('about-community-title').textContent = translations[lang].aboutCommunityTitle;
-    document.getElementById('about-community-desc').textContent = translations[lang].aboutCommunityDesc;
-    document.getElementById('about-events-title').textContent = translations[lang].aboutEventsTitle;
-    document.getElementById('about-events-desc').textContent = translations[lang].aboutEventsDesc;
+    const aboutHeading = document.getElementById('about-heading');
+    if (aboutHeading) aboutHeading.textContent = translations[lang].aboutHeading;
+    const aboutMusicTitle = document.getElementById('about-music-title');
+    if (aboutMusicTitle) aboutMusicTitle.textContent = translations[lang].aboutMusicTitle;
+    const aboutMusicDesc = document.getElementById('about-music-desc');
+    if (aboutMusicDesc) aboutMusicDesc.textContent = translations[lang].aboutMusicDesc;
+    const aboutCommunityTitle = document.getElementById('about-community-title');
+    if (aboutCommunityTitle) aboutCommunityTitle.textContent = translations[lang].aboutCommunityTitle;
+    const aboutCommunityDesc = document.getElementById('about-community-desc');
+    if (aboutCommunityDesc) aboutCommunityDesc.textContent = translations[lang].aboutCommunityDesc;
+    const aboutEventsTitle = document.getElementById('about-events-title');
+    if (aboutEventsTitle) aboutEventsTitle.textContent = translations[lang].aboutEventsTitle;
+    const aboutEventsDesc = document.getElementById('about-events-desc');
+    if (aboutEventsDesc) aboutEventsDesc.textContent = translations[lang].aboutEventsDesc;
 }
 
 function updateFlagButton(lang) {
