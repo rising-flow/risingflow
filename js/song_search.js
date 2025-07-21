@@ -63,229 +63,233 @@ async function loadAllSongs() {
 
     try {
         const fetchPromises = jsonFiles.map(async file => {
-            const response = await fetch(`${dataFolder}${file}`);
+            const response = await fetch(dataFolder + file);
             if (!response.ok) {
-                console.error(`Failed to load ${file}: ${response.status} ${response.statusText}`);
+                console.error(`Failed to load ${file}: ${response.statusText}`);
                 return null;
             }
             const data = await response.json();
-            const categoryName = file.replace(/\.json$/, '');
+            // Use the filename (without .json) as the category name
+            const categoryName = file.replace('.json', '');
             allSongsData[categoryName] = data;
-            console.log(`Loaded ${file}. Songs count: ${data.length}`);
+            return { categoryName, data };
         });
 
-        await Promise.all(fetchPromises);
-        console.log("All fetch promises resolved. allSongsData:", allSongsData);
-        
-        if (Object.keys(allSongsData).length === 0) {
-            loadingMessage.textContent = 'No song data loaded. Check console for fetch errors.';
-            console.error("allSongsData is empty after loading. No files were successfully loaded or processed.");
-        } else {
-            loadingMessage.style.display = 'none'; // Hide loading message only if data loaded
-            console.log("Loading message hidden.");
-            renderCategories(); // Render after all data is loaded
-            // Call updateClearButtonVisibility immediately after loading and rendering
-            updateClearButtonVisibility(); 
-        }
+        const results = await Promise.all(fetchPromises);
+        console.log("All JSON files loaded successfully.");
+        loadingMessage.textContent = ''; // Hide loading message
+        applyFilter(); // Initial render after loading
     } catch (error) {
         console.error("CRITICAL ERROR loading song data:", error);
-        loadingMessage.textContent = 'Critical error loading songs. Check console for details.';
+        loadingMessage.textContent = 'Failed to load song data. Please try again later.';
     }
 }
 
-// Function to render a single filter tag
-function renderFilterTag(term) {
-    const tagDiv = document.createElement('div');
-    tagDiv.classList.add('filter-tag');
-    const textSpan = document.createElement('span');
-    textSpan.textContent = term;
-    tagDiv.appendChild(textSpan);
+// Function to render song items
+function renderSongItem(song) {
+    const songItem = document.createElement('div');
+    songItem.className = 'song-item';
 
-    const removeBtn = document.createElement('button');
-    removeBtn.classList.add('remove-tag');
-    removeBtn.innerHTML = '&times;';
-    removeBtn.setAttribute('aria-label', `Remove filter: ${term}`);
-    removeBtn.addEventListener('click', () => {
-        filterTerms.delete(term);
-        renderFilterTags(); // This will re-render all tags and call updateClearButtonVisibility
-        applyFilter();
-    });
+    const titleSpan = document.createElement('span');
+    titleSpan.className = 'title';
+    titleSpan.textContent = getText(song.title);
+    songItem.appendChild(titleSpan);
 
-    tagDiv.appendChild(removeBtn);
-    filterTagsContainer.appendChild(tagDiv);
+    const artistSpan = document.createElement('span');
+    artistSpan.className = 'artist';
+    artistSpan.textContent = getText(song.artist);
+    songItem.appendChild(artistSpan);
+
+    if (song.subtitle) {
+        const subtitleSpan = document.createElement('span');
+        subtitleSpan.className = 'subtitle';
+        subtitleSpan.textContent = getText(song.subtitle);
+        songItem.appendChild(subtitleSpan);
+    }
+
+    const difficultiesDiv = document.createElement('div');
+    difficultiesDiv.className = 'difficulties';
+
+    // Single difficulties
+    if (song.single_difficulties) {
+        for (const diff in song.single_difficulties) {
+            if (Object.hasOwnProperty.call(song.single_difficulties, diff)) {
+                const diffSpan = document.createElement('span');
+                diffSpan.className = `difficulty difficulty-single ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+                diffSpan.textContent = `${diff}: ${song.single_difficulties[diff]}`;
+                difficultiesDiv.appendChild(diffSpan);
+            }
+        }
+    }
+
+    // Double difficulties
+    if (song.double_difficulties) {
+        for (const diff in song.double_difficulties) {
+            if (Object.hasOwnProperty.call(song.double_difficulties, diff)) {
+                const diffSpan = document.createElement('span');
+                diffSpan.className = `difficulty difficulty-double ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+                diffSpan.textContent = `D-${diff}: ${song.double_difficulties[diff]}`;
+                difficultiesDiv.appendChild(diffSpan);
+            }
+        }
+    }
+    songItem.appendChild(difficultiesDiv);
+
+    return songItem;
 }
 
-// Function to render all filter tags
-function renderFilterTags() {
-    filterTagsContainer.innerHTML = '';
-    filterTerms.forEach(term => renderFilterTag(term));
-    // Crucial: Call updateClearButtonVisibility every time filter tags are re-rendered
-    updateClearButtonVisibility();
-}
-
-// Function to apply the current filter to all songs
+// Function to apply filters and render the categories and songs
 function applyFilter() {
-    console.log("Applying filter. Current filter terms:", Array.from(filterTerms).join(', '));
-    renderCategories();
-}
+    console.log("Applying filter...");
+    categoryListContainer.innerHTML = ''; // Clear current content
 
-// Function to render (or re-render) all categories and their songs
-function renderCategories() {
-    console.log("Starting renderCategories...");
-    categoryListContainer.innerHTML = ''; // Clear previous categories
+    const searchTerm = filterInput.value.trim().toLowerCase();
+    const activeFilters = Array.from(filterTerms).map(term => term.toLowerCase());
 
-    if (Object.keys(allSongsData).length === 0) {
-        console.log("No categories in allSongsData. Not rendering categories.");
-        return;
+    let categoriesToRender = {};
+
+    // Iterate through each category in allSongsData
+    for (const categoryName in allSongsData) {
+        if (Object.hasOwnProperty.call(allSongsData, categoryName)) {
+            const songsInCurrentCategory = allSongsData[categoryName];
+
+            // Filter songs based on search term and active filter tags
+            const filteredSongs = songsInCurrentCategory.filter(song => {
+                const title = getText(song.title).toLowerCase();
+                const artist = getText(song.artist).toLowerCase();
+                const subtitle = getText(song.subtitle).toLowerCase();
+                const mix = categoryName.toLowerCase(); // Use category name as mix
+
+                // Check for search term match (title, artist, subtitle, mix)
+                const matchesSearchTerm = searchTerm === '' ||
+                                          title.includes(searchTerm) ||
+                                          artist.includes(searchTerm) ||
+                                          subtitle.includes(searchTerm) ||
+                                          mix.includes(searchTerm);
+
+                // Check for active filter tags match
+                const matchesFilterTags = activeFilters.every(filterTag =>
+                    title.includes(filterTag) ||
+                    artist.includes(filterTag) ||
+                    subtitle.includes(filterTag) ||
+                    mix.includes(filterTag)
+                );
+
+                return matchesSearchTerm && matchesFilterTags;
+            });
+
+            if (filteredSongs.length > 0) {
+                categoriesToRender[categoryName] = filteredSongs;
+            }
+        }
     }
 
-    let categoriesRendered = 0;
-    for (const categoryName in allSongsData) {
-        console.log(`Processing category: ${categoryName}`);
+    // --- 1) Sort Categories Alphabetically ---
+    let sortedCategoryNames = Object.keys(categoriesToRender).sort((a, b) => a.localeCompare(b));
+
+    if (sortedCategoryNames.length === 0 && (searchTerm !== '' || activeFilters.length > 0)) {
+        // Display a message if no results found after filtering
+        const noResultsMessage = document.createElement('p');
+        noResultsMessage.className = 'loading-message';
+        noResultsMessage.textContent = 'No songs found matching your criteria.';
+        categoryListContainer.appendChild(noResultsMessage);
+        loadingMessage.textContent = ''; // Ensure no other loading message is visible
+        return;
+    } else if (sortedCategoryNames.length === 0 && searchTerm === '' && activeFilters.length === 0) {
+         // If no categories loaded at all (e.g., initial load failure) and no filters are active
+         loadingMessage.textContent = 'No songs available.';
+         return;
+    }
+
+
+    sortedCategoryNames.forEach(categoryName => {
+        const categorySongs = categoriesToRender[categoryName];
+
+        // --- 3) Sort Songs Alphabetically within each category ---
+        categorySongs.sort((a, b) => {
+            const titleA = getText(a.title).toLowerCase();
+            const titleB = getText(b.title).toLowerCase();
+            return titleA.localeCompare(titleB);
+        });
+
+        // --- 2) Only render category if it has songs ---
+        // This is already implicitly handled by `categoriesToRender`
+        // which only includes categories with `filteredSongs.length > 0`.
+
         const categoryDiv = document.createElement('div');
-        categoryDiv.classList.add('category-item');
-
-        const filteredSongs = getFilteredSongs(categoryName);
-        const totalSongs = allSongsData[categoryName].length;
-
-        console.log(`Category: ${categoryName}, Filtered Songs: ${filteredSongs.length}, Total Songs: ${totalSongs}`);
+        categoryDiv.className = 'category';
 
         const categoryHeader = document.createElement('div');
-        categoryHeader.classList.add('category-header');
-        categoryHeader.innerHTML = `
-            <span>${categoryName}</span>
-            <span class="song-count">(${filteredSongs.length} / ${totalSongs})</span>
-        `;
+        categoryHeader.className = 'category-header';
+        categoryHeader.innerHTML = `<h2>${categoryName}</h2><span class="song-count">(${categorySongs.length} songs)</span><i class="fas fa-chevron-down toggle-icon"></i>`;
         categoryDiv.appendChild(categoryHeader);
 
         const categoryContent = document.createElement('div');
-        categoryContent.classList.add('category-content');
-        categoryDiv.appendChild(categoryContent);
+        categoryContent.className = 'category-content';
+        categoryContent.classList.add('expanded'); // Start expanded
 
-        const sortedSongsInCurrentCategory = [...filteredSongs].sort((a, b) => {
-            const artistA = (a.artist_translit || a.artist || '').toLowerCase();
-            const artistB = (b.artist_translit || b.artist || '').toLowerCase();
-            return artistA.localeCompare(artistB);
+        categorySongs.forEach(song => {
+            const songItem = renderSongItem(song);
+            categoryContent.appendChild(songItem);
         });
 
-        if (sortedSongsInCurrentCategory.length > 0) {
-            sortedSongsInCurrentCategory.forEach(song => {
-                const songItem = document.createElement('div');
-                songItem.classList.add('song-item');
+        categoryDiv.appendChild(categoryContent);
+        categoryListContainer.appendChild(categoryDiv);
 
-                const title = getText(song.title);
-                const titleTranslit = getText(song.title_translit);
-                const artist = getText(song.artist);
-                const artistTranslit = getText(song.artist_translit);
-                const subtitle = getText(song.subtitle);
-                const subtitleTranslit = getText(song.subtitle_translit);
-
-                let displayTitle = title;
-                if (titleTranslit && titleTranslit.toLowerCase() !== title.toLowerCase()) {
-                    displayTitle = `${title} (${titleTranslit})`;
-                }
-
-                let displayArtist = artist;
-                if (artistTranslit && artistTranslit.toLowerCase() !== artist.toLowerCase()) {
-                    displayArtist = `${artist} (${artistTranslit})`;
-                } else if (!displayArtist) {
-                     displayArtist = "Unknown Artist";
-                }
-
-                let displaySubtitle = subtitle;
-                if (subtitleTranslit && subtitleTranslit.toLowerCase() !== subtitle.toLowerCase()) {
-                    displaySubtitle = `${subtitle} (${subtitleTranslit})`;
-                }
-                if (displaySubtitle) {
-                    displaySubtitle = `<div class="subtitle">${displaySubtitle}</div>`;
-                } else {
-                    displaySubtitle = '';
-                }
-
-                // Prepare difficulties
-                let difficultiesHtml = '';
-                const difficultyLevels = ['Beginner', 'Easy', 'Medium', 'Hard', 'Challenge'];
-
-                const singleDiffs = song.single_difficulties || {};
-                const doubleDiffs = song.double_difficulties || {};
-
-                difficultyLevels.forEach(level => {
-                    if (singleDiffs[level] !== undefined) {
-                        difficultiesHtml += `<span class="difficulty-level">S ${level}: ${singleDiffs[level]}</span>`;
-                    }
-                });
-                difficultyLevels.forEach(level => {
-                    if (doubleDiffs[level] !== undefined) {
-                        difficultiesHtml += `<span class="difficulty-level">D ${level}: ${doubleDiffs[level]}</span>`;
-                    }
-                });
-
-                songItem.innerHTML = `
-                    <div class="title">${displayTitle}</div>
-                    <div class="artist">Artist: ${displayArtist}</div>
-                    ${displaySubtitle}
-                    <div class="difficulties">${difficultiesHtml}</div>
-                `;
-                categoryContent.appendChild(songItem);
-            });
-            categoriesRendered++;
-        } else {
-            categoryContent.innerHTML = '<div style="padding: 10px; text-align: center; color: var(--color-dark-grey);">No songs found matching filters in this category.</div>';
-        }
-
-        // Toggle functionality
+        // Add toggle functionality
         categoryHeader.addEventListener('click', () => {
             categoryContent.classList.toggle('expanded');
+            const icon = categoryHeader.querySelector('.toggle-icon');
+            if (categoryContent.classList.contains('expanded')) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        });
+    });
+
+    // Ensure loading message is clear if there are results
+    if (sortedCategoryNames.length > 0) {
+        loadingMessage.textContent = '';
+    }
+    console.log(`Rendered ${sortedCategoryNames.length} categories.`);
+}
+
+
+// Function to render filter tags
+function renderFilterTags() {
+    filterTagsContainer.innerHTML = ''; // Clear existing tags
+    filterTerms.forEach(term => {
+        const tag = document.createElement('span');
+        tag.className = 'filter-tag';
+        tag.textContent = term;
+
+        const removeBtn = document.createElement('button');
+        removeBtn.className = 'remove-tag-btn';
+        removeBtn.innerHTML = '&times;'; // 'times' character for close
+        removeBtn.addEventListener('click', () => {
+            filterTerms.delete(term);
+            renderFilterTags(); // Re-render tags
+            applyFilter();      // Re-apply filter
         });
 
-        categoryListContainer.appendChild(categoryDiv);
-    }
-    if (categoriesRendered === 0 && Object.keys(allSongsData).length > 0) {
-        console.log("No songs rendered across all categories, but data exists.");
-        if (filterTerms.size === 0) {
-             categoryListContainer.innerHTML = '<div style="text-align: center; padding: 50px; color: var(--color-dark-grey);">No songs found. Please check your JSON data structure or console for errors.</div>';
-        }
-    }
-    console.log("Finished renderCategories.");
-}
-
-// Function to get filtered songs for a given category
-function getFilteredSongs(categoryName) {
-    const songs = allSongsData[categoryName];
-    if (!songs) {
-        console.warn(`Category '${categoryName}' not found in allSongsData.`);
-        return [];
-    }
-
-    if (filterTerms.size === 0) {
-        return songs; // Return all songs if no filter
-    }
-
-    const lowerCaseFilterTerms = Array.from(filterTerms).map(term => term.toLowerCase());
-
-    return songs.filter(song => {
-        const searchableFields = [
-            getText(song.title),
-            getText(song.subtitle),
-            getText(song.artist),
-            getText(song.title_translit),
-            getText(song.subtitle_translit),
-            getText(song.artist_translit)
-        ].join(' ').toLowerCase();
-
-        return lowerCaseFilterTerms.every(term => searchableFields.includes(term));
+        tag.appendChild(removeBtn);
+        filterTagsContainer.appendChild(tag);
     });
+    updateClearButtonVisibility(); // Update button visibility after rendering tags
 }
 
-// Function to manage the visibility of the "Clear All" button
+// Function to update the visibility of the "Clear All Filters" button
 function updateClearButtonVisibility() {
-    // Show the button if there are any filter terms, otherwise hide it.
-    if (filterTerms.size > 0) {
-        clearFiltersBtn.style.display = 'flex';
+    // Show clear button if there are filter terms OR if there's text in the input
+    if (filterTerms.size > 0 || filterInput.value.trim() !== '') {
+        clearFiltersBtn.style.display = 'inline-flex'; // Use inline-flex for button styling
     } else {
         clearFiltersBtn.style.display = 'none';
     }
-    console.log(`Clear button visibility updated. Filter terms size: ${filterTerms.size}. Display: ${clearFiltersBtn.style.display}`);
+    console.log(`Clear button visibility updated. Filter terms size: ${filterTerms.size}. Input value: '${filterInput.value.trim()}'. Display: ${clearFiltersBtn.style.display}`);
 }
 
 // --- Event Listeners ---
@@ -317,11 +321,18 @@ filterInput.addEventListener('keypress', (e) => {
 // Event listener for the Clear All Filters button
 clearFiltersBtn.addEventListener('click', () => {
     filterTerms.clear(); // Clear all terms from the Set
+    filterInput.value = ''; // Clear the input field as well
     renderFilterTags();  // Re-render to remove all tag elements (and hide clear button)
     applyFilter();       // Re-apply filter (will show all songs)
     // No explicit call to updateClearButtonVisibility here as renderFilterTags already calls it.
 });
 
+// Event listener for input changes to update clear button visibility and apply filter dynamically
+filterInput.addEventListener('input', () => {
+    updateClearButtonVisibility();
+    applyFilter(); // Apply filter immediately as user types
+});
+
 
 // Initial load of songs when the page loads
-window.onload = loadAllSongs;
+loadAllSongs();
