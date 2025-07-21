@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising Flow - Song Searcher</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/song_search.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <a href="index.html">
+                <img src="images/rising_flow_logo.svg" alt="Rising Flow Logo">
+            </a>
+        </div>
+        <div class="language-switcher">
+            <button id="language-flag" data-lang="en">
+                <span class="fi fi-gb" title="Switch to English"></span> </button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar-content">
+            <ul>
+                <li class="dropdown">
+                    <a href="#products"><span id="products-link-text">Products</span> <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Arcade Systems</a>
+                        <a href="#">Home Editions</a>
+                        <a href="#">Merchandise</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#events"><span id="events-link-text">Events</span> <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Upcoming</a>
+                        <a href="#">Past Events</a>
+                        <a href="#">Host an Event</a>
+                    </div>
+                </li>
+                <li><a href="song_search.html" id="song-search-link">Song Searcher</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="song-search-section">
+            <h1 id="search-page-title">Song Searcher</h1>
+
+            <div class="filter-container">
+                <div class="search-input-row">
+                    <input type="text" id="filter-input" placeholder="Search by title, artist, or subtitle...">
+                    <button id="add-filter-btn" class="icon-button" title="Add Filter">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button id="clear-filters-btn" class="icon-button clear-icon-button" title="Clear All Filters">
+                        <i class="fas fa-times"></i> </button>
+                </div>
+                
+                <div class="filter-tags" id="filter-tags">
+                    </div>
+            </div>
+
+            <div id="category-list" class="category-list">
+                <div class="loading-message" id="loading-message">Loading songs...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rising Flow. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+    <script src="js/song_search.js" defer></script>
+</body>
+</html>

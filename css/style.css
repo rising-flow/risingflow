@@ -1,0 +1,223 @@
+/* --- Color Variables --- */
+:root {
+    --color-primary-yellow: #F2D606;
+    --color-secondary-orange: #FFA300;
+    --color-text-dark: #000000;
+    --color-background-light: #FFFFFF;
+    --color-neutral-grey: #F0F0F0;
+    --color-complementary-blue: #007BFF;
+    --color-darker-yellow: #CCB300;
+    --color-darker-orange: #D88D00;
+    --color-dark-grey: #333333; /* For general text or darker sections */
+}
+
+/* --- General Styles --- */
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background-light);
+    color: var(--color-dark-grey);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Header / Top Bar --- */
+header {
+    background-color: var(--color-text-dark); /* Black background for header */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-background-light); /* White text for contrast */
+}
+
+.logo-area {
+    flex-grow: 1; /* Allows logo area to take available space */
+    text-align: center;
+}
+
+.logo-area img {
+    max-height: 80px; /* Adjust as needed for your logo image */
+    width: auto;
+}
+
+.language-switcher {
+    padding-right: 20px;
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust flag size */
+    color: var(--color-background-light);
+    transition: transform 0.2s ease-in-out;
+}
+
+.language-switcher button:hover {
+    transform: scale(1.1);
+}
+
+/* --- Navigation Bar --- */
+nav {
+    background-color: var(--color-primary-yellow); /* Bright yellow for nav bar */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; /* Adjusted padding */
+}
+
+.navbar-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-content ul li {
+    position: relative;
+}
+
+.navbar-content ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: var(--color-text-dark); /* Dark text on yellow */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-content ul li a:hover {
+    background-color: var(--color-darker-yellow); /* Darker yellow on hover */
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-secondary-orange); /* Orange for dropdowns */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--color-text-dark) !important; /* Ensure dark text on orange */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--color-darker-orange) !important; /* Darker orange on hover */
+}
+
+.navbar-content ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* --- Main Content / Brand Presentation --- */
+.hero-section {
+    background: linear-gradient(to bottom right, var(--color-primary-yellow), var(--color-secondary-orange)); /* Gradient background */
+    color: var(--color-text-dark);
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden; /* To contain any abstract shapes */
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.call-to-action {
+    display: inline-block;
+    background-color: var(--color-complementary-blue); /* Use complementary blue for CTA */
+    color: var(--color-background-light);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.call-to-action:hover {
+    background-color: #0056B3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+.about-section {
+    padding: 60px 20px;
+    background-color: var(--color-neutral-grey);
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: var(--color-primary-yellow);
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.about-item {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    background-color: var(--color-background-light);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-item:hover {
+    transform: translateY(-5px);
+}
+
+.about-item i {
+    font-size: 3em;
+    color: var(--color-secondary-orange);
+    margin-bottom: 15px;
+}
+
+.about-item h3 {
+    color: var(--color-text-dark);
+    margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: var(--color-text-dark);
+    color: var(--color-background-light);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

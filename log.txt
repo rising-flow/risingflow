@@ -1,0 +1,154 @@
+song_search.html:19  GET file:///G:/Rising%20Flow/Web%20Page/image_e1c4fd.png net::ERR_FILE_NOT_FOUND
+script.js:56 Uncaught TypeError: Cannot set properties of null (setting 'textContent')
+updateContent @ script.js:56
+(anonymous) @ script.js:91
+song_search.js:20 Starting loadAllSongs...
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Anime%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Anime%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.js:91 CRITICAL ERROR loading song data: TypeError: Failed to fetch
+    at song_search.js:66:36
+    at Array.map (<anonymous>)
+    at loadAllSongs (song_search.js:65:41)
+loadAllSongs @ song_search.js:91
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%201st%20Mix.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%201st%20Mix.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202013.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202013.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202014.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202014.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202nd%20Mix%20Club%20&%20Link%20Versions.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202nd%20Mix%20Club%20&%20Link%20Versions.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202nd.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%202nd.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%203rd%20Mix%20Plus%20&%20Korea%20Versions.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%203rd%20Mix%20Plus%20&%20Korea%20Versions.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%203rd%20Mix.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%203rd%20Mix.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%204th%20Mix%20Plus.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%204th%20Mix%20Plus.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%204th%20Mix.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%204th%20Mix.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%205th%20Mix.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%205th%20Mix.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A20%20Plus.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A20%20Plus.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A20.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A20.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A3.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20A3.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Extreme.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Extreme.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Grand%20Prix.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Grand%20Prix.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS1%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS1%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS2%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS2%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS3%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20PS3%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20SuperNOVA.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20SuperNOVA.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20SuperNOVA2.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20SuperNOVA2.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Wii%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Wii%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X2.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X2.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X3.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20X3.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Xbox%20360%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Xbox%20360%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Xbox%20Exclusives.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20Revolution%20Xbox%20Exclusives.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20RevolutionMAX.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20RevolutionMAX.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20RevolutionMAX2.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Dance%20Dance%20RevolutionMAX2.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Games%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Games%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/JPOP%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/JPOP%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/KPOP%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/KPOP%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Touhou%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Touhou%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/Vocaloid%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/Vocaloid%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65
+song_search.html:1 Access to fetch at 'file:///G:/Rising%20Flow/Web%20Page/data/World%20POP%20Channel.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app.
+song_search.js:66  GET file:///G:/Rising%20Flow/Web%20Page/data/World%20POP%20Channel.json net::ERR_FAILED
+(anonymous) @ song_search.js:66
+loadAllSongs @ song_search.js:65

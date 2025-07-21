@@ -1,0 +1,32 @@
+rising_flow_website/
+├── index.html              // Your main landing page (Home)
+├── song_search.html        // The page to consume JSON data
+├── products.html           // Example: A dedicated page for products
+├── events.html             // Example: A dedicated page for events
+├── contact.html            // Example: A dedicated page for contact
+
+├── css/                    // Folder for all your CSS files
+│   ├── style.css           // Main styles for global elements, layout, colors
+│   └── song_search.css     // Specific styles for the song search page (if needed)
+│   └── components.css      // Optional: Styles for reusable UI components (buttons, cards)
+│   └── variables.css       // Optional: Could move :root variables here
+│
+├── js/                     // Folder for all your JavaScript files
+│   ├── script.js           // Main script for general page logic (like language switcher)
+│   ├── song_search.js      // Specific script for the song search page (JSON loading, filtering)
+│   └── utils.js            // Optional: Helper functions that might be used across multiple pages
+│
+├── images/                 // Folder for all your images
+│   ├── logo.png            // Your main logo
+│   ├── background-hero.jpg // Images for hero sections, banners
+│   ├── product-thumbnail1.jpg
+│   └── flags/              // Subfolder for flags (if you download them locally)
+│       ├── br.png
+│       └── gb.png
+│
+├── data/                   // Folder for your JSON data files
+│   ├── Anime_Channel.json
+│   ├── Dance Dance Revolution_Classics.json
+│   └── J-Pop.json
+│
+└── favicon.ico             // Site icon
