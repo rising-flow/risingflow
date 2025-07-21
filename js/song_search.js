@@ -80,7 +80,7 @@ const gameDataSources = {
     },
     'Project Diva': {
         type: 'file',
-        path: 'project_diva.json'
+        path: 'data/Project Diva/project_diva.json'
     },
     'Taiko no Tatsujin': {
         type: 'folder',
