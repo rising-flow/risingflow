@@ -171,45 +171,52 @@
 }
 
 .category-content.expanded {
-    max-height: 20000px; /* Increased to a very large value for effectively unlimited height */
+    max-height: 200000px; /* Increased to a very large value for effectively unlimited height */
     padding: 15px 20px;
 }
 
 /* Styles for the new Letter Filter Bar */
 .letter-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping to next line on smaller screens */
+    justify-content: center; /* Center the buttons */
+    gap: 0; /* Remove gap for pipe separation */
     padding-bottom: 15px; /* Space between filter and first song */
     border-bottom: 1px dashed var(--color-neutral-grey);
     margin-bottom: 15px;
+    font-size: 0.9em; /* Adjust font size for the bar */
 }
 
 .letter-filter-button {
-    background-color: var(--color-neutral-grey);
-    color: var(--color-dark-grey);
-    border: 1px solid var(--color-dark-grey);
+    background-color: transparent; /* No background */
+    color: var(--color-dark-grey); /* Dark grey text */
+    border: none; /* No border */
     padding: 5px 8px;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1em; /* Standard font size for buttons */
     font-weight: bold;
-    min-width: 30px;
+    min-width: auto; /* Allow buttons to size based on content */
     text-align: center;
-    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    transition: color 0.2s, background-color 0.2s;
+    /* Add a right border to create the '|' separator effect */
+    border-right: 1px solid var(--color-neutral-grey);
+    border-radius: 0; /* Remove border radius for pipe effect */
+}
+
+.letter-filter-button:last-child {
+    border-right: none; /* No separator for the last button */
 }
 
 .letter-filter-button:hover {
-    background-color: var(--color-complementary-blue);
-    color: var(--color-background-light);
-    border-color: var(--color-complementary-blue);
+    background-color: transparent; /* No background on hover */
+    color: var(--color-complementary-blue); /* Blue text on hover */
+    border-color: var(--color-neutral-grey); /* Keep border color consistent */
 }
 
 .letter-filter-button.active {
-    background-color: var(--color-primary-yellow);
-    color: var(--color-text-dark);
-    border-color: var(--color-primary-yellow);
+    background-color: transparent; /* No background */
+    color: var(--color-primary-yellow); /* Yellow text for active */
+    border-color: var(--color-neutral-grey); /* Keep border color consistent */
 }
 
 
@@ -277,5 +284,8 @@
     }
     .filter-tags {
         justify-content: center;
+    }
+    .letter-filter-button {
+        padding: 5px 6px; /* Slightly reduce padding on small screens */
     }
 }
