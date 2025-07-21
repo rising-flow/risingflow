@@ -1,3 +1,180 @@
+/* --- Song Search Specific Styles --- */
+
+.song-search-section {
+    padding: 40px 0;
+}
+
+.song-search-section h1 {
+    text-align: center;
+    color: var(--color-primary-yellow);
+    margin-bottom: 40px;
+    font-size: 2.8em;
+}
+
+/* Unified container for input and tags */
+.filter-container {
+    display: flex;
+    flex-direction: column; /* Stack input row, tags, and clear button vertically */
+    gap: 15px; /* Space between the input row and the tags row */
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--color-neutral-grey); /* The #f0f0f0 background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.search-input-row {
+    display: flex; /* Keeps input and buttons in one row */
+    gap: 10px;
+}
+
+#filter-input {
+    flex-grow: 1; /* Allows input to take up available space */
+    padding: 10px 15px;
+    border: 1px solid var(--color-dark-grey);
+    border-radius: 5px;
+    font-size: 1em;
+    min-width: 150px; /* Ensure input is not too small */
+}
+
+/* Base style for icon-only buttons */
+.icon-button {
+    background-color: var(--color-complementary-blue);
+    color: var(--color-background-light);
+    padding: 10px 15px; /* Adjusted padding for icon button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em; /* Make icon larger */
+    display: flex; /* To center the icon */
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    min-width: 45px; /* Ensure button has a decent width */
+}
+
+.icon-button:hover {
+    background-color: #0056B3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+/* Specific style for the Clear All icon button */
+.clear-icon-button {
+    background-color: #dc3545; /* A standard red for 'clear' actions */
+}
+
+.clear-icon-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* The cta-button class is now only used for the "Learn More" on index.html,
+   but we keep its definition as it's a general utility class. */
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-complementary-blue);
+    color: var(--color-background-light);
+    padding: 15px 30px; /* Reverted to larger padding for general CTA */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056B3;
+    transform: translateY(-2px);
+}
+
+
+.filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 20px;
+    align-items: center;
+}
+
+.filter-tag {
+    background-color: var(--color-secondary-orange);
+    color: var(--color-text-dark);
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.filter-tag .remove-tag {
+    background: none;
+    border: none;
+    color: var(--color-text-dark);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 0 4px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.filter-tag .remove-tag:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+/* --- Category List Styles --- */
+.category-list {
+    margin-top: 20px;
+}
+
+/* Adjusted for slimmer category header */
+.category-header {
+    background-color: var(--color-primary-yellow);
+    padding: 10px 20px; /* Reduced vertical padding */
+    margin-bottom: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--color-text-dark);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.category-header:hover {
+    background-color: var(--color-darker-yellow);
+}
+
+.category-header .song-count {
+    font-size: 0.9em;
+    background-color: rgba(0,0,0,0.1);
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-left: auto; /* Ensure it's pushed to the right */
+}
+
+.category-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    background-color: var(--color-background-light);
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.category-content.expanded {
+    max-height: 200000px; /* Increased to a very large value for effectively unlimited height */
+    padding: 15px 20px;
+}
+
 /* Styles for the new Letter Filter Bar */
 .letter-filter-bar {
     display: flex; /* Use flexbox for horizontal layout */
@@ -42,8 +219,72 @@
     border-color: var(--color-neutral-grey); /* Keep border color consistent */
 }
 
+
+.song-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--color-neutral-grey);
+    color: var(--color-dark-grey);
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+.song-item .title {
+    font-weight: bold;
+    color: var(--color-text-dark);
+    font-size: 1.1em;
+}
+
+.song-item .artist {
+    font-style: italic;
+    color: var(--color-secondary-orange);
+    font-size: 0.95em;
+    margin-top: 2px;
+}
+
+.song-item .subtitle {
+    font-size: 0.9em;
+    color: var(--color-dark-grey);
+    margin-top: 2px;
+}
+
+.song-item .difficulties {
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.song-item .difficulty-level {
+    background-color: var(--color-neutral-grey);
+    padding: 3px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.loading-message {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2em;
+    color: var(--color-dark-grey);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    .search-input-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #filter-input, .icon-button, .clear-icon-button { /* Apply to icon-button and clear-icon-button */
+        width: 100%;
+    }
+    .filter-tags {
+        justify-content: center;
+    }
     .letter-filter-button {
         padding: 5px 6px; /* Slightly reduce padding on small screens */
     }
