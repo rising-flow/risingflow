@@ -46,6 +46,7 @@ function updateContent(lang) {
     htmlElement.lang = lang; // Update HTML lang attribute
     document.title = translations[lang].pageTitle;
 
+    
     // Navigation
     const productsLink = document.querySelector('a[href="#products"]');
     if (productsLink && productsLink.childNodes[0]) productsLink.childNodes[0].nodeValue = translations[lang].productsLink + ' ';
