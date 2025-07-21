@@ -131,9 +131,10 @@
     margin-top: 20px;
 }
 
+/* Adjusted for slimmer category header */
 .category-header {
     background-color: var(--color-primary-yellow);
-    padding: 15px 20px;
+    padding: 10px 20px; /* Reduced vertical padding */
     margin-bottom: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -156,6 +157,7 @@
     background-color: rgba(0,0,0,0.1);
     padding: 4px 10px;
     border-radius: 15px;
+    margin-left: auto; /* Ensure it's pushed to the right */
 }
 
 .category-content {
@@ -169,7 +171,7 @@
 }
 
 .category-content.expanded {
-    max-height: 2000px;
+    max-height: 9999px; /* Increased to ensure all songs are visible */
     padding: 15px 20px;
 }
 
