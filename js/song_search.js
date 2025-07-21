@@ -251,6 +251,21 @@ function renderSongItem(song) {
     const difficultiesDiv = document.createElement('div');
     difficultiesDiv.className = 'difficulties';
 
+    // Project Diva style difficulties
+    if (song.difficulties) {
+        for (const diff in song.difficulties) {
+            if (Object.hasOwnProperty.call(song.difficulties, diff)) {
+                const value = song.difficulties[diff];
+                if (value && value !== 'N/A' && value !== 'Not available') {
+                    const diffSpan = document.createElement('span');
+                    diffSpan.className = `difficulty difficulty-diva ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+                    diffSpan.textContent = `${diff}: ${value}`;
+                    difficultiesDiv.appendChild(diffSpan);
+                }
+            }
+        }
+    }
+
     // Single difficulties
     if (song.single_difficulties) {
         for (const diff in song.single_difficulties) {
