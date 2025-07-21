@@ -184,7 +184,7 @@ function applyFilter() {
         }
     }
 
-    // --- 1) Sort Categories Alphabetically ---
+    // Sort Categories Alphabetically
     let sortedCategoryNames = Object.keys(categoriesToRender).sort((a, b) => a.localeCompare(b));
 
     if (sortedCategoryNames.length === 0 && (searchTerm !== '' || activeFilters.length > 0)) {
@@ -205,28 +205,25 @@ function applyFilter() {
     sortedCategoryNames.forEach(categoryName => {
         const categorySongs = categoriesToRender[categoryName];
 
-        // --- 3) Sort Songs Alphabetically within each category ---
+        // Sort Songs Alphabetically within each category
         categorySongs.sort((a, b) => {
             const titleA = getText(a.title).toLowerCase();
             const titleB = getText(b.title).toLowerCase();
             return titleA.localeCompare(titleB);
         });
 
-        // --- 2) Only render category if it has songs ---
-        // This is already implicitly handled by `categoriesToRender`
-        // which only includes categories with `filteredSongs.length > 0`.
-
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'category';
 
         const categoryHeader = document.createElement('div');
         categoryHeader.className = 'category-header';
+        // Initial icon should be fa-chevron-down for collapsed state
         categoryHeader.innerHTML = `<h2>${categoryName}</h2><span class="song-count">(${categorySongs.length} songs)</span><i class="fas fa-chevron-down toggle-icon"></i>`;
         categoryDiv.appendChild(categoryHeader);
 
         const categoryContent = document.createElement('div');
         categoryContent.className = 'category-content';
-        categoryContent.classList.add('expanded'); // Start expanded
+        // REMOVED: categoryContent.classList.add('expanded'); // No longer start expanded
 
         categorySongs.forEach(song => {
             const songItem = renderSongItem(song);
