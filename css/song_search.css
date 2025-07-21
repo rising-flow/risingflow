@@ -171,7 +171,7 @@
 }
 
 .category-content.expanded {
-    max-height: 9999px; /* Increased to ensure all songs are visible */
+    max-height: 1000000px; /* Increased to ensure all songs are visible */
     padding: 15px 20px;
 }
 

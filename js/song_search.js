@@ -138,6 +138,16 @@ function renderSongItem(song) {
     return songItem;
 }
 
+// Function to render songs within a given categoryContent div
+function renderSongsIntoCategory(categoryContentDiv, categorySongs) {
+    // Clear existing content if any (important for re-rendering on filter changes if category was already open)
+    categoryContentDiv.innerHTML = '';
+    categorySongs.forEach(song => {
+        const songItem = renderSongItem(song);
+        categoryContentDiv.appendChild(songItem);
+    });
+}
+
 // Function to apply filters and render the categories and songs
 function applyFilter() {
     console.log("Applying filter...");
@@ -214,35 +224,42 @@ function applyFilter() {
 
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'category';
+        // Store the category songs data on the div for easy access during toggle
+        categoryDiv.dataset.categoryName = categoryName;
 
         const categoryHeader = document.createElement('div');
         categoryHeader.className = 'category-header';
-        // Initial icon should be fa-chevron-down for collapsed state
         categoryHeader.innerHTML = `<h2>${categoryName}</h2><span class="song-count">(${categorySongs.length} songs)</span><i class="fas fa-chevron-down toggle-icon"></i>`;
         categoryDiv.appendChild(categoryHeader);
 
         const categoryContent = document.createElement('div');
         categoryContent.className = 'category-content';
-        // REMOVED: categoryContent.classList.add('expanded'); // No longer start expanded
-
-        categorySongs.forEach(song => {
-            const songItem = renderSongItem(song);
-            categoryContent.appendChild(songItem);
-        });
-
+        // We no longer render songs here initially
         categoryDiv.appendChild(categoryContent);
         categoryListContainer.appendChild(categoryDiv);
 
         // Add toggle functionality
         categoryHeader.addEventListener('click', () => {
-            categoryContent.classList.toggle('expanded');
+            const isExpanded = categoryContent.classList.contains('expanded');
             const icon = categoryHeader.querySelector('.toggle-icon');
-            if (categoryContent.classList.contains('expanded')) {
+
+            if (!isExpanded) {
+                // Expanding: Render songs and then expand
+                renderSongsIntoCategory(categoryContent, categorySongs);
+                categoryContent.classList.add('expanded');
                 icon.classList.remove('fa-chevron-down');
                 icon.classList.add('fa-chevron-up');
             } else {
+                // Collapsing: Collapse, then clear content after transition
+                categoryContent.classList.remove('expanded');
                 icon.classList.remove('fa-chevron-up');
                 icon.classList.add('fa-chevron-down');
+
+                // Clear content after transition to free up memory
+                // Match this timeout to your CSS transition duration (0.5s)
+                setTimeout(() => {
+                    categoryContent.innerHTML = '';
+                }, 500);
             }
         });
     });
