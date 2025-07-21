@@ -1,0 +1,782 @@
+[
+    {
+        "title": "A Geisha's Dream (Ruffage Remix)",
+        "subtitle": null,
+        "artist": "NAOKI feat. SMiLE.dk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "According to You",
+        "subtitle": null,
+        "artist": "Orianthi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Animal",
+        "subtitle": null,
+        "artist": "Ke$ha",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Bad Romance",
+        "subtitle": null,
+        "artist": "Lady Gaga",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Battlefield",
+        "subtitle": null,
+        "artist": "Jordin Sparks",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Celebration",
+        "subtitle": null,
+        "artist": "Kool and the Gang",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "CRAZY♥LOVE",
+        "subtitle": null,
+        "artist": "jun",
+        "title_translit": "CRAZY LOVE",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "crushcrushcrush",
+        "subtitle": null,
+        "artist": "Paramore",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Easy": 4,
+            "Hard": 8,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Curry Up",
+        "subtitle": null,
+        "artist": "OR-IF-IS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Dancing in the Street",
+        "subtitle": null,
+        "artist": "Martha and the Vandellas",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "DOUBLE TORNARD",
+        "subtitle": null,
+        "artist": "evo-X",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "dreaming can make a wish come true",
+        "subtitle": null,
+        "artist": "jun & NRG Factory feat. Anna Kaelin",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Beginner": 3,
+            "Easy": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "dreaming can make a wish come true (Full Version)",
+        "subtitle": null,
+        "artist": "jun & NRG Factory feat. Anna Kaelin",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ever snow",
+        "subtitle": null,
+        "artist": "TЁЯRA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "TERRA",
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Beginner": 3,
+            "Easy": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Find You Again",
+        "subtitle": null,
+        "artist": "The W feat. Rita Boudreau",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hey, Soul Sister",
+        "subtitle": null,
+        "artist": "Train",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "I Got You",
+        "subtitle": null,
+        "artist": "Leona Lewis",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "I'm Yours",
+        "subtitle": null,
+        "artist": "Jason Mraz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "IN THE ZONE",
+        "subtitle": null,
+        "artist": "U1 (NPD3 style) & KIDD KAZMEO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Let's Get Away",
+        "subtitle": null,
+        "artist": "NAOKI feat. Brenda Burch",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 6,
+            "Beginner": 2,
+            "Easy": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Let's Get Away (Full Version)",
+        "subtitle": null,
+        "artist": "NAOKI feat. Brenda Burch",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Love Like This",
+        "subtitle": null,
+        "artist": "Natasha Bedingfield",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Love Shack",
+        "subtitle": null,
+        "artist": "The B-52's",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Hard": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MAGIC PARADE",
+        "subtitle": null,
+        "artist": "Lea Drop feat. Katie Dellenbach",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MAX 300",
+        "subtitle": null,
+        "artist": "Ω",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "OMEGA",
+        "single_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 10,
+            "Beginner": 3
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Missing",
+        "subtitle": null,
+        "artist": "Everything But The Girl",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "My Life Would Suck Without You",
+        "subtitle": null,
+        "artist": "Kelly Clarkson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Need You Now",
+        "subtitle": null,
+        "artist": "Lady Antebellum",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "New York EVOLVED Ver.A",
+        "subtitle": null,
+        "artist": "NC underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "New York EVOLVED Ver.B",
+        "subtitle": null,
+        "artist": "NC underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "New York EVOLVED Ver.C",
+        "subtitle": null,
+        "artist": "NC underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "On the Night of a Still Wind",
+        "subtitle": null,
+        "artist": "Jena Rose",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "One Sided Love",
+        "subtitle": null,
+        "artist": "D-crew with Melissa Petty",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Plastic Beach",
+        "subtitle": null,
+        "artist": "Gorillaz (feat. Mick Jones & Paul Simonon)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Private Eye",
+        "subtitle": null,
+        "artist": "atomsoak ft. cerol",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Private Eye (Full Version)",
+        "subtitle": null,
+        "artist": "atomsoak ft. cerol",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Rescue Me",
+        "subtitle": null,
+        "artist": "NAOKI feat. Fracus",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Rhythms Inside",
+        "subtitle": null,
+        "artist": "DKC Crew",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Rio",
+        "subtitle": null,
+        "artist": "Duran Duran",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Seasons",
+        "subtitle": null,
+        "artist": "TOMOSUKE feat. Crystal Paloa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Share The Love",
+        "subtitle": null,
+        "artist": "Brenda Burch",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "So Fine",
+        "subtitle": null,
+        "artist": "Sean Paul",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Island Song",
+        "subtitle": null,
+        "artist": "TAG feat. Eric Anthony",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Way U Move",
+        "subtitle": null,
+        "artist": "Bill Hamel & Derek James feat. Breana Skiles",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "TIME",
+        "subtitle": null,
+        "artist": "NM feat. Aleisha G",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Top The Charts",
+        "subtitle": null,
+        "artist": "J-Mi & Midi-D feat. Hanna Stockzell",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Beginner": 2,
+            "Easy": 4,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "TSUGARU (APPLE MIX)",
+        "subtitle": null,
+        "artist": "RevenG vs DE-SIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Until the End",
+        "subtitle": null,
+        "artist": "Philip Webb",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Venus",
+        "subtitle": null,
+        "artist": "Bananarama",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "We Are Family",
+        "subtitle": null,
+        "artist": "Sister Sledge",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Wicked Plastik",
+        "subtitle": null,
+        "artist": "nc ft. Electric Touch",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Win the Game",
+        "subtitle": null,
+        "artist": "DKC Crew",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    }
+]

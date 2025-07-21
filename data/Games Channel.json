@@ -1,0 +1,997 @@
+[
+    {
+        "title": "A Bella! (feat. Lucy)",
+        "subtitle": null,
+        "artist": "M2U",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 7,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "A Little Dream",
+        "subtitle": null,
+        "artist": "M2U",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Hard": 13,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Beyond the Sparkle!",
+        "subtitle": null,
+        "artist": "AAAA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 16,
+            "Beginner": 5,
+            "Easy": 9,
+            "Medium": 13
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "Blaze Emotion (Band Version)",
+        "subtitle": null,
+        "artist": "YAHPP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 13
+        }
+    },
+    {
+        "title": "Blows Up Everything",
+        "subtitle": null,
+        "artist": "USAO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 9,
+            "Medium": 14,
+            "Hard": 17
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 9,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "Butterfly Twist",
+        "subtitle": null,
+        "artist": "Yooh",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 16
+        },
+        "double_difficulties": {
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 16
+        }
+    },
+    {
+        "title": "Can't Slow Me Down",
+        "subtitle": null,
+        "artist": "Mirani, lIlBOI, GroovyRoom, VALORANT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Hard": 14,
+            "Medium": 10
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Hard": 14,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "CURSE",
+        "subtitle": null,
+        "artist": "bamm",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 5,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "FINITE",
+        "subtitle": null,
+        "artist": "Crolul & Rion",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 11,
+            "Medium": 14,
+            "Hard": 16,
+            "Challenge": 18
+        },
+        "double_difficulties": {
+            "Challenge": 18,
+            "Easy": 11,
+            "Medium": 14,
+            "Hard": 17
+        }
+    },
+    {
+        "title": "Fires of Destiny",
+        "subtitle": null,
+        "artist": "Jehezukiel",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 16
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 8,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "Fracture Temporelle",
+        "subtitle": null,
+        "artist": "黒皇帝",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Kurokotei",
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 10,
+            "Medium": 14,
+            "Hard": 18
+        },
+        "double_difficulties": {
+            "Easy": 10,
+            "Hard": 18,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "Galaxy Collapse",
+        "subtitle": null,
+        "artist": "黒皇帝",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Kurokotei",
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 9,
+            "Medium": 13,
+            "Hard": 17
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "GIMMICK",
+        "subtitle": null,
+        "artist": "MS.Sill",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 11,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 5,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "HTTP",
+        "subtitle": null,
+        "artist": "Quree",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 11,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Invitation II",
+        "subtitle": null,
+        "artist": "Warak",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 11,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Medium": 11,
+            "Easy": 7
+        }
+    },
+    {
+        "title": "iRELLiA",
+        "subtitle": null,
+        "artist": "HyuN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 8,
+            "Easy": 11,
+            "Medium": 14,
+            "Hard": 16,
+            "Challenge": 18
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Challenge": 18,
+            "Easy": 11,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "It's VOLT TIME",
+        "subtitle": null,
+        "artist": "Cosmograph",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Challenge": 13,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "JACK PT BOSS",
+        "subtitle": null,
+        "artist": "MYUKKE.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 11,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 15
+        }
+    },
+    {
+        "title": "万戈イム一一ノ十",
+        "subtitle": null,
+        "artist": "Linda AI-CUE feat. Shoko",
+        "title_translit": "Joubutsu2000",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 17,
+            "Beginner": 9,
+            "Easy": 11,
+            "Medium": 14
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 11,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "Jupin",
+        "subtitle": null,
+        "artist": "Sobrem",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 16,
+            "Medium": 12,
+            "Easy": 8,
+            "Beginner": 4
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 8,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "きたさいたま2000",
+        "subtitle": null,
+        "artist": "Linda AI-CUE",
+        "title_translit": "Kita Saitama2000",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Hard": 16,
+            "Easy": 11,
+            "Medium": 14
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Medium": 14,
+            "Easy": 10
+        }
+    },
+    {
+        "title": "KUGUTSU",
+        "subtitle": null,
+        "artist": "onoken",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 8,
+            "Easy": 11,
+            "Medium": 15,
+            "Hard": 18,
+            "Challenge": 19
+        },
+        "double_difficulties": {
+            "Hard": 18,
+            "Easy": 12,
+            "Medium": 15,
+            "Challenge": 19
+        }
+    },
+    {
+        "title": "Love is a Danger Zone",
+        "subtitle": null,
+        "artist": "BanYa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Maslo",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Mechanted",
+        "subtitle": null,
+        "artist": "rareguy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 15,
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 11
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Mei",
+        "subtitle": "(Rockin' SWING Remix)",
+        "artist": "164",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 12,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Miss'S Story",
+        "subtitle": null,
+        "artist": "BanYa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 12,
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 9
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "MixxioN",
+        "subtitle": null,
+        "artist": "MisoilePunch♪",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 7,
+            "Easy": 11,
+            "Medium": 15,
+            "Hard": 17
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 11,
+            "Medium": 15
+        }
+    },
+    {
+        "title": "Nice Nice Noise",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 15,
+            "Medium": 11,
+            "Beginner": 4,
+            "Easy": 7
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Medium": 12,
+            "Easy": 7
+        }
+    },
+    {
+        "title": "Nonstop",
+        "subtitle": null,
+        "artist": "Oh My Girl!",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 10,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Oracle",
+        "subtitle": null,
+        "artist": "Yooh vs. siromaru",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Hard": 16,
+            "Easy": 8,
+            "Medium": 13
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Medium": 13,
+            "Easy": 8
+        }
+    },
+    {
+        "title": "Over The Christmas",
+        "subtitle": null,
+        "artist": "LUCY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Hard": 10,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Panopticon",
+        "subtitle": null,
+        "artist": "cybermiso",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 13,
+            "Beginner": 4
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "Predawn (Farewell)",
+        "subtitle": null,
+        "artist": "M2U x NICODE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 11,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Promise",
+        "subtitle": null,
+        "artist": "M2U feat. Sherie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 5,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "PUPA",
+        "subtitle": null,
+        "artist": "モリモリあつし",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Morimori Atsushi",
+        "single_difficulties": {
+            "Hard": 17,
+            "Beginner": 7,
+            "Easy": 11,
+            "Medium": 14
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 11,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "Raintain",
+        "subtitle": null,
+        "artist": "Sound Souler",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 16,
+            "Beginner": 5,
+            "Easy": 9,
+            "Medium": 12
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "Serotonin",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 13
+        }
+    },
+    {
+        "title": "Spiders",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 9,
+            "Medium": 12,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "Sterelogue",
+        "subtitle": null,
+        "artist": "VeetaCrush",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 10,
+            "Medium": 13,
+            "Hard": 18
+        },
+        "double_difficulties": {
+            "Hard": 18,
+            "Easy": 10,
+            "Medium": 14
+        }
+    },
+    {
+        "title": "Sun Son Sunday (orange mix)",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Hard": 11,
+            "Easy": 5,
+            "Medium": 8
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 6,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "The Chariot ~REVIIVAL~",
+        "subtitle": null,
+        "artist": "Attoclef",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 9,
+            "Hard": 17,
+            "Medium": 14
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Medium": 14,
+            "Easy": 9
+        }
+    },
+    {
+        "title": "The Final Feast",
+        "subtitle": null,
+        "artist": "HoYo-MiX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 8,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "系ぎて",
+        "subtitle": null,
+        "artist": "相馬琳太郎",
+        "title_translit": "Tsunagite",
+        "subtitle_translit": null,
+        "artist_translit": "Rintaro soma",
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 9,
+            "Medium": 13,
+            "Hard": 17
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "Ultra B+K",
+        "subtitle": null,
+        "artist": "nora2r",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 7,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Ultra Synergy Matrix",
+        "subtitle": null,
+        "artist": "Tanchiky",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 8,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "Underworld ft. Skizzo (PIU Edit.)",
+        "subtitle": null,
+        "artist": "MonstDeath vs Neutral Moon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 15
+        }
+    },
+    {
+        "title": "Uranium",
+        "subtitle": null,
+        "artist": "Memme",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 12,
+            "Hard": 15,
+            "Challenge": 17
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Challenge": 17,
+            "Hard": 15,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "we met dat night",
+        "subtitle": null,
+        "artist": "Vospi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 10,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 6,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Whistle",
+        "subtitle": null,
+        "artist": "Warak",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 7,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Xepher",
+        "subtitle": "(Light and Darkness Dragon REMIX)",
+        "artist": "DeadballP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Yog Sothoth",
+        "subtitle": null,
+        "artist": "Nato",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 11,
+            "Challenge": 14,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 12
+        }
+    }
+]

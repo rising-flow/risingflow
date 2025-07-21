@@ -1,0 +1,570 @@
+[
+    {
+        "title": "20,NOVEMBER (D.D.R. version)",
+        "subtitle": null,
+        "artist": "N.M.R feat. DJ nagureo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 4
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 4
+        }
+    },
+    {
+        "title": "AFTER THE GAME",
+        "subtitle": null,
+        "artist": "NPD3",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ANATA NI AETE",
+        "subtitle": null,
+        "artist": "JUNKO NODA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ANO NATSUNO HANABI",
+        "subtitle": null,
+        "artist": "DREAMS COME TRUE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "CAN'T GET YOU OUT OF MY HEAD",
+        "subtitle": null,
+        "artist": "Kylie Minogue",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "CANDY",
+        "subtitle": null,
+        "artist": "わるじぇんぬ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "WARUJIENNU",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 5
+        }
+    },
+    {
+        "title": "CUTIE CHASER",
+        "subtitle": "MORNING MIX",
+        "artist": "CLUB SPICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 4
+        }
+    },
+    {
+        "title": "Don't Stop Movin'",
+        "subtitle": null,
+        "artist": "S Club 7",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 4
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "FUTARI NO TOKI",
+        "subtitle": null,
+        "artist": "MAMI KINGETSU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "HAPPY GO LUCKY",
+        "subtitle": null,
+        "artist": "やまちゃん with ジムナスひかる",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "YAMACHAN with JIMUSASUHIKARU",
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 4
+        },
+        "double_difficulties": {
+            "Easy": 2
+        }
+    },
+    {
+        "title": "HARUIRO NO KAZE NO NAKA DE",
+        "subtitle": null,
+        "artist": "MAMI KINGETSU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hero",
+        "subtitle": "[Club-MIX]",
+        "artist": "YUUKO ASAHINA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hero",
+        "subtitle": "[Club-MIX] [English Version]",
+        "artist": "DONNA BURKE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "IN THE NAVY '99 (XXL Disaster Remix)",
+        "subtitle": null,
+        "artist": "CAPTAIN JACK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4
+        },
+        "double_difficulties": {
+            "Easy": 4
+        }
+    },
+    {
+        "title": "KEEP ON MOVIN'",
+        "subtitle": null,
+        "artist": "N.M.R",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4
+        }
+    },
+    {
+        "title": "LAT.43° N",
+        "subtitle": "(forty-three degrees north latitude)",
+        "artist": "DREAMS COME TRUE",
+        "title_translit": "LAT.43' N",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "LET THEM MOVE",
+        "subtitle": null,
+        "artist": "N.M.R.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 2,
+            "Hard": 4
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 3
+        }
+    },
+    {
+        "title": "LOVE IS THE POWER",
+        "subtitle": null,
+        "artist": "NM",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4
+        },
+        "double_difficulties": {
+            "Easy": 4
+        }
+    },
+    {
+        "title": "MIRAI YOSOUZU II",
+        "subtitle": null,
+        "artist": "DREAMS COME TRUE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 6,
+            "Challenge": 6
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "MORE! MOTTO! TOKIMEKI",
+        "subtitle": null,
+        "artist": "MAMI KINGETSU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MY FAVOURITE GAME",
+        "subtitle": null,
+        "artist": "The Cardigans",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "O-HA! Mambo",
+        "subtitle": "a Shiny new Today",
+        "artist": "わるじぇんぬ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "WARUJIENNU",
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3
+        }
+    },
+    {
+        "title": "OHA OHA スターター",
+        "subtitle": null,
+        "artist": "やまちゃん＆レイモンド",
+        "title_translit": "OHA OHA SUTAATAA",
+        "subtitle_translit": null,
+        "artist_translit": "YAMACHAN&REIMONDO",
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 6
+        }
+    },
+    {
+        "title": "OHA SKA!",
+        "subtitle": null,
+        "artist": "おはおはキッズ with イマクニ？",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "OHA KIDS with IMAKUNI?",
+        "single_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 7
+        }
+    },
+    {
+        "title": "PARANOiA MAX",
+        "subtitle": "(CLUB ANOTHER VER.)",
+        "artist": "190",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "PARANOiA MAX",
+        "subtitle": "(CLUB ANOTHER VER.) (in roulette)",
+        "artist": "190",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "SANKYU.",
+        "subtitle": null,
+        "artist": "DREAMS COME TRUE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "サヨナラのかわりに",
+        "subtitle": null,
+        "artist": "おはぐみ",
+        "title_translit": "SAYONARA NO KAWARI NI",
+        "subtitle_translit": null,
+        "artist_translit": "OHHAGUMI",
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 2,
+            "Hard": 3
+        },
+        "double_difficulties": {
+            "Easy": 4
+        }
+    },
+    {
+        "title": "THE BAD TOUCH",
+        "subtitle": null,
+        "artist": "the BLOODHOUND GANG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "THE EARTH LIGHT",
+        "subtitle": null,
+        "artist": "L.E.D. LIGHT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "TOKIMEKI NO ORGEL",
+        "subtitle": null,
+        "artist": "MAMI KINGETSU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "WHY!",
+        "subtitle": "~THE ZONA'S SONG~",
+        "artist": "怪人ゾナー",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "MORIKUBO SHOUTAROU",
+        "single_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 8
+        }
+    },
+    {
+        "title": "YOU GOT THE LOVE",
+        "subtitle": null,
+        "artist": "RUFUS FEAT/CHAKA KHAN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "YUUKI NO KAMISAMA",
+        "subtitle": null,
+        "artist": "JUNKO NODA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Medium": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ゾナパラ",
+        "subtitle": "[WHY! パラパラ・リミックス]",
+        "artist": "ゾベッカ",
+        "title_translit": "ZONAPARA",
+        "subtitle_translit": "[WHY! PARAPARA REMIX]",
+        "artist_translit": "ZOBEKKA",
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 6
+        }
+    }
+]

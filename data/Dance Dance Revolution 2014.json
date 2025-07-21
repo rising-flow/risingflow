@@ -1,0 +1,2581 @@
+[
+    {
+        "title": "8000000",
+        "subtitle": null,
+        "artist": "kors k",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "A to Z",
+        "subtitle": null,
+        "artist": "OSAKA翔GANGS 【大阪】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "OSAKA Sho GANGS [Osaka]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Adularia",
+        "subtitle": null,
+        "artist": "DJ TOTTO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ÆTHER",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": "AETHER",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "朝色の紙飛行機",
+        "subtitle": null,
+        "artist": "かめりあ",
+        "title_translit": "Asa-iro no kami hikouki",
+        "subtitle_translit": null,
+        "artist_translit": "Camelia",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "阿波おどり -Awaodori- やっぱり踊りはやめられない",
+        "subtitle": null,
+        "artist": "U1 ミライダガッキ連と矢印連",
+        "title_translit": "Awa odori -Awaodori- yappari odori wa yame rarenai",
+        "subtitle_translit": null,
+        "artist_translit": "U1 Miraidagakki ren to yajirushi ren",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "AWAKE",
+        "subtitle": null,
+        "artist": "柊木りお featured by TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Rio Hiiragi featured by TAG",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "妖隠し -あやかしかくし-",
+        "subtitle": null,
+        "artist": "DJ TOTTO feat.3L",
+        "title_translit": "Ayakashi kakushi",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "爆なな☆てすとロイヤー",
+        "subtitle": null,
+        "artist": "ARM feat.ななひら",
+        "title_translit": "Bakunana Testroyer",
+        "subtitle_translit": null,
+        "artist_translit": "ARM feat. Nanahira",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "バンブーソード・ガール",
+        "subtitle": null,
+        "artist": "cosMo＠暴走P",
+        "title_translit": "BambooSword Girl",
+        "subtitle_translit": null,
+        "artist_translit": "cosMo＠BousouP",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 12
+        }
+    },
+    {
+        "title": "ビビットストリーム",
+        "subtitle": null,
+        "artist": "DJ TOTTO",
+        "title_translit": "BeBeatStream",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "僕は君に恋をした",
+        "subtitle": null,
+        "artist": "アイドル教室 【愛知】",
+        "title_translit": "Boku wa kimi ni koi wo shita",
+        "subtitle_translit": null,
+        "artist_translit": "Idol Kyoshitsu [Aichi]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Boom! Boom! Miracle Emotion",
+        "subtitle": null,
+        "artist": "ひろしま MAPLE★S 【広島】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Hiroshima MAPLE★S [Hiroshima]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "CAPTIVE",
+        "subtitle": null,
+        "artist": "フルーティー♡ 【北海道】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Fruity♡ [Hokkaido]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "chaos eater",
+        "subtitle": null,
+        "artist": "猫叉Master+",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Nekomata Master+",
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Che Che Chelip～魔法のコトバ～",
+        "subtitle": null,
+        "artist": "Chelip 【鳥取】",
+        "title_translit": "Che Che Chelip ~mahou no kotoba~",
+        "subtitle_translit": null,
+        "artist_translit": "Chelip [Tottori]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "ちゅ～いん☆バニー",
+        "subtitle": null,
+        "artist": "阿部靖広 feat. Strawberry Wink",
+        "title_translit": "Chewin' Bunny",
+        "subtitle_translit": null,
+        "artist_translit": "Yasuhiro Abe feat. Strawberry Wink",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "地方創生☆チクワクティクス",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": "Chihou sousei chikuwactics",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bittersweets♪",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "チョコレートスマイル",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪ & ここなつ",
+        "title_translit": "Chocolate Smile",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bittersweets♪ & KokoNatsu",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Cleopatrysm",
+        "subtitle": null,
+        "artist": "ピラミッ℃",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Pyrami℃",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "クリムゾンゲイト",
+        "subtitle": null,
+        "artist": "工藤吉三 (ベイシスケイプ)",
+        "title_translit": "Crimson Gate",
+        "subtitle_translit": null,
+        "artist_translit": "Kudo Kichizo (Basis Cape)",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Daily Lunch Special",
+        "subtitle": null,
+        "artist": "Lucky Vacuum",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Dance Partay",
+        "subtitle": null,
+        "artist": "DKC Crew",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "デッドボヲルdeホームラン",
+        "subtitle": null,
+        "artist": "猫叉Masterβ2",
+        "title_translit": "Deadball de homerun",
+        "subtitle_translit": null,
+        "artist_translit": "Nekomata Master β2",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Destination",
+        "subtitle": null,
+        "artist": "Sota F.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Din Don Dan",
+        "subtitle": null,
+        "artist": "Ryu☆ feat.Mayumi Morinaga",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Dispersion Star",
+        "subtitle": null,
+        "artist": "ZUKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Do The Evolution",
+        "subtitle": null,
+        "artist": "TAG feat. ERi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ドキドキ☆流星トラップガール!!",
+        "subtitle": null,
+        "artist": "流星トラップボーイズ",
+        "title_translit": "Dokidoki ryuusei trap girl!!",
+        "subtitle_translit": null,
+        "artist_translit": "Ryuusei Trap Boys",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Dong! Dong!",
+        "subtitle": null,
+        "artist": "Star☆T 【愛知】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Star☆T [Aichi]",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ドーパミン",
+        "subtitle": null,
+        "artist": "U1 overground",
+        "title_translit": "Dopamine",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "ドリームキャッチャー",
+        "subtitle": null,
+        "artist": "アイくるガールズ 【福島】",
+        "title_translit": "DREAM CATCHER",
+        "subtitle_translit": null,
+        "artist_translit": "Ai kuru Girls [Fukushima]",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Dreamin'",
+        "subtitle": null,
+        "artist": "TOMOSUKE feat. Adreana",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "EGOISM 440",
+        "subtitle": null,
+        "artist": "U1 High-Speed",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 13,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "Electronic or Treat!",
+        "subtitle": null,
+        "artist": "PON",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Elysium",
+        "subtitle": null,
+        "artist": "nc ft. NRG Factory",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "エンドルフィン",
+        "subtitle": null,
+        "artist": "U1 overground",
+        "title_translit": "Endorphin",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Engraved Mark",
+        "subtitle": null,
+        "artist": "Ryu☆ ∞ Des-ROW",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "esrev\\:eR",
+        "subtitle": null,
+        "artist": "TAG meets “eimy”",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Everybody Say EDOGAWA",
+        "subtitle": null,
+        "artist": "EDOist 【東京】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "EDOist [Tokyo]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Field on!",
+        "subtitle": null,
+        "artist": "サザン☆クロス 【鹿児島】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Southern☆Cross [Kagoshima]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Follow Tomorrow",
+        "subtitle": null,
+        "artist": "HHH×MM×ST",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "FUJIMORI -祭- FESTIVAL",
+        "subtitle": null,
+        "artist": "VENUS",
+        "title_translit": "FUJIMORI -Matsuri- FESTIVAL",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "FUNKY SUMMER BEACH",
+        "subtitle": null,
+        "artist": "P*Light",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "激アツ☆マジヤバ☆チアガール",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": "Gekiatsu majiyaba cheer girl",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bitter Sweets♪",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "幻想系世界修復少女",
+        "subtitle": null,
+        "artist": "Last Note.",
+        "title_translit": "Gensoukei sekai shuufuku shoujo",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Go↓Go↑Girls&Boys!",
+        "subtitle": null,
+        "artist": "松下feat.Sota & wac",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Matsushita feat.Sota & wac",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Habibe (Antuh muhleke)",
+        "subtitle": null,
+        "artist": "Wendy Parr",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "はなまるぴっぴはよいこだけ",
+        "subtitle": null,
+        "artist": "A応P",
+        "title_translit": "Hanamaru pippi wa yoiko dake",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "HAPPY☆きたかた",
+        "subtitle": null,
+        "artist": "KIRA☆GIRL 【福島】",
+        "title_translit": "HAPPY kitakata",
+        "subtitle_translit": null,
+        "artist_translit": "KIRA☆GIRL 【Fukushima】",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HAPPY☆LUCKY☆YEAPPY",
+        "subtitle": null,
+        "artist": "DJ ミラクル☆ストーン",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "DJ Miracle☆Stone",
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "HEART BEAT FORMULA (Vinyl Mix)",
+        "subtitle": null,
+        "artist": "TAG (Realtime Remix by U1)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "HeartLatte",
+        "subtitle": null,
+        "artist": "TnyGinA 【和歌山】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "TnyGinA [Wakayama]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "ホメ猫☆センセーション",
+        "subtitle": null,
+        "artist": "P*Light feat. mow*2",
+        "title_translit": "Home neko☆sensation",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "星屑のキロク",
+        "subtitle": null,
+        "artist": "小野秀幸",
+        "title_translit": "Hoshikuzu no kiroku",
+        "subtitle_translit": null,
+        "artist_translit": "Hideyuki Ono",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "HYENA",
+        "subtitle": null,
+        "artist": "Hommarju",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Idola",
+        "subtitle": null,
+        "artist": "iconoclasm feat.GUMI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11,
+            "Challenge": 12
+        }
+    },
+    {
+        "title": "IMANOGUILTS",
+        "subtitle": null,
+        "artist": "Mystic Moon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "In The Breeze",
+        "subtitle": null,
+        "artist": "96 & Sota ft. Mayumi Morinaga",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "IX",
+        "subtitle": null,
+        "artist": "dj TAKA VS DJ TOTTO feat.藍",
+        "title_translit": "9",
+        "subtitle_translit": null,
+        "artist_translit": "dj TAKA VS DJ TOTTO feat.Ai",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "JOMANDA",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 12
+        }
+    },
+    {
+        "title": "川崎純情音頭",
+        "subtitle": null,
+        "artist": "川崎純情小町☆ 【神奈川】",
+        "title_translit": "Kawasaki junjo ondo",
+        "subtitle_translit": null,
+        "artist_translit": "Kawasaki junjo komachi [Kanagawa]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "KHAMEN BREAK",
+        "subtitle": null,
+        "artist": "くふおー",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Kufuo",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "キライじゃないのぉ",
+        "subtitle": null,
+        "artist": "まなみのりさ 【広島】",
+        "title_translit": "Kiraijanaino",
+        "subtitle_translit": null,
+        "artist_translit": "Manami no Risa [Hiroshima]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "恋はどう？モロ◎波動OK☆方程式！！",
+        "subtitle": null,
+        "artist": "あべにゅうぷろじぇくと feat.佐倉紗織 produced by ave\\",
+        "title_translit": "Koi hadou? Moro hadou OK houteishiki!!",
+        "subtitle_translit": null,
+        "artist_translit": "Abenyu Project feat. Saori Sakura produced by ave\\",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ルシャナの気持ち",
+        "subtitle": null,
+        "artist": "Le Siana 【奈良】",
+        "title_translit": "Le Siana no kimochi",
+        "subtitle_translit": null,
+        "artist_translit": "Le Siana [Nara]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ラブラブキュートなハピハピサンデー",
+        "subtitle": null,
+        "artist": "Lisapyon♡ 【長野】",
+        "title_translit": "Love love cute na happy happy sunday",
+        "subtitle_translit": null,
+        "artist_translit": "Lisapyon♡ [Nagano]",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "LoveLove DokiDoki",
+        "subtitle": null,
+        "artist": "水戸ご当地アイドル(仮) 【茨城】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Mito Gotochi Idol (Kari) [Ibaraki]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ラクガキスト",
+        "subtitle": null,
+        "artist": "cosMo＠暴走P feat.GUMI",
+        "title_translit": "Luckgakist",
+        "subtitle_translit": null,
+        "artist_translit": "cosMo@BousouP feat.GUMI",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "LUCKY-YO!!",
+        "subtitle": null,
+        "artist": "だいやぁ☆もんど 【鳥取】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Da iya~a☆mondo [Tottori]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "M.A.Y.U.",
+        "subtitle": null,
+        "artist": "Ryu☆ feat.MAYU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "回レ！雪月花",
+        "subtitle": null,
+        "artist": "歌組雪月花",
+        "title_translit": "Maware! Setsugetsuka",
+        "subtitle_translit": null,
+        "artist_translit": "Utagumi Setsugetsuka",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "MAX.(period)",
+        "subtitle": null,
+        "artist": "2MB",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 8,
+            "Medium": 9,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 11,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "マーメイド",
+        "subtitle": null,
+        "artist": "T!P 【栃木】",
+        "title_translit": "Mermaid",
+        "subtitle_translit": null,
+        "artist_translit": "T!P [Tochigi]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "滅亡天使 † にこきゅっぴん",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": "Metsubou tenshi nikokyuppin",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bitter Sweets♪",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "マインド・ゲーム",
+        "subtitle": null,
+        "artist": "96 with メカショッチョー",
+        "title_translit": "Mind Game",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "ミライプリズム",
+        "subtitle": null,
+        "artist": "ここなつ",
+        "title_translit": "Mirai prism",
+        "subtitle_translit": null,
+        "artist_translit": "CocoNatsu",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "MITOれて！いばらきっしゅだ～りん",
+        "subtitle": null,
+        "artist": "水戸ご当地アイドル(仮) 【茨城】",
+        "title_translit": "MITOrete! Ibarakisshuda~rin",
+        "subtitle_translit": null,
+        "artist_translit": "Mito Gotochi Idol (Kari) [Ibaraki]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "my cosmic world",
+        "subtitle": null,
+        "artist": "silQ 【東京】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "silQ [Tokyo]",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "MY HERO",
+        "subtitle": null,
+        "artist": "chairmans 【岩手】",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "chairmans [Iwate]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "嘆きの樹",
+        "subtitle": null,
+        "artist": "金獅子",
+        "title_translit": "Nageki no ki",
+        "subtitle_translit": null,
+        "artist_translit": "Kinjinshi",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "neko*neko",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bitter Sweets♪",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Nostalgia Is Lost",
+        "subtitle": null,
+        "artist": "U1 overground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "One Sided Love",
+        "subtitle": null,
+        "artist": "D-crew with Melissa Petty",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "女言葉の消失",
+        "subtitle": null,
+        "artist": "Sota Fujimori",
+        "title_translit": "Onna kotoba no shoushitsu",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "御千手メディテーション",
+        "subtitle": null,
+        "artist": "昇天家族",
+        "title_translit": "Osenju meditation",
+        "subtitle_translit": null,
+        "artist_translit": "Shoten kazoku",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "乙女の真骨頂",
+        "subtitle": null,
+        "artist": "乙女の純情 【福岡】",
+        "title_translit": "Otome no shinkocchou",
+        "subtitle_translit": null,
+        "artist_translit": "Otome no junjou [Fukuoka]",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "乙女繚乱 舞い咲き誇れ",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": "Otome ryouran mai sakihokore",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bittersweets♪",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Over The “Period”",
+        "subtitle": null,
+        "artist": "TAG underground overlay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 8,
+            "Medium": 10,
+            "Hard": 13,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Easy": 8,
+            "Medium": 10,
+            "Hard": 13,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "パ→ピ→プ→Yeah!",
+        "subtitle": null,
+        "artist": "ヒゲドライバー join. shully & Nimo",
+        "title_translit": "Pa→pi→pu→Yeah!",
+        "subtitle_translit": null,
+        "artist_translit": "Hige Driver join. shully & Nimo",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Party Lights (Tommie Sunshine’s Brooklyn Fire Remix)",
+        "subtitle": null,
+        "artist": "Tommie Sunshine",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Plan 8",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "POSSESSION(EDP Live Mix)",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "PRANA+REVOLUTIONARY ADDICT (U1 DJ Mix)",
+        "subtitle": null,
+        "artist": "underground & overground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "PUNISHER",
+        "subtitle": null,
+        "artist": "TAG×PON",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "らいらら",
+        "subtitle": null,
+        "artist": "KRD8 【兵庫】",
+        "title_translit": "Rairara",
+        "subtitle_translit": null,
+        "artist_translit": "KRD 8 [Hyougo]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Remain",
+        "subtitle": null,
+        "artist": "ZERO+ZIBA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Romancing Layer",
+        "subtitle": null,
+        "artist": "TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "SABER WING (satellite silhouette remix)",
+        "subtitle": null,
+        "artist": "TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Sakura Mirage",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Samurai Shogun vs. Master Ninja",
+        "subtitle": null,
+        "artist": "96",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Sand Blow",
+        "subtitle": null,
+        "artist": "肥塚良彦",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Yoshihiko Koezuka",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Scarlet Moon",
+        "subtitle": null,
+        "artist": "REDALiCE feat. Ayumi Nomiya",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "second spring storm",
+        "subtitle": null,
+        "artist": "Spacelectro",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "セツナトリップ",
+        "subtitle": null,
+        "artist": "Last Note. feat. GUMI",
+        "title_translit": "Setsuna Trip",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "灼熱Beach Side Bunny",
+        "subtitle": null,
+        "artist": "DJ Mass MAD Izm*",
+        "title_translit": "Shakunetsu Beach Side Bunny",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "漆黒のスペシャルプリンセスサンデー",
+        "subtitle": null,
+        "artist": "日向美ビタースイーツ♪",
+        "title_translit": "Shikkoku no Special Princess Sundae",
+        "subtitle_translit": null,
+        "artist_translit": "Hinatabi Bitter Sweets♪",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "瞬間 I LOVE YOU",
+        "subtitle": null,
+        "artist": "H&A. 【静岡】",
+        "title_translit": "Shunkan I LOVE YOU",
+        "subtitle_translit": null,
+        "artist_translit": "H&A. [Shizuoka]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "SPECIAL SUMMER CAMPAIGN!",
+        "subtitle": null,
+        "artist": "Lucky Vacuum",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Squeeze",
+        "subtitle": null,
+        "artist": "VENUS feat. Mutsuhiko Izumi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Starlight Fantasia",
+        "subtitle": null,
+        "artist": "TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Starlight Fantasia (Endorphins Mix)",
+        "subtitle": null,
+        "artist": "U1 overground feat.TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "starmine",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 12
+        }
+    },
+    {
+        "title": "Stella Sinistra",
+        "subtitle": null,
+        "artist": "Akhuta Philharmonic Orchestra",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Strobe♡Girl",
+        "subtitle": null,
+        "artist": "colate",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Struggle",
+        "subtitle": null,
+        "artist": "Masayoshi Minoshima(ALR)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "夏色DIARY -DDR mix-",
+        "subtitle": null,
+        "artist": "猫叉王子 feat. TAG",
+        "title_translit": "SUMMER DIARY -DDR mix-",
+        "subtitle_translit": null,
+        "artist_translit": "Nekomata Ouji feat. TAG",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Summer fantasy (Darwin remix)",
+        "subtitle": null,
+        "artist": "Lazy U1 ft. Fraz & Chalk E",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "SUPER HERO",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA feat.Michaela Thurlow",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "天空の華",
+        "subtitle": null,
+        "artist": "S-C-U × U1 overground",
+        "title_translit": "Tenkuu no hana",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Thank You Merry Christmas",
+        "subtitle": null,
+        "artist": "VENUS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ザッツ！KAIYODO",
+        "subtitle": null,
+        "artist": "はちきんガールズ 【高知】",
+        "title_translit": "That's! KAIYODO",
+        "subtitle_translit": null,
+        "artist_translit": "Hachikin Girls [Kochi]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "The Lonely Streets",
+        "subtitle": null,
+        "artist": "DJ Yoshitaka feat.Robert \"RAaB\" Stevenson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "轟け！恋のビーンボール！！",
+        "subtitle": null,
+        "artist": "ダイナミック野球兄弟 v.s. クロスファイヤーPrim",
+        "title_translit": "Todoroke! Koi no beanball!!",
+        "subtitle_translit": null,
+        "artist_translit": "Dynamic Yakyuu Kyoudai v.s. Crossfire Prim\n#BANNER:Todoroke! Koi no beanball!!.png",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "突撃！ガラスのニーソ姫！",
+        "subtitle": null,
+        "artist": "山本椛 (monotone)",
+        "title_translit": "Totsugeki! Glass no kneeso hime!",
+        "subtitle_translit": null,
+        "artist_translit": "Momiji Yamamoto (monotone)",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Truare!",
+        "subtitle": null,
+        "artist": "Akhuta",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "True Blue",
+        "subtitle": null,
+        "artist": "dj TAKA feat.AiMEE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "TSUBASA",
+        "subtitle": null,
+        "artist": "柊木りお featured by TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Rio Hiiragi featured by TAG",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "VEGA",
+        "subtitle": null,
+        "artist": "REDALiCE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "海神",
+        "subtitle": null,
+        "artist": "兎々",
+        "title_translit": "Wadatsumi",
+        "subtitle_translit": null,
+        "artist_translit": "Totto",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "We are チャリンコエンジェルス",
+        "subtitle": null,
+        "artist": "浦安マリンエンジェルス 【千葉】",
+        "title_translit": "We are Charinko Angels",
+        "subtitle_translit": null,
+        "artist_translit": "Urayasu Marine Angels [Chiba]",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "野球の遊び方　そしてその歴史　～決定版～",
+        "subtitle": null,
+        "artist": "あさき大監督",
+        "title_translit": "Yakyuu no asobikata soshite sono rekishi ~ketteiban~",
+        "subtitle_translit": null,
+        "artist_translit": "Asaki dai kantoku",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "ヤマトなでなで♡かぐや姫",
+        "subtitle": null,
+        "artist": "ロマンチック♡Prim姫",
+        "title_translit": "Yamato nadenade Kaguya-hime",
+        "subtitle_translit": null,
+        "artist_translit": "Romantic♡Prim-hime",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    }
+]

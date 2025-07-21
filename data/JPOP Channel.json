@@ -1,0 +1,241 @@
+[
+    {
+        "title": "All For You",
+        "subtitle": null,
+        "artist": "CIX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ALL IN",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Brand New World",
+        "subtitle": null,
+        "artist": "D-51",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ちるちる",
+        "subtitle": null,
+        "artist": "REOL",
+        "title_translit": "ChiruChiru",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 5,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Crossing Field",
+        "subtitle": null,
+        "artist": "LiSA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Gurenge",
+        "subtitle": null,
+        "artist": "LiSA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Kaikai Kitan",
+        "subtitle": null,
+        "artist": "Eve",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 10,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "NIGHT RUNNING (feat. AAAMYYY)",
+        "subtitle": null,
+        "artist": "Shin Sakiura feat. AAAMYYY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "PonPonPon",
+        "subtitle": null,
+        "artist": "Kyary Pamyu Pamyu",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Hard": 11,
+            "Medium": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Hard": 11,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Ryuusei",
+        "subtitle": null,
+        "artist": "Tia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Show",
+        "subtitle": null,
+        "artist": "Ado",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Hard": 11,
+            "Challenge": 14,
+            "Easy": 6,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Stay With Me",
+        "subtitle": null,
+        "artist": "Miki Matsubara",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Take a picture",
+        "subtitle": null,
+        "artist": "NiziU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Light",
+        "subtitle": null,
+        "artist": "FAKY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Zankyosanka",
+        "subtitle": null,
+        "artist": "Aimer",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    }
+]

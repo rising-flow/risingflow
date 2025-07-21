@@ -1,0 +1,259 @@
+[
+    {
+        "title": "CAFE",
+        "subtitle": null,
+        "artist": "D.D.SOUND",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "CAT'S EYE (Ventura Mix)",
+        "subtitle": null,
+        "artist": "E-ROTIC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "CONGA FEELING",
+        "subtitle": null,
+        "artist": "VIVIAN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "DO ME (H.I.G.E.O. MIX)",
+        "subtitle": null,
+        "artist": "MUSTACHE MEN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "LIVIN' LA VIDA LOCA",
+        "subtitle": null,
+        "artist": "C.J.CREW featuring GIORGIO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Lupin the 3rd '78",
+        "subtitle": null,
+        "artist": "VENTURA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "NA-NA",
+        "subtitle": null,
+        "artist": "BUS★STOP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "PETIT LOVE",
+        "subtitle": null,
+        "artist": "SMILE.dk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "RHYTHM AND POLICE (K.O.G G3 Mix)",
+        "subtitle": null,
+        "artist": "CJ CREW feat. CHRISTIAN D",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "SKY HIGH",
+        "subtitle": null,
+        "artist": "LUCYFER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "SYNCHRONIZED LOVE (Red Monster Hyper Mix)",
+        "subtitle": null,
+        "artist": "JOE RINOIE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "THEME FROM ENTER THE DRAGON (notorious mix)",
+        "subtitle": null,
+        "artist": "B3-PROJECT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "WONDA (SPEED K MIX)",
+        "subtitle": null,
+        "artist": "MM",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "YOUR LOVE",
+        "subtitle": null,
+        "artist": "FARGETTA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    }
+]

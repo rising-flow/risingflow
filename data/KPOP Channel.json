@@ -1,0 +1,2482 @@
+[
+    {
+        "title": "200%",
+        "subtitle": null,
+        "artist": "AKMU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Hard": 10,
+            "Easy": 5,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "4 Walls",
+        "subtitle": null,
+        "artist": "f(x)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Abracadabra",
+        "subtitle": null,
+        "artist": "Brown Eyed Girls",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Adore U",
+        "subtitle": null,
+        "artist": "Seventeen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Hard": 11,
+            "Challenge": 13,
+            "Easy": 5,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "After Midnight",
+        "subtitle": null,
+        "artist": "ASTRO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ah-Ah",
+        "subtitle": null,
+        "artist": "TEEN TOP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Airplane",
+        "subtitle": null,
+        "artist": "Typhoon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Alcohol-Free",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Alien",
+        "subtitle": null,
+        "artist": "Lee Suhyun",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "All Night",
+        "subtitle": null,
+        "artist": "Girls' Generation",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Any",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9,
+            "Challenge": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Around You",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "As If It's Your Last",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Medium": 8,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ASAP",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Aura",
+        "subtitle": null,
+        "artist": "GOT7",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "AYA",
+        "subtitle": null,
+        "artist": "MAMAMOO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Challenge": 7,
+            "Hard": 6
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "B.B.B (Big Baby Baby)",
+        "subtitle": null,
+        "artist": "Dalshabet",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Back Door",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Bad",
+        "subtitle": null,
+        "artist": "INFINITE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Beautiful Liar",
+        "subtitle": null,
+        "artist": "MONSTA X",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 11
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Beep Beep",
+        "subtitle": null,
+        "artist": "RUANN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Black Mamba",
+        "subtitle": null,
+        "artist": "aespa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Blood, Sweat, and Tears",
+        "subtitle": null,
+        "artist": "BTS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 5,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Blue Hour",
+        "subtitle": null,
+        "artist": "TOMORROW X TOGETHER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "BOOMBAYAH",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "BOY",
+        "subtitle": null,
+        "artist": "TREASURE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Bubble",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Hard": 13,
+            "Medium": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Hard": 13,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Butterfly",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Case No. L5VE",
+        "subtitle": null,
+        "artist": "Oh My Girl!",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Hard": 12,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Celebrity",
+        "subtitle": null,
+        "artist": "IU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Cookie",
+        "subtitle": null,
+        "artist": "New Jeans",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "DDU-DU DDU-DU",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Dessert",
+        "subtitle": "(ft. Loopy, SOYEON (G)I-DLE)",
+        "artist": "HYO",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 8,
+            "Easy": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Discord",
+        "subtitle": null,
+        "artist": "QWER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "DM",
+        "subtitle": null,
+        "artist": "fromis_9",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Dope",
+        "subtitle": null,
+        "artist": "BTS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Dream of You",
+        "subtitle": null,
+        "artist": "CHUNG HA & R3HAB",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Eclipse",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Egoist (feat. JinSoul)",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "ELEVEN",
+        "subtitle": null,
+        "artist": "IVE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Hard": 11,
+            "Easy": 4,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Everyday I Love You (feat. HaSeul)",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "FANCY",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Fantasia",
+        "subtitle": null,
+        "artist": "MONSTA X",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "favOriTe",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Feel My Rhythm",
+        "subtitle": null,
+        "artist": "Red Velvet",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Feel Special",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Full Moon",
+        "subtitle": null,
+        "artist": "Dreamcatcher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 9,
+            "Medium": 13,
+            "Hard": 16
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 9,
+            "Medium": 13
+        }
+    },
+    {
+        "title": "Girl Front",
+        "subtitle": null,
+        "artist": "LOONA / ODD EYE CIRCLE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Given-Taken",
+        "subtitle": null,
+        "artist": "ENHYPEN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "God's Menu",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "GO LIVE",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Heart Attack",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Helicopter",
+        "subtitle": null,
+        "artist": "CLC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hi High",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hold Up (feat. nobody likes you pat & Ashley Alisha)",
+        "subtitle": null,
+        "artist": "Seo actor & Dept",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Hot!",
+        "subtitle": null,
+        "artist": "LUCY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 13,
+            "Challenge": 16
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Challenge": 16,
+            "Hard": 13,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "HOW PEOPLE MOVE",
+        "subtitle": null,
+        "artist": "AKMU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 12,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Challenge": 14,
+            "Easy": 7,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "How You Like That",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "How You Like That",
+        "subtitle": "(Dylon Maycel Remix)",
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "I AM",
+        "subtitle": null,
+        "artist": "IVE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Challenge": 15,
+            "Hard": 12,
+            "Medium": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Hard": 12,
+            "Medium": 8,
+            "Challenge": 15
+        }
+    },
+    {
+        "title": "I CAN'T STOP ME",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "I LOVE YOU",
+        "subtitle": null,
+        "artist": "TREASURE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 8,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ice Cream",
+        "subtitle": null,
+        "artist": "BLACKPINK & Selena Gomez",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ice Cream",
+        "subtitle": "(with Selena Gomez)",
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "In the morning",
+        "subtitle": null,
+        "artist": "ITZY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Inside Out",
+        "subtitle": null,
+        "artist": "NU'EST",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Into the I-LAND",
+        "subtitle": null,
+        "artist": "IU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Hard": 11,
+            "Medium": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Hard": 10,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Irrelevant Answer",
+        "subtitle": null,
+        "artist": "LUCY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 7,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Just Right",
+        "subtitle": null,
+        "artist": "GOT7",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Hard": 10,
+            "Easy": 4,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Kick It",
+        "subtitle": "(Valentino Khan Remix)",
+        "artist": "NCT 127",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Kill This Love",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 15,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Kiss Later",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "LA DI DA",
+        "subtitle": null,
+        "artist": "EVERGLOW",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "LALISA",
+        "subtitle": null,
+        "artist": "LISA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Let Me In",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "LOCO",
+        "subtitle": null,
+        "artist": "ITZY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Love & Live",
+        "subtitle": null,
+        "artist": "LOONA 1/3",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Love Cherry Motion",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "LOVE DIVE",
+        "subtitle": null,
+        "artist": "IVE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Love Lee",
+        "subtitle": null,
+        "artist": "AKMU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "Love Love Love",
+        "subtitle": null,
+        "artist": "EPIK HIGH",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 11,
+            "Easy": 5,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Love Scenario",
+        "subtitle": null,
+        "artist": "iKON",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 9
+        },
+        "double_difficulties": {
+            "Hard": 13,
+            "Easy": 3,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "love4eva (feat. Grimes)",
+        "subtitle": null,
+        "artist": "LOONA / yyxy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Lovesick Girls",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "LUNA",
+        "subtitle": null,
+        "artist": "ONEUS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Make A Wish",
+        "subtitle": "(Birthday Song)",
+        "artist": "NCT U",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 8,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "MANIAC",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Mayday",
+        "subtitle": null,
+        "artist": "Dreamcatcher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Hard": 13,
+            "Medium": 10
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Hard": 13,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Mobius Strip",
+        "subtitle": null,
+        "artist": "Sechskies",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Monster",
+        "subtitle": null,
+        "artist": "SEULGI & IRENE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MORE & MORE",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MORE (feat. Lexie Liu, Jaira Burns, Seraphine & League of Legends)",
+        "subtitle": null,
+        "artist": "K/DA, Madison Beer & (G)I-DLE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "MY TREASURE",
+        "subtitle": null,
+        "artist": "TREASURE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Naughty",
+        "subtitle": null,
+        "artist": "SEULGI & IRENE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Neon",
+        "subtitle": null,
+        "artist": "YUKIKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "new",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "New Days",
+        "subtitle": null,
+        "artist": "Dreamcatcher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Easy": 8,
+            "Medium": 10,
+            "Hard": 14
+        }
+    },
+    {
+        "title": "Next Level",
+        "subtitle": null,
+        "artist": "aespa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Nonstop",
+        "subtitle": null,
+        "artist": "Oh My Girl",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Nostalgia",
+        "subtitle": null,
+        "artist": "Woody",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Hard": 14,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Not Shy",
+        "subtitle": null,
+        "artist": "ITZY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "One & Only",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Oopsy",
+        "subtitle": null,
+        "artist": "Weki Meki",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Oxygen",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Permission to Dance",
+        "subtitle": null,
+        "artist": "BTS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Pirate",
+        "subtitle": null,
+        "artist": "EVERGLOW",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 13,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "PLAY",
+        "subtitle": "(feat. CHANGMO)",
+        "artist": "CHUNGHA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "PLAYING WITH FIRE",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "PTT (Paint the Town)",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Punch",
+        "subtitle": null,
+        "artist": "NCT 127",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Queencard",
+        "subtitle": null,
+        "artist": "(G)I-DLE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 10,
+            "Hard": 13
+        }
+    },
+    {
+        "title": "RA TA TA (feat. Lil Cherry)",
+        "subtitle": null,
+        "artist": "Ailee",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Medium": 10,
+            "Hard": 13,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 6,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "RHYTHM TA",
+        "subtitle": null,
+        "artist": "iKON",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 16
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 16
+        }
+    },
+    {
+        "title": "Rollercoaster",
+        "subtitle": null,
+        "artist": "Chung Ha",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 5,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "RUN2U",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Savage",
+        "subtitle": null,
+        "artist": "aespa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "SCIENTIST",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Secret Story of the Swan",
+        "subtitle": null,
+        "artist": "IZ*ONE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Singing in the Rain",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "snowy night",
+        "subtitle": null,
+        "artist": "Billlie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 6,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "So Bad",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 7,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "So What",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 8,
+            "Easy": 5,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "SOLO",
+        "subtitle": null,
+        "artist": "JENNIE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Sonatine",
+        "subtitle": null,
+        "artist": "LOONA 1/3",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Sour Candy",
+        "subtitle": "(ft. Blackpink)",
+        "artist": "Lady Gaga",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Star (Voice English Version)",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Stay Tonight",
+        "subtitle": null,
+        "artist": "CHUNG HA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "STEREOTYPE",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Storm",
+        "subtitle": null,
+        "artist": "Perry",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Hard": 14,
+            "Easy": 5,
+            "Medium": 9
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 6,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Sweet Crazy Love",
+        "subtitle": null,
+        "artist": "LOONA / ODD EYE CIRCLE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Swing (feat. Park Kyung)",
+        "subtitle": null,
+        "artist": "Lucy from WekiMeki",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 6,
+            "Hard": 13,
+            "Medium": 10
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Hard": 14,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Talk & Talk",
+        "subtitle": null,
+        "artist": "fromis_9",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "TANK",
+        "subtitle": null,
+        "artist": "NMIXX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 13,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Tear Drop",
+        "subtitle": null,
+        "artist": "SF9",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Teddy Bear",
+        "subtitle": null,
+        "artist": "STAYC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "The Bha Bha Song",
+        "subtitle": null,
+        "artist": "TRI.BE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "The Feels",
+        "subtitle": null,
+        "artist": "TWICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Thunderous",
+        "subtitle": null,
+        "artist": "Stray Kids",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "TOMBOY",
+        "subtitle": null,
+        "artist": "(G)I-DLE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Undefeated",
+        "subtitle": null,
+        "artist": "XG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Hard": 13,
+            "Medium": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Hard": 13,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Vegetable",
+        "subtitle": null,
+        "artist": "Norazo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 11,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 7,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "Very Very Very",
+        "subtitle": null,
+        "artist": "I.O.I",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 15
+        },
+        "double_difficulties": {
+            "Hard": 15,
+            "Easy": 9,
+            "Medium": 11
+        }
+    },
+    {
+        "title": "ViViD",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Wa Da Da",
+        "subtitle": null,
+        "artist": "Kep1er",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Way Back Home (feat. Conor Maynard)",
+        "subtitle": null,
+        "artist": "SHAUN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "WE GO",
+        "subtitle": null,
+        "artist": "fromis_9",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Wee Woo",
+        "subtitle": null,
+        "artist": "PRISTIN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "What You Waiting For",
+        "subtitle": null,
+        "artist": "SOMI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "WHISPER",
+        "subtitle": null,
+        "artist": "THE BOYZ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 15
+        },
+        "double_difficulties": {
+            "Challenge": 15,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Why Not?",
+        "subtitle": null,
+        "artist": "LOONA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Yey",
+        "subtitle": null,
+        "artist": "Beast",
+        "title_translit": "Yey",
+        "subtitle_translit": null,
+        "artist_translit": "Beast",
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "YOU AND I",
+        "subtitle": null,
+        "artist": "Dreamcatcher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 9,
+            "Medium": 13,
+            "Hard": 17
+        },
+        "double_difficulties": {
+            "Hard": 17,
+            "Easy": 10,
+            "Medium": 14
+        }
+    }
+]

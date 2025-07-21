@@ -1,0 +1,241 @@
+[
+    {
+        "title": "Butterfly",
+        "subtitle": null,
+        "artist": "SMILE.dk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Have You Never Been Mellow",
+        "subtitle": null,
+        "artist": "The Olivia Project",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 5,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "KUNG FU FIGHTING",
+        "subtitle": null,
+        "artist": "BUS STOP ft. CARL DOUGLAS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 3,
+            "Hard": 4,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "LET'S GET DOWN",
+        "subtitle": null,
+        "artist": "JT PLAYAZ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 5,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Little Bitch",
+        "subtitle": null,
+        "artist": "The Specials",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "MAKE IT BETTER",
+        "subtitle": null,
+        "artist": "mitsu-o!",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "MONEY",
+        "subtitle": null,
+        "artist": "RAGGA TWINS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "My Fire (UKS Remix)",
+        "subtitle": null,
+        "artist": "X-Treme",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 5,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "PARANOiA",
+        "subtitle": null,
+        "artist": "180",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "STRICTLY BUSINESS",
+        "subtitle": null,
+        "artist": "MANTRONIK VS EPMD",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6
+        }
+    },
+    {
+        "title": "That's The Way (I Like It)",
+        "subtitle": null,
+        "artist": "KC & The Sunshine Band",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 4,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "TRIP MACHINE",
+        "subtitle": null,
+        "artist": "DE-SIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 7
+        }
+    }
+]

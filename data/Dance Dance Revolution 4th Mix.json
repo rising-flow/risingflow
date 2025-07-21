@@ -1,0 +1,952 @@
+[
+    {
+        "title": ".59",
+        "subtitle": null,
+        "artist": "dj TAKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "1,2,3,4, 007",
+        "subtitle": null,
+        "artist": "NI-NI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "B4U",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "BABY BABY GIMME YOUR LOVE",
+        "subtitle": null,
+        "artist": "DIVAS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "BOYS (EURO MIX)",
+        "subtitle": null,
+        "artist": "SMILE.dk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "BURNIN' THE FLOOR",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "CAN'T STOP FALLIN' IN LOVE",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "CELEBRATE NITE",
+        "subtitle": null,
+        "artist": "N.M.R",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "DAM DARIRAM (KCP MIX)",
+        "subtitle": null,
+        "artist": "JOGA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Don't Stop!～AMD 2nd MIX～",
+        "subtitle": null,
+        "artist": "Dr.VIBE feat. JP Miles",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 3,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "DREAM A DREAM",
+        "subtitle": null,
+        "artist": "CAPTAIN JACK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "DROP OUT",
+        "subtitle": null,
+        "artist": "NW260",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "EAT YOU UP",
+        "subtitle": null,
+        "artist": "ANGIE GOLD",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "era (nostalmix)",
+        "subtitle": null,
+        "artist": "TaQ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "FURUHATA'S THEME",
+        "subtitle": null,
+        "artist": "C.J.Crew feat.Sedge",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Get me in your sight (AMD CANCUN MIX)",
+        "subtitle": null,
+        "artist": "SYMPHONIC DEFOGGERS with 1479",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "GOTCHA (The Theme From STARSKY & HUTCH)",
+        "subtitle": null,
+        "artist": "ANDY G'S MAGIC DISCO MACHINE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HAVE YOU NEVER BEEN MELLOW (MM GROOVIN MIX)",
+        "subtitle": null,
+        "artist": "THE OLIVIA PROJECT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "HERO (HAPPY GRANDALE MIX)",
+        "subtitle": null,
+        "artist": "PAPAYA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HIGHER",
+        "subtitle": null,
+        "artist": "NM feat. SUNNY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Holic",
+        "subtitle": null,
+        "artist": "TaQ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HYPNØTIC CRISIS",
+        "subtitle": null,
+        "artist": "BLUE DESTROYERS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "HYSTERIA",
+        "subtitle": null,
+        "artist": "NAOKI 190",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "IF YOU WERE HERE (B4 ZA BEAT MIX)",
+        "subtitle": null,
+        "artist": "JENNIFER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "IN THE HEAT OF THE NIGHT",
+        "subtitle": null,
+        "artist": "E-ROTIC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "KICK THE CAN",
+        "subtitle": null,
+        "artist": "BUS★STOP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "LEADING CYBER",
+        "subtitle": null,
+        "artist": "dj TAKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Let the beat hit em!",
+        "subtitle": null,
+        "artist": "Stone Bros.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Let's talk it over",
+        "subtitle": null,
+        "artist": "SHIN Murayama feat.Argie Phine",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "LOVE AGAIN TONIGHT～For Melissa MIX～",
+        "subtitle": null,
+        "artist": "NAOKI feat. PAULA TERRY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Make Your Move",
+        "subtitle": null,
+        "artist": "good-cool feat. JP miles",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "MUSIC",
+        "subtitle": null,
+        "artist": "HABEGALE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "MY SUMMER LOVE",
+        "subtitle": null,
+        "artist": "MITSU-O! with GEILA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "NEVER GONNA MAKE (FACTORY DANCE TEAM MIX)",
+        "subtitle": null,
+        "artist": "MORGANA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "never let you down",
+        "subtitle": null,
+        "artist": "good-cool feat. JP miles",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "NIGHT IN MOTION",
+        "subtitle": null,
+        "artist": "CUBIC22",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "ONE TWO (LITTLE BITCH)",
+        "subtitle": null,
+        "artist": "BUS★STOP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ONLY YOU",
+        "subtitle": null,
+        "artist": "CAPTAIN JACK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ORION.78(AMeuro-MIX)",
+        "subtitle": null,
+        "artist": "RE-VENGE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "PARANOIA EVOLUTION",
+        "subtitle": null,
+        "artist": "200",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "PINK DINOSAUR",
+        "subtitle": null,
+        "artist": "PAPAYA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "SAINT GOES MARCHING (REMIX)",
+        "subtitle": null,
+        "artist": "THE SAINT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "SEXY PLANET",
+        "subtitle": null,
+        "artist": "Crystal Aliens",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "SHAKE YOUR BOOTY",
+        "subtitle": null,
+        "artist": "KC & THE SUNSHINE BAND",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "SHOOTING STAR",
+        "subtitle": null,
+        "artist": "BANG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "SUPER STAR",
+        "subtitle": null,
+        "artist": "D.J.RICH feat. TAILBROS.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "THE 7 JUMP",
+        "subtitle": null,
+        "artist": "KEN D",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "TRIP MACHINE CLIMAX",
+        "subtitle": null,
+        "artist": "DE-SIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "WALKIE TALKIE",
+        "subtitle": null,
+        "artist": "KING KONG & D.JUNGLE GIRLS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "WILD RUSH",
+        "subtitle": null,
+        "artist": "FACTOR-X",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Young Forever",
+        "subtitle": null,
+        "artist": "Rebecca",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    }
+]

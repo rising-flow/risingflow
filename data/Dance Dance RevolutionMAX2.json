@@ -1,0 +1,909 @@
+[
+    {
+        "title": "A MINUTE (EXTENDED MIX)",
+        "subtitle": null,
+        "artist": "X-TREME",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "AFRONOVA(FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "RE-VENGE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "AM-3P (AM EAST mix)",
+        "subtitle": null,
+        "artist": "KTz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "B4U(B4 ZA BEAT MIX)",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "BABY LOVE ME",
+        "subtitle": null,
+        "artist": "JUDY CRYSTAL",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "BRE∀K DOWN!",
+        "subtitle": null,
+        "artist": "BeForU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "BRILLIANT 2U(K.O.G G3 MIX)",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "BURNIN' THE FLOOR (BLUE FIRE mix)",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "BURNING HEAT! (3 Option MIX)",
+        "subtitle": null,
+        "artist": "Mr.T with Motoaki. F",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "CANDY♥",
+        "subtitle": null,
+        "artist": "小坂りゆ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "RIYU KOSAKA",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "CELEBRATE NITE(EURO TRANCE STYLE)",
+        "subtitle": null,
+        "artist": "N.M.R",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "D2R",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "DESTINY",
+        "subtitle": null,
+        "artist": "NAOKI feat. PAULA TERRY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "DIVE TO THE NIGHT",
+        "subtitle": null,
+        "artist": "小坂りゆ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "RIYU KOSAKA",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "DRIFTING AWAY",
+        "subtitle": null,
+        "artist": "LANGE feat. SKYE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "DROP OUT(FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "NW260",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "DYNAMITE RAVE (B4 ZA BEAT MIX)",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "ECSTASY (midnight blue mix)",
+        "subtitle": null,
+        "artist": "d-complex",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "ever snow",
+        "subtitle": null,
+        "artist": "ΨΦMA KΦMATSU",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "FANTASY",
+        "subtitle": null,
+        "artist": "LOCKOUT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HIGHER (next morning mix)",
+        "subtitle": null,
+        "artist": "NM feat. SUNNY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "HYSTERIA 2001",
+        "subtitle": null,
+        "artist": "NM",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "i feel...",
+        "subtitle": null,
+        "artist": "AKIRA YAMAOKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "IT'S RAINING MEN (Almighty Mix)",
+        "subtitle": null,
+        "artist": "GERI HALLIWELL",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "革命",
+        "subtitle": null,
+        "artist": "dj TAKA with NAOKI",
+        "title_translit": "KAKUMEI",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "LITTLE BOY(BOY ON BOY MIX)",
+        "subtitle": null,
+        "artist": "CAPTAIN JACK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "LIVING IN AMERICA",
+        "subtitle": null,
+        "artist": "ROSE & JOHN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "LONG TRAIN RUNNIN'",
+        "subtitle": null,
+        "artist": "BUS STOP",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "LOOK AT US (Daddy DJ Remix)",
+        "subtitle": null,
+        "artist": "SARINA PARIS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "祭 JAPAN (FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "RE-VENGE",
+        "title_translit": "MATSURI JAPAN (FROM NONSTOP MEGAMIX)",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 6
+        },
+        "double_difficulties": {
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "MAXIMUM OVERDRIVE (KC Club Mix)",
+        "subtitle": null,
+        "artist": "2 UNLIMITED",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 1,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "MAXX UNLIMITED",
+        "subtitle": null,
+        "artist": "Z",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        }
+    },
+    {
+        "title": "MORE THAN I NEEDED TO KNOW",
+        "subtitle": null,
+        "artist": "SCOOTH",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "MY SUMMER LOVE(TOMMY'S SMILE MIX)",
+        "subtitle": null,
+        "artist": "MITSU-O! with GEILA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "NOTHING GONNA STOP (Dance Mania Mix)",
+        "subtitle": null,
+        "artist": "MICKY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "rain of sorrow",
+        "subtitle": null,
+        "artist": "NM feat. EBONY FAY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Secret Rendez-vous",
+        "subtitle": null,
+        "artist": "DIVAS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "SEXY PLANET(FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "Crystal Aliens",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "Silent Hill (3rd christmas mix)",
+        "subtitle": null,
+        "artist": "THOMAS HOWARD",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "SO FABULOUS SO FIERCE (FREAK OUT)",
+        "subtitle": null,
+        "artist": "THUNDERPUSS feat. JOCELYN ENRIQUEZ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Spin the disc",
+        "subtitle": null,
+        "artist": "good-cool",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "STAY",
+        "subtitle": null,
+        "artist": "TESS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "STILL IN MY HEART (MOMO MIX)",
+        "subtitle": null,
+        "artist": "NAOKI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "SUPER STAR(FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "D.J.RICH feat. TAILBROS.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Sweet Sweet ♥ Magic",
+        "subtitle": null,
+        "artist": "jun",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "THE REFLEX",
+        "subtitle": null,
+        "artist": "DURAN DURAN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "THE WHISTLE SONG (Blow My Whistle Bitch)",
+        "subtitle": null,
+        "artist": "DJ ALIGATOR PROJECT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "THERE YOU'LL BE",
+        "subtitle": null,
+        "artist": "DJ SPEEDO feat.ANGELICA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "TRANCE DE JANEIRO (SAMBA DE JANEIRO 2002 Epic Vocal Remix)",
+        "subtitle": null,
+        "artist": "BELLINI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "TSUGARU",
+        "subtitle": null,
+        "artist": "RevenG vs DE-SIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "TSUGARU (APPLE MIX)",
+        "subtitle": null,
+        "artist": "RevenG vs DE-SIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "WAKA LAKA",
+        "subtitle": null,
+        "artist": "JENNY ROM vs ZIPPERS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "WILD RUSH(FROM NONSTOP MEGAMIX)",
+        "subtitle": null,
+        "artist": "FACTOR-X",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 6
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    }
+]

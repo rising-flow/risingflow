@@ -1,0 +1,5446 @@
+[
+    {
+        "title": "(Hashtag)SELFIE",
+        "subtitle": null,
+        "artist": "The Chainsmokers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "(Hashtag)thatPOWER",
+        "subtitle": null,
+        "artist": "will-i-am ft. Justin Bieber",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "24K Magic",
+        "subtitle": null,
+        "artist": "Bruno Mars",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "A Sky Full Of Stars",
+        "subtitle": null,
+        "artist": "Coldplay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "A Thousand Miles",
+        "subtitle": null,
+        "artist": "Vanessa Carlton",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Adventure Of A Lifetime",
+        "subtitle": null,
+        "artist": "Coldplay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Advice",
+        "subtitle": null,
+        "artist": "Christina Grimmie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Ain't Nobody",
+        "subtitle": "(Loves Me Better)",
+        "artist": "Felix Jaehn feat. Jasmine Thompson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "All About That Bass",
+        "subtitle": null,
+        "artist": "Meghan Trainor",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "All About Us",
+        "subtitle": null,
+        "artist": "Jordan Fisher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "All Of Me",
+        "subtitle": "(Tiesto's Birthday Treatment [Radio Edit])",
+        "artist": "John Legend",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "All Star",
+        "subtitle": null,
+        "artist": "Smash Mouth",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Animals",
+        "subtitle": null,
+        "artist": "Maroon 5",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Are You With Me",
+        "subtitle": null,
+        "artist": "Lost Frequencies",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Army",
+        "subtitle": null,
+        "artist": "Ellie Goulding",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Baby, I'm Jealous (feat. Doja Cat)",
+        "subtitle": null,
+        "artist": "Bebe Rexha",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Back 2 U",
+        "subtitle": null,
+        "artist": "TH3 B3AT CONDUCTOR",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Bad Blood",
+        "subtitle": null,
+        "artist": "Taylor Swift ft. Kendrick Lamar",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Be Patient",
+        "subtitle": null,
+        "artist": "Loverground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Bills",
+        "subtitle": null,
+        "artist": "Lunchmoney Lewis",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 6,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Black Magic",
+        "subtitle": null,
+        "artist": "Little Mix",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Black Skinhead",
+        "subtitle": null,
+        "artist": "Kanye West",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Medium": 8,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Blank Space",
+        "subtitle": null,
+        "artist": "Taylor Swift",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Bloom",
+        "subtitle": null,
+        "artist": "VerseQuence",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Bloom",
+        "subtitle": null,
+        "artist": "ODESZA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Blow Me",
+        "subtitle": "(One Last Kiss)",
+        "artist": "P!nk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Bon appétit (feat. YA-LE)",
+        "subtitle": null,
+        "artist": "Shaun Frank",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Boss Bitch",
+        "subtitle": null,
+        "artist": "Doja Cat",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Boss Mode",
+        "subtitle": null,
+        "artist": "Knife Party",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Break Free",
+        "subtitle": null,
+        "artist": "Arianna Grande ft. Zedd",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Break Your Heart",
+        "subtitle": null,
+        "artist": "Taio Cruz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Brotherswing",
+        "subtitle": null,
+        "artist": "Caravan Palace",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Burn Up The Floor",
+        "subtitle": null,
+        "artist": "TH3 B3AT CONDUCTOR",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Butterfly",
+        "subtitle": null,
+        "artist": "Crazy Town",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "C.H.R.I.S.Y.E.",
+        "subtitle": null,
+        "artist": "Diskoria, Laleilmanino & Eva Celia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9,
+            "Beginner": 2
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Cake By The Ocean",
+        "subtitle": null,
+        "artist": "DNCE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Call Me Maybe",
+        "subtitle": null,
+        "artist": "Carly Rae Jepsen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Can't Deny My Love",
+        "subtitle": null,
+        "artist": "Brandon Flowers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Can't Feel My Face",
+        "subtitle": null,
+        "artist": "The Weeknd",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Can't Stop The Feeling!",
+        "subtitle": null,
+        "artist": "Justin Timberlake",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Carbonara",
+        "subtitle": null,
+        "artist": "Pixel Terror & Spag Heddy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Castle on the Hill",
+        "subtitle": null,
+        "artist": "Ed Sheeran",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Chained To The Rhythm",
+        "subtitle": "(feat. Skip Marley)",
+        "artist": "Katy Perry",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Chained Up",
+        "subtitle": null,
+        "artist": "VIXX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Chains",
+        "subtitle": null,
+        "artist": "Nick Jonas",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Chandelier",
+        "subtitle": null,
+        "artist": "Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 12,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Cheap Thrills",
+        "subtitle": null,
+        "artist": "Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Cheap Thrills",
+        "subtitle": "(feat. Sean Paul)",
+        "artist": "Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Cheerleader",
+        "subtitle": "(Felix Jaehn Mix)",
+        "artist": "Omi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Cherry",
+        "subtitle": null,
+        "artist": "Rina Sawayama",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ching Ching",
+        "subtitle": null,
+        "artist": "Wolfgang Gartner",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Church of Hell",
+        "subtitle": null,
+        "artist": "Dimatik",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ciao Adios",
+        "subtitle": null,
+        "artist": "Anne-Marie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Clarity",
+        "subtitle": null,
+        "artist": "Zedd ft. Foxes",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Clearest Blue",
+        "subtitle": null,
+        "artist": "CHVRCHES",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Closer",
+        "subtitle": null,
+        "artist": "The Chainsmokers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Coconuts",
+        "subtitle": null,
+        "artist": "Kim Petras",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Cocoon",
+        "subtitle": null,
+        "artist": "Catfish & The Bottlemen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Cold Heart (PNAU Remix)",
+        "subtitle": null,
+        "artist": "Elton John & Dua Lipa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Cold Skin",
+        "subtitle": "(MitiS Mix)",
+        "artist": "Seven Lions & Echoes",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Cold War",
+        "subtitle": null,
+        "artist": "Janelle Monae",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Connected",
+        "subtitle": "(Yours Forever)",
+        "artist": "Tetris Effect Sound Team",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Cool For the Summer",
+        "subtitle": null,
+        "artist": "Demi Lovato",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Cool Kids",
+        "subtitle": null,
+        "artist": "Echosmith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Cosmic Love",
+        "subtitle": "(Seven Lions Remix)",
+        "artist": "ODESZA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Could Have Been Me",
+        "subtitle": null,
+        "artist": "The Struts",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Counting Stars",
+        "subtitle": null,
+        "artist": "One Republic",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Cry Baby",
+        "subtitle": null,
+        "artist": "Melanie Martinez",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Cure For Me",
+        "subtitle": null,
+        "artist": "AURORA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Dancing On My Own",
+        "subtitle": "(Tiesto Remix)",
+        "artist": "Calum Scott",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "DED",
+        "subtitle": null,
+        "artist": "Pixxie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Diamonds",
+        "subtitle": null,
+        "artist": "Rihanna",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Dirtygrrrls/Dirtybois",
+        "subtitle": null,
+        "artist": "Faderhead",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Ditmas",
+        "subtitle": null,
+        "artist": "Mumford & Sons",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Do It (feat. Mayer Hawthorne)",
+        "subtitle": null,
+        "artist": "Pitbull",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Domino",
+        "subtitle": null,
+        "artist": "Jessie J",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Don't Be So Hard On Yourself",
+        "subtitle": null,
+        "artist": "Jess Glynne",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Don't Stand So Close To Me '86",
+        "subtitle": null,
+        "artist": "The Police",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Don't Take The Money",
+        "subtitle": null,
+        "artist": "Bleachers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Drag Me Down",
+        "subtitle": null,
+        "artist": "One Direction",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Drop Dead Cynical",
+        "subtitle": null,
+        "artist": "Amaranthe",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Drop That Low",
+        "subtitle": null,
+        "artist": "Bear Grillz & Datsik",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Beginner": 3,
+            "Medium": 10,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Easy Love",
+        "subtitle": null,
+        "artist": "Sigala",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Elastic Heart",
+        "subtitle": null,
+        "artist": "Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Elastic Heart",
+        "subtitle": "[ANOTHER]",
+        "artist": "Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Electric Eye",
+        "subtitle": null,
+        "artist": "As I Lay Dying",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 12,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Emergence",
+        "subtitle": null,
+        "artist": "Yultron & LLLLNNNN",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 6,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Entertain Me",
+        "subtitle": null,
+        "artist": "Ylona Garcia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Challenge": 13,
+            "Easy": 4,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Ex's & Oh's",
+        "subtitle": null,
+        "artist": "Elle King",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Falling Apart",
+        "subtitle": null,
+        "artist": "Pegboard Nerds, Stonebank & EMEL",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "False Alarm",
+        "subtitle": null,
+        "artist": "The Weeknd",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Far Away",
+        "subtitle": null,
+        "artist": "12 Stones",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Fast Car",
+        "subtitle": null,
+        "artist": "Jonas Blue feat. Dakota",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Figure It Out",
+        "subtitle": null,
+        "artist": "Royal Blood",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Challenge": 10,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Find Yourself (Ashworth Remix)",
+        "subtitle": null,
+        "artist": "Great Good Fine Ok & Before You Exit",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Finesse (Remix)",
+        "subtitle": "feat. Cardi B",
+        "artist": "Bruno Mars",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Follow You",
+        "subtitle": null,
+        "artist": "Bring Me The Horizon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Forget You!",
+        "subtitle": null,
+        "artist": "Cee Lo Green",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "FourFiveSeconds",
+        "subtitle": null,
+        "artist": "Rihanna, Kanye West & Paul McCartney",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Freestyler",
+        "subtitle": null,
+        "artist": "Bomfunk MCs",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Friends",
+        "subtitle": null,
+        "artist": "Eliza and The Bear",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Friends (feat. Anne-Marie)",
+        "subtitle": null,
+        "artist": "Marshmello",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 5,
+            "Medium": 9
+        }
+    },
+    {
+        "title": "Future Starts Now",
+        "subtitle": null,
+        "artist": "Kim Petras",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "G.D.F.R",
+        "subtitle": "(Going Down For Real)",
+        "artist": "Flo Rida",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Gay Hands Up (feat. Alaska Thunderfuck & Peppermint)",
+        "subtitle": null,
+        "artist": "Jan",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Gemintang Hatiku",
+        "subtitle": null,
+        "artist": "Tiara Andini",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Hard": 12,
+            "Medium": 7
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Get Lucky",
+        "subtitle": null,
+        "artist": "Daft Punk feat. Pharrell Williams",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Gettin' Jiggy Wit It",
+        "subtitle": null,
+        "artist": "Will Smith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Giants",
+        "subtitle": null,
+        "artist": "Take That",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Gold",
+        "subtitle": null,
+        "artist": "Kiiara",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "golden hour (Fujii Kaze Remix)",
+        "subtitle": null,
+        "artist": "JVKE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 4,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Gone",
+        "subtitle": null,
+        "artist": "Charli XCX & Christine and the Queens",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Good Grief",
+        "subtitle": null,
+        "artist": "Bastille",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Good Ones",
+        "subtitle": null,
+        "artist": "Charli XCX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Good Time",
+        "subtitle": null,
+        "artist": "Owl City feat. Carly Rae Jepsen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Greek Tragedy (Oliver Nelson Remix)",
+        "subtitle": null,
+        "artist": "The Wombats",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 6,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Groove",
+        "subtitle": null,
+        "artist": "Jack & Jack",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Groovejet",
+        "subtitle": "(If This Ain't Love)",
+        "artist": "Spiller ft. Sophie Ellis-Bextor",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Guilty",
+        "subtitle": null,
+        "artist": "Gravity Kills",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Hail To The King",
+        "subtitle": null,
+        "artist": "Avenged Sevenfold",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Hallelujah",
+        "subtitle": null,
+        "artist": "Panic! at the Disco",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "HandClap",
+        "subtitle": null,
+        "artist": "Fitz & The Tantrums",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Happier",
+        "subtitle": null,
+        "artist": "Marshmello ft. Bastille",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Happy",
+        "subtitle": null,
+        "artist": "Pharrell Williams",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Hard Times",
+        "subtitle": null,
+        "artist": "Paramore",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Hater",
+        "subtitle": null,
+        "artist": "Korn",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Heartbeat Song",
+        "subtitle": null,
+        "artist": "Kelly Clarkson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Heartbreak Anthem",
+        "subtitle": null,
+        "artist": "Galantis, David Guetta & Little Mix",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Heat",
+        "subtitle": null,
+        "artist": "TH3 B3AT CONDUCTOR",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Heathens",
+        "subtitle": null,
+        "artist": "Twenty One Pilots",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Helena Beat",
+        "subtitle": null,
+        "artist": "Foster The People",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Hello",
+        "subtitle": null,
+        "artist": "Adele",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Hey Brother",
+        "subtitle": null,
+        "artist": "Avicii",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Hold Back The River",
+        "subtitle": null,
+        "artist": "James Bay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Hold My Hand",
+        "subtitle": null,
+        "artist": "Jess Glynne",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Hold My Hand",
+        "subtitle": null,
+        "artist": "Jess Glynne",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Holdin' On (Skrillex & Nero Remix)",
+        "subtitle": null,
+        "artist": "Monsta",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 7,
+            "Beginner": 4,
+            "Medium": 9,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Holiday",
+        "subtitle": null,
+        "artist": "Little Mix",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Honey, I'm Good",
+        "subtitle": null,
+        "artist": "Andy Grammer",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Hot n Cold",
+        "subtitle": null,
+        "artist": "Katy Perry",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Hotline Bling",
+        "subtitle": null,
+        "artist": "Drake",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "How Deep Is Your Love",
+        "subtitle": null,
+        "artist": "Calvin Harris & Disciples",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Human",
+        "subtitle": null,
+        "artist": "Rag'n'Bone Man",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Human",
+        "subtitle": null,
+        "artist": "The Killers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Hymn For The Weekend",
+        "subtitle": null,
+        "artist": "Coldplay feat. Beyonce",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "I Am Machine",
+        "subtitle": null,
+        "artist": "Three Days Grace",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "I Bet My Life",
+        "subtitle": null,
+        "artist": "Imagine Dragons",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "I Don't Like It, I Love It",
+        "subtitle": null,
+        "artist": "Flo Rida feat. Robin Thicke & Verdine White",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "I Don't Want It At All",
+        "subtitle": null,
+        "artist": "Kim Petras",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "I Feel It Coming",
+        "subtitle": null,
+        "artist": "The Weeknd feat. Daft Punk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "I Love It",
+        "subtitle": null,
+        "artist": "Icona Pop feat. Charli XCX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "I Really Like You",
+        "subtitle": null,
+        "artist": "Carly Rae Jepsen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "I Took A Pill In Ibiza",
+        "subtitle": "(SeeB Mix)",
+        "artist": "Mike Posner",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "I Wanna Get Better",
+        "subtitle": null,
+        "artist": "Bleachers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "I Wish",
+        "subtitle": null,
+        "artist": "Cher Lloyd feat. T.I.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "If I Were A Boy",
+        "subtitle": null,
+        "artist": "Beyonce",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "If We Ever Meet Again",
+        "subtitle": null,
+        "artist": "Timbaland with Katy Perry",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Immortals",
+        "subtitle": null,
+        "artist": "Fall Out Boy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "In The Pit",
+        "subtitle": "(ft. Terror Bass)",
+        "artist": "Lil Jon & Skellism",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "IXO",
+        "subtitle": null,
+        "artist": "Billkin",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Jealous",
+        "subtitle": null,
+        "artist": "Nick Jonas",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 5,
+            "Challenge": 8,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Juicy Wiggle",
+        "subtitle": null,
+        "artist": "Redfoo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Karyawisata",
+        "subtitle": null,
+        "artist": "Vesuvia X REDSHiFT",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 12,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Keeping Your Head Up",
+        "subtitle": "(Don Diablo Remix)",
+        "artist": "Birdy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "King",
+        "subtitle": null,
+        "artist": "Years & Years",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Kiss",
+        "subtitle": null,
+        "artist": "Prince and The Revolutions",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Latino Virus",
+        "subtitle": null,
+        "artist": "Warak",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Lay It Down",
+        "subtitle": null,
+        "artist": "Aazar",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Lazarus",
+        "subtitle": null,
+        "artist": "David Bowie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Lean On",
+        "subtitle": null,
+        "artist": "Major Lazer",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Leave A Trace",
+        "subtitle": null,
+        "artist": "CHVRCHES",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Level Up",
+        "subtitle": null,
+        "artist": "Ciara",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 9,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Lift Me From The Ground",
+        "subtitle": null,
+        "artist": "Han Solo feat. Sofie Winterson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Light Up The Night",
+        "subtitle": null,
+        "artist": "The Protomen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Location Unknown",
+        "subtitle": null,
+        "artist": "HONNE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Locked Away",
+        "subtitle": null,
+        "artist": "R.City feat. Adam Levine",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Lone Digger",
+        "subtitle": null,
+        "artist": "Caravan Palace",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Lonely Together (feat. Rita Ora)",
+        "subtitle": null,
+        "artist": "Avicii",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 4,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Long Time",
+        "subtitle": null,
+        "artist": "Blondie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Lost Boys",
+        "subtitle": null,
+        "artist": "Graves & Maazel",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Love Me",
+        "subtitle": null,
+        "artist": "The 1975",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Love Me Like You Do",
+        "subtitle": null,
+        "artist": "Ellie Goulding",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Marvin Gaye",
+        "subtitle": null,
+        "artist": "Charlie Puth feat. Meghan Trainor",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "ME!",
+        "subtitle": null,
+        "artist": "Taylor Swift & Brendon Urie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "ME! (feat. Brendon Urie of Panic! At the Disco)",
+        "subtitle": null,
+        "artist": "Taylor Swift",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Melt",
+        "subtitle": null,
+        "artist": "Kisskazz & XOXOCITY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 9,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Men In Black",
+        "subtitle": null,
+        "artist": "Will Smith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Miami",
+        "subtitle": null,
+        "artist": "Will Smith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Misery",
+        "subtitle": null,
+        "artist": "Maroon5",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Hard": 10,
+            "Medium": 8
+        }
+    },
+    {
+        "title": "Moves Like Jagger",
+        "subtitle": null,
+        "artist": "Maroon 5 feat. Christina Aguilera",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "My Head & My Heart",
+        "subtitle": null,
+        "artist": "Ava Max",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "My Love Heavy on the Cost",
+        "subtitle": null,
+        "artist": "Project Pop",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Never Stop",
+        "subtitle": null,
+        "artist": "FM-84 feat.Ollie Wride",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "New Day, New Way",
+        "subtitle": "Theme of The New Day",
+        "artist": "Jim Johnston",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "No More Secrets",
+        "subtitle": null,
+        "artist": "Han Solo & Marshmello",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "No Room In Frame",
+        "subtitle": null,
+        "artist": "Death Cab For Cutie",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Nobody Speak",
+        "subtitle": null,
+        "artist": "DJ Shadow feat. Run The Jewels",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Novocaine",
+        "subtitle": null,
+        "artist": "Valentino Khan & Kayzo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 4,
+            "Medium": 10,
+            "Hard": 15
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Oblivion",
+        "subtitle": null,
+        "artist": "Grimes",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Odds Are",
+        "subtitle": null,
+        "artist": "Barenaked Ladies",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 5,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "On My Mind",
+        "subtitle": null,
+        "artist": "Ellie Goulding",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "On The Ground",
+        "subtitle": null,
+        "artist": "ROSÉ",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Paris",
+        "subtitle": null,
+        "artist": "The Chainsmokers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Peanut Butter Jelly",
+        "subtitle": null,
+        "artist": "Galantis",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Pedestrian At Best",
+        "subtitle": null,
+        "artist": "Courtney Barnett",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Perfect",
+        "subtitle": null,
+        "artist": "One Direction",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Photograph",
+        "subtitle": null,
+        "artist": "Ed Sheeran",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "Physical",
+        "subtitle": null,
+        "artist": "Dua Lipa",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Prayer",
+        "subtitle": null,
+        "artist": "Disturbed",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Problem",
+        "subtitle": "(feat. Iggy Azalea)",
+        "artist": "Ariana Grande",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Rain On Me",
+        "subtitle": null,
+        "artist": "Lady Gaga & Ariana Grande",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Raise Your Glass",
+        "subtitle": null,
+        "artist": "P!nk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Rather Be",
+        "subtitle": null,
+        "artist": "Clean Bandit ft. Jess Glynne",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Reality",
+        "subtitle": null,
+        "artist": "Lost Frequencies feat. Janieck Devy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Remember The Name",
+        "subtitle": null,
+        "artist": "Fort Minor",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Roar",
+        "subtitle": null,
+        "artist": "Katy Perry",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Royals",
+        "subtitle": null,
+        "artist": "Lorde",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Rude",
+        "subtitle": null,
+        "artist": "MAGIC!",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Run Away With Me",
+        "subtitle": null,
+        "artist": "Carly Rae Jepsen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Safe and Sound",
+        "subtitle": null,
+        "artist": "Capital Cities",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Saturnz Barz",
+        "subtitle": "(feat. Popcaan)",
+        "artist": "Gorillaz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Say You Don't Want It",
+        "subtitle": null,
+        "artist": "One Night Only",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Say You'll Be There (Single Mix)",
+        "subtitle": null,
+        "artist": "Spice Girls",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "See You Again",
+        "subtitle": null,
+        "artist": "Wiz Khalifa ft. Charlie Puth",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Challenge": 7,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "SG",
+        "subtitle": null,
+        "artist": "DJ Snake, Ozuna, Megan Thee Stallion & LISA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Shake It Off",
+        "subtitle": null,
+        "artist": "Taylor Swift",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "She's Kerosene",
+        "subtitle": null,
+        "artist": "The Interruptors",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Shinigami Eyes",
+        "subtitle": null,
+        "artist": "Grimes",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 11
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Ship To Wreck",
+        "subtitle": null,
+        "artist": "Florence & The Machine",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Short Skirt / Long Jacket",
+        "subtitle": null,
+        "artist": "Cake",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Shots",
+        "subtitle": null,
+        "artist": "Imagine Dragons",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Shout Out To My Ex",
+        "subtitle": null,
+        "artist": "Little Mix",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Show Me",
+        "subtitle": null,
+        "artist": "Kid Ink feat. Chris Brown",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Shut Up and Dance",
+        "subtitle": null,
+        "artist": "Walk The Moon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Sing It Back",
+        "subtitle": "(Boris Musical Mix)",
+        "artist": "Moloko",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Somebody Told Me",
+        "subtitle": null,
+        "artist": "The Killers",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Something Just Like This",
+        "subtitle": null,
+        "artist": "The Chainsmokers & Coldplay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Sorry",
+        "subtitle": null,
+        "artist": "Justin Bieber",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Spring of Everything",
+        "subtitle": "(Remixed by JAKAZiD)",
+        "artist": "Perfume VS Everyone",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Starboy",
+        "subtitle": null,
+        "artist": "The Weeknd feat. Daft Punk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Starstruck",
+        "subtitle": null,
+        "artist": "Years & Years",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 3,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Still Breathing",
+        "subtitle": null,
+        "artist": "Green Day",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Still Into You",
+        "subtitle": null,
+        "artist": "Paramore",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Stitches",
+        "subtitle": null,
+        "artist": "Shawn Mendes",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Stronger",
+        "subtitle": "(What Doesn't Kill You)",
+        "artist": "Kelly Clarkson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Style",
+        "subtitle": null,
+        "artist": "Taylor Swift",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "Sugar",
+        "subtitle": null,
+        "artist": "Maroon 5",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "Sugar Song and Bitter Step",
+        "subtitle": null,
+        "artist": "Unison Square Garden",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 12,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Sugar, You",
+        "subtitle": null,
+        "artist": "Oh, Honey!",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Summer Feelings (feat. Charlie Puth)",
+        "subtitle": null,
+        "artist": "Lennon Stella",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Summertime Sadness",
+        "subtitle": "(Cedric Gervais Mix)",
+        "artist": "Lana Del Rey vs Cedric Gervais",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Sweet Lovin'",
+        "subtitle": null,
+        "artist": "Sigala",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Switch",
+        "subtitle": null,
+        "artist": "Will Smith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Symphony",
+        "subtitle": null,
+        "artist": "Clean Bandit feat. Zara Larsson",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Talk Dirty",
+        "subtitle": null,
+        "artist": "Jason Derulo feat. 2 Chainz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "That's What I Like",
+        "subtitle": null,
+        "artist": "Flo Rida feat. Fitz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "The Downfall Of Us All",
+        "subtitle": null,
+        "artist": "A Day To Remember",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 10,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "The Greatest",
+        "subtitle": null,
+        "artist": "Sia ft. Kendrick Lamar",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "The Hills",
+        "subtitle": null,
+        "artist": "The Weeknd",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "The Look",
+        "subtitle": null,
+        "artist": "Roxette",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "The Motto",
+        "subtitle": null,
+        "artist": "Tiësto & Ava Max",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Nights",
+        "subtitle": null,
+        "artist": "Avicii",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "The Other Side",
+        "subtitle": null,
+        "artist": "SZA & Justin Timberlake",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Rising Sun",
+        "subtitle": "Theme of Shinsuke Nakamura",
+        "artist": "CF0$",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 13,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "The Second Coming",
+        "subtitle": "Theme of Seth Rollins",
+        "artist": "CF0$",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 12,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "The Sound",
+        "subtitle": null,
+        "artist": "The 1975",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "The Weekend",
+        "subtitle": null,
+        "artist": "Michael Gray",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Weekend (MILLI Remix)",
+        "subtitle": null,
+        "artist": "88rising & BIBI",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "The Wolf",
+        "subtitle": null,
+        "artist": "Mumford & Sons",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Challenge": 9,
+            "Hard": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "There She Goes",
+        "subtitle": null,
+        "artist": "Vine",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "These Days",
+        "subtitle": null,
+        "artist": "Take That",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Thinking Out Loud",
+        "subtitle": null,
+        "artist": "Ed Sheeran",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 6,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "This Is What You Came For",
+        "subtitle": null,
+        "artist": "Calvin Harris feat. Rihanna",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Throne",
+        "subtitle": null,
+        "artist": "Bring Me The Horizon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 12,
+            "Medium": 7,
+            "Easy": 5,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "Tik Tok",
+        "subtitle": null,
+        "artist": "Ke$ha",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Titanium",
+        "subtitle": null,
+        "artist": "David Guetta feat. Sia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Top Of The World (feat. Dev)",
+        "subtitle": null,
+        "artist": "The Cataracs",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Touch Me (All Night Long) [7\" Mix]",
+        "subtitle": null,
+        "artist": "Cathy Dennis",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Touch Off",
+        "subtitle": "~The Promised Neverland OP~",
+        "artist": "Uverworld",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 7,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Trap Queen",
+        "subtitle": null,
+        "artist": "Fetty Wap",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Treasure",
+        "subtitle": null,
+        "artist": "Bruno Mars",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "True",
+        "subtitle": "(NickB's Wicked Turmoil Mix)",
+        "artist": "SGX ft. Sekhret Hush remixed by NickB",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Turn Down For What?",
+        "subtitle": null,
+        "artist": "DJ Snake & Lil Jon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Ugly Boy",
+        "subtitle": null,
+        "artist": "Die Antwoord",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Uma Thurman",
+        "subtitle": null,
+        "artist": "Fall Out Boy",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2,
+            "Hard": 9,
+            "Challenge": 10
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Umbrella Beach",
+        "subtitle": null,
+        "artist": "Owl City",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 12
+        }
+    },
+    {
+        "title": "Unfinished Sympathy",
+        "subtitle": null,
+        "artist": "Massive Attack",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Up&Up",
+        "subtitle": "(Freedo Remix)",
+        "artist": "Coldplay",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 8,
+            "Hard": 6,
+            "Medium": 3,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Uptown Funk!",
+        "subtitle": null,
+        "artist": "Mark Ronson feat. Bruno Mars",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Verge (feat. Aloe Blacc)",
+        "subtitle": null,
+        "artist": "Owl City",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Challenge": 13,
+            "Hard": 11,
+            "Easy": 4,
+            "Medium": 7
+        }
+    },
+    {
+        "title": "Wake Me Up",
+        "subtitle": null,
+        "artist": "Avicii",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Wall Of Glass",
+        "subtitle": null,
+        "artist": "Liam Gallagher",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Want To Want Me",
+        "subtitle": null,
+        "artist": "Jason Derulo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Watch Me",
+        "subtitle": null,
+        "artist": "Silento",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "We Are Done",
+        "subtitle": null,
+        "artist": "Joshua Simon",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Beginner": 2,
+            "Medium": 8,
+            "Hard": 12
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "What About Us",
+        "subtitle": null,
+        "artist": "P!nk",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "What Are We Waiting For?",
+        "subtitle": null,
+        "artist": "Ally Brooke & Afrojack",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 5,
+            "Beginner": 2,
+            "Medium": 7,
+            "Hard": 13
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "What Do You Mean?",
+        "subtitle": null,
+        "artist": "Justin Bieber",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "What Do You Mean?",
+        "subtitle": "(Live @ BBC Radio 1)",
+        "artist": "CHVRCHES",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 10,
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "What Went Down",
+        "subtitle": null,
+        "artist": "Foals",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Challenge": 13,
+            "Medium": 8,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 10
+        }
+    },
+    {
+        "title": "When You Go",
+        "subtitle": null,
+        "artist": "Avec Sans",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "WHISTLE",
+        "subtitle": null,
+        "artist": "BLACKPINK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 14,
+            "Medium": 6,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "Why You Always Lying?",
+        "subtitle": null,
+        "artist": "Fraser",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Wild Wild West",
+        "subtitle": null,
+        "artist": "Will Smith",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Wildest Dreams",
+        "subtitle": null,
+        "artist": "Taylor Swift",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Wilt",
+        "subtitle": null,
+        "artist": "VerseQuence",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "Without You (feat. Sandro Cavazza)",
+        "subtitle": null,
+        "artist": "Avicii",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 10,
+            "Hard": 13
+        },
+        "double_difficulties": {
+            "Hard": 12,
+            "Easy": 6,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Work",
+        "subtitle": null,
+        "artist": "Rihanna feat. Drake",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Work From Home",
+        "subtitle": null,
+        "artist": "Fifth Harmony",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Challenge": 8,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Worth It",
+        "subtitle": null,
+        "artist": "Fifth Harmony (feat. Kid Ink)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 7,
+            "Challenge": 9,
+            "Medium": 4,
+            "Easy": 2,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "You?",
+        "subtitle": null,
+        "artist": "Ink Waruntorn",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {}
+    },
+    {
+        "title": "You Don't Know Me",
+        "subtitle": null,
+        "artist": "Jax Jones feat. RAYE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "You Get What You Give",
+        "subtitle": null,
+        "artist": "New Radicals",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 1
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "You Know We Can't Go Back",
+        "subtitle": null,
+        "artist": "Noel Gallagher's High Flying Birds",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "You're All I Have",
+        "subtitle": null,
+        "artist": "Snow Patrol",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Medium": 5,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Young, Wild & Free",
+        "subtitle": null,
+        "artist": "B.A.P",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 8,
+            "Challenge": 11,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Your Love Is My Drug",
+        "subtitle": null,
+        "artist": "Ke$ha",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Challenge": 9,
+            "Hard": 7,
+            "Medium": 4,
+            "Easy": 3,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Zombie",
+        "subtitle": null,
+        "artist": "PURPLE KISS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Beginner": 1,
+            "Medium": 7,
+            "Hard": 14
+        },
+        "double_difficulties": {}
+    }
+]

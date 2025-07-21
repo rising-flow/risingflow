@@ -1,0 +1,1899 @@
+[
+    {
+        "title": "888",
+        "subtitle": null,
+        "artist": "DJ TECHNORCH",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 9,
+            "Hard": 9,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "A Brighter Day",
+        "subtitle": null,
+        "artist": "NAOKI feat. Aleisha G",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "aftershock!!",
+        "subtitle": null,
+        "artist": "DM Ashura",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "All My Love",
+        "subtitle": null,
+        "artist": "kors k feat. ЯIRE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Anti-Matter",
+        "subtitle": null,
+        "artist": "Orbit1 & Milo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 12,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "BALLAD THE FEATHERS",
+        "subtitle": null,
+        "artist": "SHIN SOUND DESIGN feat.Naomi Koizumi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "羽之谣",
+        "subtitle": null,
+        "artist": "SHIN SOUND DESIGN feat.罗斓",
+        "title_translit": "BALLAD THE FEATHERS",
+        "subtitle_translit": null,
+        "artist_translit": "SHIN SOUND DESIGN feat.Luo Lan",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "Be your wings",
+        "subtitle": null,
+        "artist": "GIRL NEXT DOOR",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Bonafied Lovin'",
+        "subtitle": null,
+        "artist": "Chromeo",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "CAPTAIN JACK (GRANDALE REMIX)",
+        "subtitle": null,
+        "artist": "CAPTAIN JACK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "CG Project",
+        "subtitle": null,
+        "artist": "Latenighters",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Crazy Control",
+        "subtitle": null,
+        "artist": "D-crew with VAL TIATIA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "DAFT PUNK IS PLAYING AT MY HOUSE",
+        "subtitle": null,
+        "artist": "LCD Soundsystem",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "DAM DARIRAM",
+        "subtitle": null,
+        "artist": "JOGA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 3
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 4
+        }
+    },
+    {
+        "title": "Dazzlin' Darlin",
+        "subtitle": null,
+        "artist": "HHH",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Dazzlin' Darlin-秋葉工房mix-",
+        "subtitle": null,
+        "artist": "Remixed by DJ Command",
+        "title_translit": "Dazzlin' Darlin-AKBKmix-",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Decade",
+        "subtitle": null,
+        "artist": "kors k Vs. dj TAKA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ΔMAX",
+        "subtitle": null,
+        "artist": "DM Ashura",
+        "title_translit": "deltaMAX",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "dirty digital",
+        "subtitle": null,
+        "artist": "kors k",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "DROP",
+        "subtitle": null,
+        "artist": "dj TAKA feat.Kanako Hoshino",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Dummy",
+        "subtitle": null,
+        "artist": "RAM",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "ETERNITY",
+        "subtitle": null,
+        "artist": "ALEKY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Everytime We Touch",
+        "subtitle": null,
+        "artist": "Cascada",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "EZ DO DANCE",
+        "subtitle": null,
+        "artist": "TRF",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Feel Good Inc.",
+        "subtitle": null,
+        "artist": "Gorillaz",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "FIRE FIRE",
+        "subtitle": null,
+        "artist": "StripE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Freeze",
+        "subtitle": null,
+        "artist": "nc ft. NRG Factory",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "going up",
+        "subtitle": null,
+        "artist": "colors",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 8,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "going up (Chinese)",
+        "subtitle": null,
+        "artist": "色彩乃夢",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Shikisai no yume",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 8,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "GOLD RUSH",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA-G feat.Michael a la Mode",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "GOLD RUSH (AC)",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA-G feat.Michael a la Mode",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "GOLD RUSH (CS)",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA-G feat.Michael a la Mode",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "Gotta Dance",
+        "subtitle": null,
+        "artist": "NAOKI feat. Aleisha G",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Heatstroke",
+        "subtitle": null,
+        "artist": "TAG feat. Angie Lee",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "HERO",
+        "subtitle": null,
+        "artist": "PAPAYA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "Hide-away",
+        "subtitle": null,
+        "artist": "AAA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "I'm so Happy",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "ICE ICE BABY",
+        "subtitle": null,
+        "artist": "VANILLA ICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 3
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5,
+            "Challenge": 3
+        }
+    },
+    {
+        "title": "IF YOU WERE HERE",
+        "subtitle": null,
+        "artist": "JENNIFER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 4
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 7,
+            "Challenge": 6
+        }
+    },
+    {
+        "title": "IF YOU WERE HERE(L.E.D.-G STYLE REMIX)",
+        "subtitle": null,
+        "artist": "JENNIFER",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "不帅之歌(DDR VERSION)",
+        "subtitle": null,
+        "artist": "王砾鹏",
+        "title_translit": "Bu Shuai Zhi Ge",
+        "subtitle_translit": null,
+        "artist_translit": "Wang Li Peng",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "in love wit you",
+        "subtitle": null,
+        "artist": "Kotaro feat. Aya",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "KIMONO♥PRINCESS",
+        "subtitle": null,
+        "artist": "jun",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 9,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "KISS KISS KISS 秋葉工房 MIX",
+        "subtitle": null,
+        "artist": "Remixed by DJ Command",
+        "title_translit": "KISS KISS KISS AKBK MIX",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "La libertad",
+        "subtitle": null,
+        "artist": "Cheryl Horrocks",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "La receta",
+        "subtitle": null,
+        "artist": "Carlos Coco Garcia",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Leaving...",
+        "subtitle": null,
+        "artist": "seiya-murai meets “eimy”",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Leaving...",
+        "subtitle": null,
+        "artist": "seiya-murai",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Love Again",
+        "subtitle": null,
+        "artist": "NM feat. Mr. E.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 4,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "MAX LOVE",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA feat. 星野奏子",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "DJ YOSHITAKA feat. Kanako Hoshino",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "功夫LOVE",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA feat. 張瑶",
+        "title_translit": "Kung Fu LOVE",
+        "subtitle_translit": null,
+        "artist_translit": "DJ YOSHITAKA feat. Zhang Yao",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "冥",
+        "subtitle": null,
+        "artist": "Amuro vs Killer",
+        "title_translit": "Mei",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "Melody Life",
+        "subtitle": null,
+        "artist": "Noria",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "Melody Life",
+        "subtitle": null,
+        "artist": "張馨予",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Zhang Xin Yu",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "more more more",
+        "subtitle": null,
+        "artist": "capsule",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 2,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "New Decade",
+        "subtitle": null,
+        "artist": "Sota F.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "虹色",
+        "subtitle": null,
+        "artist": "DJ YOSHITAKA feat.罗斓",
+        "title_translit": "NIJIIRO",
+        "subtitle_translit": null,
+        "artist_translit": "DJ YOSHITAKA feat.Luo Lan",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "oarfish",
+        "subtitle": null,
+        "artist": "kors k",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 1,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 1,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "only my railgun",
+        "subtitle": null,
+        "artist": "fripSide",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9,
+            "Challenge": 5
+        }
+    },
+    {
+        "title": "Pierce The Sky",
+        "subtitle": null,
+        "artist": "JAKAZiD feat. K.N.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Pluto The First",
+        "subtitle": null,
+        "artist": "WHITE WALL",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 10,
+            "Hard": 13,
+            "Challenge": 13
+        }
+    },
+    {
+        "title": "Poseidon(kors k mix)",
+        "subtitle": null,
+        "artist": "NAOKI underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "POSSESSION",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 5,
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 13
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 9,
+            "Hard": 12,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "real-high-SPEED",
+        "subtitle": null,
+        "artist": "Makoto feat. SK",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "resonance",
+        "subtitle": null,
+        "artist": "NAOKI-EX",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "roppongi EVOLVED ver. A",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "roppongi EVOLVED ver. B",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "roppongi EVOLVED ver. C",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "roppongi EVOLVED ver. D",
+        "subtitle": null,
+        "artist": "TAG underground",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "Sacred Oath",
+        "subtitle": null,
+        "artist": "TЁЯRA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "sakura storm",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Sakura Sunrise",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Second Heaven",
+        "subtitle": null,
+        "artist": "Ryu☆",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "She is my wife",
+        "subtitle": null,
+        "artist": "SUPER STAR 満-MITSURU-",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Shine",
+        "subtitle": null,
+        "artist": "TOMOSUKE feat. Adreana",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6,
+            "Challenge": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6,
+            "Challenge": 8
+        }
+    },
+    {
+        "title": "☆shining☆",
+        "subtitle": null,
+        "artist": "ピンクターボ",
+        "title_translit": "shining",
+        "subtitle_translit": null,
+        "artist_translit": "Pink Turbo",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Shiny World",
+        "subtitle": null,
+        "artist": "CAPACITY GATE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 9,
+            "Challenge": 11
+        }
+    },
+    {
+        "title": "Sky Is The Limit",
+        "subtitle": null,
+        "artist": "Sota F. feat. Anna",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "smooooch・∀・",
+        "subtitle": null,
+        "artist": "kors k",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "someday...",
+        "subtitle": null,
+        "artist": "杏野はるな",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Haruna Anno",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Super Driver",
+        "subtitle": null,
+        "artist": "平野綾",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Aya Hirano",
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "SUPER EUROBEAT <GOLD MIX>",
+        "subtitle": null,
+        "artist": "DAVE RODGERS feat. FUTURA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Taking It To The Sky",
+        "subtitle": null,
+        "artist": "U1 feat. Tammy S. Hansen",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 2,
+            "Medium": 3,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "TENSHI",
+        "subtitle": null,
+        "artist": "GOURYELLA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "Theory of Eternity",
+        "subtitle": null,
+        "artist": "TAG",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8,
+            "Challenge": 7
+        }
+    },
+    {
+        "title": "THIS NIGHT",
+        "subtitle": null,
+        "artist": "jun feat. Sonnet",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Time After Time",
+        "subtitle": null,
+        "artist": "Novaspace",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Valkyrie dimension",
+        "subtitle": null,
+        "artist": "Spriggan",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 6,
+            "Easy": 9,
+            "Medium": 10,
+            "Hard": 13,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Easy": 9,
+            "Medium": 9,
+            "Hard": 13,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "VANESSA",
+        "subtitle": null,
+        "artist": "朱雀",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "Suzaku",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 11
+        },
+        "double_difficulties": {
+            "Easy": 5,
+            "Medium": 8,
+            "Hard": 11
+        }
+    },
+    {
+        "title": "WH1TE RO5E",
+        "subtitle": null,
+        "artist": "Y&Co.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "What Will Come of Me",
+        "subtitle": null,
+        "artist": "Black Rose Garden",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "不沈艦CANDY",
+        "subtitle": null,
+        "artist": "Risk Junk",
+        "title_translit": "YELLOW CANDY",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 9
+        }
+    },
+    {
+        "title": "You are a Star",
+        "subtitle": null,
+        "artist": "NAOKI feat. Anna Kaelin",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "Your Angel",
+        "subtitle": null,
+        "artist": "DM Ashura feat. kors k",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "ZETA～素数の世界と超越者～",
+        "subtitle": null,
+        "artist": "Zektbach",
+        "title_translit": "ZETA ~The World of Prime Numbers and the Transcendental Being~",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 4,
+            "Medium": 7,
+            "Hard": 10,
+            "Challenge": 12
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 9,
+            "Challenge": 12
+        }
+    }
+]

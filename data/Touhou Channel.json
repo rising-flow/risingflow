@@ -1,0 +1,21 @@
+[
+    {
+        "title": "セイクリッド・ルイン",
+        "subtitle": null,
+        "artist": "Drop＆祇羽 feat. 葉月ゆら",
+        "title_translit": "Sacred Ruin",
+        "subtitle_translit": "Drop & Gionha feat. Yura Hatsuki",
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 16
+        },
+        "double_difficulties": {
+            "Hard": 16,
+            "Easy": 8,
+            "Medium": 13
+        }
+    }
+]

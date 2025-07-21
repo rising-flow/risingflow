@@ -1,0 +1,135 @@
+[
+    {
+        "title": "アンダンテ",
+        "subtitle": null,
+        "artist": "Dixie Flatline",
+        "title_translit": "andante",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 9
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ダンガンノーツ",
+        "subtitle": null,
+        "artist": "cosMo@BousouP",
+        "title_translit": "Dangan Notes",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 4,
+            "Easy": 8,
+            "Medium": 12,
+            "Hard": 14,
+            "Challenge": 17
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Challenge": 17,
+            "Easy": 9,
+            "Medium": 12
+        }
+    },
+    {
+        "title": "ヒビカセ",
+        "subtitle": null,
+        "artist": "Giga-P feat. REOL",
+        "title_translit": "Hibikase",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 12,
+            "Challenge": 14
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 8,
+            "Hard": 12,
+            "Challenge": 14
+        }
+    },
+    {
+        "title": "No title (Prod. GIGA)",
+        "subtitle": null,
+        "artist": "REOL",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 6,
+            "Medium": 10,
+            "Hard": 14
+        },
+        "double_difficulties": {
+            "Hard": 14,
+            "Easy": 6,
+            "Medium": 10
+        }
+    },
+    {
+        "title": "Rolling Girl",
+        "subtitle": null,
+        "artist": "wowaka ft.Hatsune Miku",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 9,
+            "Medium": 6,
+            "Easy": 4,
+            "Beginner": 2
+        },
+        "double_difficulties": {
+            "Challenge": 9
+        }
+    },
+    {
+        "title": "The Disappearance of Hatsune Miku",
+        "subtitle": null,
+        "artist": "cosMo@bousouP ft. Hatsune Miku",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 10,
+            "Challenge": 15,
+            "Medium": 8,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 15
+        }
+    },
+    {
+        "title": "Unhappy Refrain",
+        "subtitle": null,
+        "artist": "wowaka ft.Hatsune Miku",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Hard": 12,
+            "Challenge": 14,
+            "Medium": 9,
+            "Easy": 5,
+            "Beginner": 3
+        },
+        "double_difficulties": {
+            "Challenge": 14
+        }
+    }
+]

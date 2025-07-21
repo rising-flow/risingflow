@@ -1,0 +1,499 @@
+[
+    {
+        "title": "AFTER THE GAME OF LOVE",
+        "subtitle": null,
+        "artist": "NPD3",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 1,
+            "Easy": 1,
+            "Medium": 4,
+            "Hard": 5
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 5
+        }
+    },
+    {
+        "title": "아름다운21c",
+        "subtitle": null,
+        "artist": "2000 대한민국",
+        "title_translit": "AROMDAON 21C",
+        "subtitle_translit": null,
+        "artist_translit": "2000 korea",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "바꿔",
+        "subtitle": null,
+        "artist": "이정현",
+        "title_translit": "BA KKWO",
+        "subtitle_translit": null,
+        "artist_translit": "LEE JUNG HYUN",
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8,
+            "Beginner": 1
+        }
+    },
+    {
+        "title": "부담",
+        "subtitle": null,
+        "artist": "백지영",
+        "title_translit": "BU DAM",
+        "subtitle_translit": null,
+        "artist_translit": "BACK JI YOUNG",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "BUMBLE BEE",
+        "subtitle": null,
+        "artist": "bambee",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "별",
+        "subtitle": null,
+        "artist": "TEAM",
+        "title_translit": "BYUL",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 1,
+            "Medium": 3,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 1,
+            "Medium": 4,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "CUTIE CHASER",
+        "subtitle": null,
+        "artist": "CLUB SPICE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "DROP THE BOMB",
+        "subtitle": null,
+        "artist": "Scotty D.",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "FACE",
+        "subtitle": null,
+        "artist": "N.R.G",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "가까이",
+        "subtitle": null,
+        "artist": "(s#arp)",
+        "title_translit": "GAGAAI",
+        "subtitle_translit": null,
+        "artist_translit": "sharp",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "가면의 시간",
+        "subtitle": null,
+        "artist": "FIN.K.L",
+        "title_translit": "GAMYEONUI SIGAN",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "GIMME GIMME",
+        "subtitle": null,
+        "artist": "컨츄리꼬꼬",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": "country kko kko",
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "GIMME GIMME GIMME",
+        "subtitle": null,
+        "artist": "E-ROTIC",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "경고",
+        "subtitle": null,
+        "artist": "타샤니",
+        "title_translit": "GYOUNG GO",
+        "subtitle_translit": null,
+        "artist_translit": "TASHANNIE",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "HERO (KCP DISCOTIQUE MIX)",
+        "subtitle": null,
+        "artist": "PAPAYA",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        }
+    },
+    {
+        "title": "호기심",
+        "subtitle": null,
+        "artist": "한스밴드",
+        "title_translit": "HOGISIM",
+        "subtitle_translit": null,
+        "artist_translit": "HANS BAND",
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "La Señorita Virtual",
+        "subtitle": null,
+        "artist": "2MB",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 5,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "LOVE THIS FEELIN'",
+        "subtitle": null,
+        "artist": "Chang ma",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 3,
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 7,
+            "Medium": 7,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "ROSE",
+        "subtitle": null,
+        "artist": "FIN.K.L",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "SHOCK",
+        "subtitle": null,
+        "artist": "GOOFY",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "Starian",
+        "subtitle": null,
+        "artist": "DUKE",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "성숙",
+        "subtitle": null,
+        "artist": "SPACE A",
+        "title_translit": "SUNG SUK",
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 7
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "TELL ME TELL ME",
+        "subtitle": null,
+        "artist": "(s#arp)",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "think ya better D",
+        "subtitle": null,
+        "artist": "sAmi",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 4,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 4,
+            "Medium": 5,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "TOTAL RECALL",
+        "subtitle": null,
+        "artist": "ULTIMATE HEIGHTS",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 8
+        }
+    },
+    {
+        "title": "TRIP MACHINE～luv mix～",
+        "subtitle": null,
+        "artist": "2MB",
+        "title_translit": null,
+        "subtitle_translit": null,
+        "artist_translit": null,
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 8
+        },
+        "double_difficulties": {
+            "Easy": 6,
+            "Medium": 7,
+            "Hard": 7
+        }
+    },
+    {
+        "title": "와",
+        "subtitle": null,
+        "artist": "이정현",
+        "title_translit": "WA",
+        "subtitle_translit": null,
+        "artist_translit": "LEE JUNG HYUN",
+        "single_difficulties": {
+            "Beginner": 2,
+            "Easy": 3,
+            "Medium": 5,
+            "Hard": 6
+        },
+        "double_difficulties": {
+            "Easy": 3,
+            "Medium": 6,
+            "Hard": 6,
+            "Beginner": 2
+        }
+    }
+]
