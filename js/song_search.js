@@ -239,17 +239,14 @@ function renderSongItem(song) {
 
     const titleSpan = document.createElement('span');
     titleSpan.className = 'title';
-    // Use translit title if available, otherwise original title
     titleSpan.textContent = getText(song.title, song.title_translit);
     songItem.appendChild(titleSpan);
 
     const artistSpan = document.createElement('span');
     artistSpan.className = 'artist';
-    // Use translit artist if available, otherwise original artist
     artistSpan.textContent = getText(song.artist, song.artist_translit);
     songItem.appendChild(artistSpan);
 
-    // Only add subtitle if it exists (either original or translit)
     const displaySubtitle = getText(song.subtitle, song.subtitle_translit);
     if (displaySubtitle) {
         const subtitleSpan = document.createElement('span');
@@ -261,46 +258,64 @@ function renderSongItem(song) {
     const difficultiesDiv = document.createElement('div');
     difficultiesDiv.className = 'difficulties';
 
-    // Project Diva style difficulties
-    if (song.difficulties) {
+    // Stepmania difficulty order
+    const stepmaniaOrder = ['Beginner', 'Easy', 'Medium', 'Hard', 'Challenge'];
+
+    // Render single difficulties in order
+    if (song.single_difficulties) {
+        const singleDiffs = [];
+        for (const diff of stepmaniaOrder) {
+            if (song.single_difficulties[diff] && song.single_difficulties[diff] !== 'N/A' && song.single_difficulties[diff] !== 'Not available') {
+                singleDiffs.push(`${diff}: ${song.single_difficulties[diff]}`);
+            }
+        }
+        if (singleDiffs.length > 0) {
+            const singleSpan = document.createElement('span');
+            singleSpan.className = 'difficulty difficulty-single';
+            singleSpan.textContent = singleDiffs.join(' | ');
+            difficultiesDiv.appendChild(singleSpan);
+        }
+    }
+
+    // Render double difficulties in order, after a break if any
+    if (song.double_difficulties) {
+        const doubleDiffs = [];
+        for (const diff of stepmaniaOrder) {
+            if (song.double_difficulties[diff] && song.double_difficulties[diff] !== 'N/A' && song.double_difficulties[diff] !== 'Not available') {
+                doubleDiffs.push(`${diff}: ${song.double_difficulties[diff]}`);
+            }
+        }
+        if (doubleDiffs.length > 0) {
+            if (difficultiesDiv.childNodes.length > 0) {
+                difficultiesDiv.appendChild(document.createElement('br'));
+            }
+            const doubleSpan = document.createElement('span');
+            doubleSpan.className = 'difficulty difficulty-double';
+            doubleSpan.textContent = doubleDiffs.join(' | ');
+            difficultiesDiv.appendChild(doubleSpan);
+        }
+    }
+
+    // Project Diva style difficulties (leave as fallback/other games)
+    if (song.difficulties && !song.single_difficulties && !song.double_difficulties) {
+        const divaDiffs = [];
         for (const diff in song.difficulties) {
             if (Object.hasOwnProperty.call(song.difficulties, diff)) {
                 const value = song.difficulties[diff];
                 if (value && value !== 'N/A' && value !== 'Not available') {
-                    const diffSpan = document.createElement('span');
-                    diffSpan.className = `difficulty difficulty-diva ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-                    diffSpan.textContent = `${diff}: ${value}`;
-                    difficultiesDiv.appendChild(diffSpan);
+                    divaDiffs.push(`${diff}: ${value}`);
                 }
             }
         }
-    }
-
-    // Single difficulties
-    if (song.single_difficulties) {
-        for (const diff in song.single_difficulties) {
-            if (Object.hasOwnProperty.call(song.single_difficulties, diff)) {
-                const diffSpan = document.createElement('span');
-                diffSpan.className = `difficulty difficulty-single ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-                diffSpan.textContent = `${diff}: ${song.single_difficulties[diff]}`;
-                difficultiesDiv.appendChild(diffSpan);
-            }
+        if (divaDiffs.length > 0) {
+            const divaSpan = document.createElement('span');
+            divaSpan.className = 'difficulty difficulty-diva';
+            divaSpan.textContent = divaDiffs.join(' | ');
+            difficultiesDiv.appendChild(divaSpan);
         }
     }
 
-    // Double difficulties
-    if (song.double_difficulties) {
-        for (const diff in song.double_difficulties) {
-            if (Object.hasOwnProperty.call(song.double_difficulties, diff)) {
-                const diffSpan = document.createElement('span');
-                diffSpan.className = `difficulty difficulty-double ${diff.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-                diffSpan.textContent = `D-${diff}: ${song.double_difficulties[diff]}`;
-                difficultiesDiv.appendChild(diffSpan);
-            }
-        }
-    }
     songItem.appendChild(difficultiesDiv);
-
     return songItem;
 }
 
