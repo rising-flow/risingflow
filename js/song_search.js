@@ -424,12 +424,7 @@ function applyFilter() {
     // Iterate through each category in allSongsData
     for (const categoryName in allSongsData) {
         if (Object.hasOwnProperty.call(allSongsData, categoryName)) {
-            let songsInCurrentCategory = allSongsData[categoryName];
-
-            // Filter out Stepmania songs with no difficulties
-            if (stepmaniaCategoryOrder.length > 0) {
-                songsInCurrentCategory = songsInCurrentCategory.filter(song => song.single_difficulties || song.double_difficulties || song.difficulties);
-            }
+            const songsInCurrentCategory = allSongsData[categoryName];
 
             // Filter songs based on search term and active filter tags
             const filteredSongs = songsInCurrentCategory.filter(song => {
