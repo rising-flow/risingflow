@@ -496,11 +496,18 @@
     transition: background-color 0.3s ease;
 }
 .song-count {
-    font-size: 0.7em;
+    font-size: 0.72em; /* 20% smaller than .category-header */
     background: none !important;
     color: inherit;
     padding: 0 6px;
     border-radius: 0;
     margin-left: 8px;
+}
+.song-item,
+.song-item .title,
+.song-item .artist,
+.song-item .subtitle,
+.song-item .difficulties {
+    font-size: 0.8em;
 }
 

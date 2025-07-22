@@ -100,50 +100,59 @@ async function fetchJsonFilesInFolder(folderPath) {
     // For now, hardcode for Stepmania (DDR)
     if (folderPath === 'data/Stepmania/') {
         const jsonFiles = [
-            'Anime Channel.json',
-            'Dance Dance Revolution 1st Mix.json',
-            'Dance Dance Revolution 2013.json',
-            'Dance Dance Revolution 2014.json',
-            'Dance Dance Revolution 2nd Mix Club & Link Versions.json',
-            'Dance Dance Revolution 2nd.json',
-            'Dance Dance Revolution 3rd Mix Plus & Korea Versions.json',
-            'Dance Dance Revolution 3rd Mix.json',
-            'Dance Dance Revolution 4th Mix Plus.json',
-            'Dance Dance Revolution 4th Mix.json',
-            'Dance Dance Revolution 5th Mix.json',
-            'Dance Dance Revolution A.json',
-            'Dance Dance Revolution A20 Plus.json',
-            'Dance Dance Revolution A20.json',
-            'Dance Dance Revolution A3.json',
-            'Dance Dance Revolution Extreme.json',
-            'Dance Dance Revolution Grand Prix.json',
-            'Dance Dance Revolution PS1 Exclusives.json',
-            'Dance Dance Revolution PS2 Exclusives.json',
-            'Dance Dance Revolution PS3 Exclusives.json',
-            'Dance Dance Revolution SuperNOVA.json',
-            'Dance Dance Revolution SuperNOVA2.json',
-            'Dance Dance Revolution X.json',
-            'Dance Dance Revolution X2.json',
-            'Dance Dance Revolution X3.json',
-            'Dance Dance Revolution Xbox 360 Exclusives.json',
-            'Dance Dance Revolution Xbox Exclusives.json',
-            'Dance Dance RevolutionMAX.json',
-            'Dance Dance RevolutionMAX2.json',
-            'Games Channel.json',
-            'JPOP Channel.json',
-            'KPOP Channel.json',
-            'Touhou Channel.json',
-            'Vocaloid Channel.json',
-            'World POP Channel.json'
+            '1 - Anime Channel.json',
+            '2 - KPOP Channel.json',
+            '3 - World POP Channel.json',
+            '4 - JPOP Channel.json',
+            '5 - Vocaloid Channel.json',
+            '6 - Touhou Channel.json',
+            '7 - Games Channel.json',
+            '8 - Dance Dance Revolution 1st Mix.json',
+            '9 - Dance Dance Revolution 2nd Mix.json',
+            '10 - Dance Dance Revolution 2nd Mix Club & Link Versions.json',
+            '11 - Dance Dance Revolution 3rd Mix.json',
+            '12 - Dance Dance Revolution 3rd Mix Plus & Korea Versions.json',
+            '13 - Dance Dance Revolution 4th Mix.json',
+            '14 - Dance Dance Revolution 4th Mix Plus.json',
+            '15 - Dance Dance Revolution 5th Mix.json',
+            '16 - Dance Dance Revolution 6th Mix - MAX.json',
+            '17 - Dance Dance Revolution 7th Mix - MAX2.json',
+            '18 - Dance Dance Revolution 8th Mix -  Extreme.json',
+            '19 - Dance Dance Revolution SuperNOVA.json',
+            '20 - Dance Dance Revolution SuperNOVA 2.json',
+            '21 - Dance Dance Revolution X.json',
+            '22 - Dance Dance Revolution X2.json',
+            '23 - Dance Dance Revolution X3.json',
+            '24 - Dance Dance Revolution 2013.json',
+            '25 - Dance Dance Revolution 2014.json',
+            '26 - Dance Dance Revolution A.json',
+            '27 - Dance Dance Revolution A20.json',
+            '28 - Dance Dance Revolution A20 Plus.json',
+            '29 - Dance Dance Revolution A3.json',
+            '30 - Dance Dance Revolution Grand Prix.json',
+            '31 - Dance Dance Revolution PS1 Exclusives.json',
+            '32 - Dance Dance Revolution PS2 Exclusives.json',
+            '33 - Dance Dance Revolution PS3 Exclusives.json',
+            '34 - Dance Dance Revolution Xbox Exclusives.json',
+            '35 - Dance Dance Revolution Xbox 360 Exclusives.json',
+            '36 -Dance Dance Revolution Wii Exclusives.json'
         ];
         const fetchPromises = jsonFiles.map(async file => {
             const response = await fetch(folderPath + file);
             if (!response.ok) return null;
             const data = await response.json();
-            const categoryName = file.replace('.json', '');
-            return { categoryName, data };
+            // Extract display name (remove number prefix and separator)
+            const match = file.match(/^[0-9]+\s*[-_]?\s*(.*)\.json$/i);
+            const categoryName = match ? match[1] : file.replace('.json', '');
+            // Store the order for later sorting
+            const order = parseInt(file.match(/^([0-9]+)/)?.[1] || '9999', 10);
+            return { categoryName, data, order };
         });
-        return (await Promise.all(fetchPromises)).filter(Boolean);
+        // Sort by order before returning
+        const results = (await Promise.all(fetchPromises)).filter(Boolean);
+        results.sort((a, b) => a.order - b.order);
+        // Remove 'order' property before returning
+        return results.map(({categoryName, data}) => ({categoryName, data}));
     }
     // For other folders, return empty (no data yet)
     return [];
