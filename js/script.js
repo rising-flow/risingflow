@@ -100,46 +100,6 @@ languageFlagButton.addEventListener('click', () => {
     updateFlagButton(currentLang);
 });
 
-// Hamburger menu logic
-const hamburger = document.getElementById('navbar-hamburger');
-const navbarLinks = document.getElementById('navbar-links');
-const body = document.body;
-
-if (hamburger && navbarLinks) {
-  hamburger.addEventListener('click', function() {
-    const isOpen = navbarLinks.classList.toggle('open');
-    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    if (isOpen) {
-      body.classList.add('nav-open');
-    } else {
-      body.classList.remove('nav-open');
-    }
-  });
-
-  // Close menu when clicking outside (optional)
-  document.addEventListener('click', function(e) {
-    if (window.innerWidth <= 900 && navbarLinks.classList.contains('open')) {
-      if (!navbarLinks.contains(e.target) && !hamburger.contains(e.target)) {
-        navbarLinks.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', 'false');
-        body.classList.remove('nav-open');
-      }
-    }
-  });
-
-  // Dropdown expand/collapse on mobile
-  const dropdowns = navbarLinks.querySelectorAll('.dropdown');
-  dropdowns.forEach(dropdown => {
-    const link = dropdown.querySelector('a');
-    link.addEventListener('click', function(e) {
-      if (window.innerWidth <= 900) {
-        e.preventDefault();
-        dropdown.classList.toggle('open');
-      }
-    });
-  });
-}
-
 // Initialize content and flag on first load
 updateContent(currentLang);
 updateFlagButton(currentLang);
