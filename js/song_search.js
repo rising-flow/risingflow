@@ -85,8 +85,16 @@ const gameDataSources = {
         path: 'data/Project Diva/project_diva.json'
     },
     'Taiko no Tatsujin': {
-        type: 'folder',
-        path: 'data/Taiko no Tatsujin/'
+        type: 'multi_file',
+        files: [
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_pops.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_anime.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_vocaloid.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_variety.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_game_music.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_namco_original.json',
+            'data/Taiko no Tatsujin/taiko_no_tatsujin_classic.json'
+        ]
     },
     'YARG': {
         type: 'folder',
@@ -188,7 +196,21 @@ async function fetchJsonFilesRecursively(folderPath) {
     return [];
 }
 
-// --- Update: Use recursive loader for all folder-based games ---
+// --- Utility to fetch all JSON files for multi_file games (like Taiko) ---
+async function fetchMultiJsonFiles(fileList) {
+    const fetchPromises = fileList.map(async file => {
+        const response = await fetch(file);
+        if (!response.ok) return null;
+        const data = await response.json();
+        // Use the file name (without .json and prefix) as the category name
+        const match = file.match(/taiko_no_tatsujin_(.*)\.json$/i);
+        const categoryName = match ? match[1].replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : file;
+        return { categoryName, data };
+    });
+    return (await Promise.all(fetchPromises)).filter(Boolean);
+}
+
+// --- Update: Use recursive loader for all folder-based games and multi_file for Taiko ---
 async function loadSongsForGame(gameName) {
     Object.keys(allSongsData).forEach(key => delete allSongsData[key]);
     filterTerms.clear();
@@ -207,7 +229,19 @@ async function loadSongsForGame(gameName) {
     const source = gameDataSources[gameName];
     loadingMessage.textContent = t.loadingSongs;
 
-    if (source.type === 'folder') {
+    if (source.type === 'multi_file') {
+        // For Taiko: load all category files
+        const results = await fetchMultiJsonFiles(source.files);
+        if (results.length === 0) {
+            loadingMessage.textContent = t.noSongsAvailable;
+            return;
+        }
+        results.forEach(({ categoryName, data }) => {
+            allSongsData[categoryName] = data;
+        });
+        loadingMessage.textContent = '';
+        applyFilter();
+    } else if (source.type === 'folder') {
         const results = await fetchJsonFilesRecursively(source.path);
         if (results.length === 0) {
             loadingMessage.textContent = t.noSongsAvailable;

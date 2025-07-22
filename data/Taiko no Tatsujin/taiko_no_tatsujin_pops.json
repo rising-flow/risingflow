@@ -1,0 +1,379 @@
+[
+  {
+    "title": "Natsu Matsuri【Whiteberry】",
+    "artist": "Whiteberry",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★2",
+      "Hard": "★6",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Feel Special【TWICE】",
+    "artist": "TWICE",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "DDU-DU DDU-DU【BLACKPINK】",
+    "artist": "BLACKPINK",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "I LOVE...【Official HIGE DANdism】",
+    "artist": "Official HIGE DANdism",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Yoru ni Kakeru【YOASOBI】",
+    "artist": "YOASOBI",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "That's Why I Gave Up on Music【Yorushika】",
+    "artist": "Yorushika",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★6",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Marigold【Aimyon】",
+    "artist": "Aimyon",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Ao to Natsu【Mrs. GREEN APPLE】",
+    "artist": "Mrs. GREEN APPLE",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Zenzenzense【Radwimps】",
+    "artist": "Radwimps",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Kurenai【X-Japan】",
+    "artist": "X-Japan",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "TT【TWICE】",
+    "artist": "TWICE",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "bad guy【Billie Eilish】",
+    "artist": "Billie Eilish",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Igaku【Sasuke Haraguchi feat. Kasane Teto】",
+    "artist": "Sasuke Haraguchi feat. Kasane Teto",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Override【Yoshida Yasei feat. Kasane Teto】",
+    "artist": "Yoshida Yasei feat. Kasane Teto",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Odo【Ado】",
+    "artist": "Ado",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Usseewa【Ado】",
+    "artist": "Ado",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Dance Hall【Mrs. GREEN APPLE】",
+    "artist": "Mrs. GREEN APPLE",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Chu, Tayousei.【ano】",
+    "artist": "ano",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Kawaikute Gomen【HoneyWorks】",
+    "artist": "HoneyWorks",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Star Mine【Da-iCE】",
+    "artist": "Da-iCE",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Habit【SEKAI NO OWARI】",
+    "artist": "SEKAI NO OWARI",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "RPG【SEKAI NO OWARI】",
+    "artist": "SEKAI NO OWARI",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "phony【Tsumiki feat. KAFU】",
+    "artist": "Tsumiki feat. KAFU",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "S'il Vous President【Pmarusama】",
+    "artist": "Pmarusama",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "HIMAWARI HAPPY【Himawari Channel】",
+    "artist": "Himawari Channel",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★2",
+      "Oni": "★2"
+    }
+  },
+  {
+    "title": "OTONABLUE【Atarashii Gakko!】",
+    "artist": "Atarashii Gakko!",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Haru wo Tsugeru【yama】",
+    "artist": "yama",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Kiseki【GReeeeN】",
+    "artist": "GReeeeN",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★2"
+    }
+  },
+  {
+    "title": "Joyful【Ikimono Gakari】",
+    "artist": "Ikimono Gakari",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Ai o Komete Hanataba o【Superfly】",
+    "artist": "Superfly",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Kibun Joujou ↑↑【mihimaru GT】",
+    "artist": "mihimaru GT",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Sakuranbo【Ai Ootsuka】",
+    "artist": "Ai Ootsuka",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Sobakasu【Judy and Mary】",
+    "artist": "Judy and Mary",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Plastic Love【Mariya Takeuchi】",
+    "artist": "Mariya Takeuchi",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Mayonaka no Door ~ Stay with Me【Miki Matsubara】",
+    "artist": "Miki Matsubara",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Tsugaru Kaikyou Fuyugeshiki\n津軽海峡・冬景色",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★6",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "365 Steps March\n三百六十五歩のマーチ",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★2",
+      "Oni": "★3"
+    }
+  }
+]

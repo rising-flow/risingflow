@@ -1,0 +1,351 @@
+[
+  {
+    "title": "Mainichi ga Donderful\nまいにちがドンダフル",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Daisuki na Taiko no Ne【Soshina feat. Don-chan】",
+    "artist": "Soshina feat. Don-chan",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Bouken-biyori\n冒険日和",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Kumo no Kanata no Taichi no Kaze【Shuuri Misaki (BNSI) feat. Yako from Danchinomiya】",
+    "artist": "Shuuri Misaki (BNSI) feat. Yako from Danchinomiya",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Kappa no Sara wa Konna ni mo【Mei Oosawa (BNSI) feat. Takayuki Ikezawa】",
+    "artist": "Mei Oosawa (BNSI) feat. Takayuki Ikezawa",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Yumeutstsu Catharsis【Kanoya Ooki (BNSI) feat. Kaori Aihara】",
+    "artist": "Kanoya Ooki (BNSI) feat. Kaori Aihara",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Fuuma Module 6768【Hisui】",
+    "artist": "Hisui",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "1/2 ～inside me【Mizuki Shinohara feat. Kaori Aihara】",
+    "artist": "Mizuki Shinohara feat. Kaori Aihara",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Solitude Star【Harusaki x beet】",
+    "artist": "Harusaki x beet",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Konya wa Hold Me\n今夜はホーミー",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "1-2-San-Shi no de Dondokaka!【AI Kiritan feat. Yuuki Hirose】",
+    "artist": "AI Kiritan feat. Yuuki Hirose",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Nijiiro Baton【Ponchi♪ feat. Haxchi × Donders】",
+    "artist": "Ponchi♪ feat. Haxchi × Donders",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Peta-PETA!? Pumpkin【Yu～kure】",
+    "artist": "Yu～kure",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "PONPOKO RHYTHM【Mamyukka】",
+    "artist": "Mamyukka",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Hakanaki wa Gensho ni Mau【Se-U-Ra】",
+    "artist": "Se-U-Ra",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★7",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Vixtory【CHUBAY】",
+    "artist": "CHUBAY",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★7",
+      "Hard": "★7",
+      "Oni": "★10",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "wonderful ROUTINE【Yuusuke Kodou (BNSI)】",
+    "artist": "Yuusuke Kodou (BNSI)",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★8",
+      "Oni": "★10"
+    }
+  },
+  {
+    "title": "Zero no Symphony【kyo (BNSI) feat. Sariya-jin】",
+    "artist": "kyo (BNSI) feat. Sariya-jin",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Fly again!【Yoshihito Yano (BNSI) feat. Takayoshi Tanimoto】",
+    "artist": "Yoshihito Yano (BNSI) feat. Takayoshi Tanimoto",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Genkai Creator Ouenka【Yukiko Miyagi (BNSI) feat. Suzune, Kiyoto Kawase】",
+    "artist": "Yukiko Miyagi (BNSI) feat. Suzune, Kiyoto Kawase",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Freeway3234",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Ai Nandaze【Taku Inoue(BNSI)】",
+    "artist": "Taku Inoue(BNSI)",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "TOKIMEKI♡Destroyer!!【Ayatsugu_Otowa】",
+    "artist": "Ayatsugu_Otowa",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "via lactea【feat. Setsunann】",
+    "artist": "feat. Setsunann",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Hoshikuzu Struck【t+pazolite】",
+    "artist": "t+pazolite",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★10",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Dragoon【Massive New Krew】",
+    "artist": "Massive New Krew",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Youthful Coaster【U-ske feat. Natsu Kazura】",
+    "artist": "U-ske feat. Natsu Kazura",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "GO GET'EM!【Satoshi Terashima】",
+    "artist": "Satoshi Terashima",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★7",
+      "Hard": "★8",
+      "Oni": "★9",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Kokushin Chronicle\n黒神クロニクル",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Kagami no Kuni no Alice【Kashitaro Ito】",
+    "artist": "Kashitaro Ito",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★6",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Marionette Pure\nマリオネットピュア",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Hayabusa\n隼",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★7",
+      "Hard": "★8",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Tokyo Tokkyo Kyo Kyokakyoku Kyokucho!!\n東京特許キョ許可局局長!!",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Geki-un! Shichifuku Happy Crew【Yuuya Kobayashi (IOSYS) feat. Momiji Yamamoto (monotone)】",
+    "artist": "Yuuya Kobayashi (IOSYS) feat. Momiji Yamamoto (monotone)",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  }
+]

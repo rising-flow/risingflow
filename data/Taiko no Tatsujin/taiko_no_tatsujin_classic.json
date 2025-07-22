@@ -1,0 +1,95 @@
+[
+  {
+    "title": "William Tell Overture【Gioachino Rossini】",
+    "artist": "Gioachino Rossini",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Symphony No.5 \"Fate\"【Beethoven】",
+    "artist": "Beethoven",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Three Marches Militaires【Schubert】",
+    "artist": "Schubert",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Etude Op. 10, No. 4\n練習曲Op.10-4",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★7",
+      "Oni": "★9",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Funiculi Funicula【Luigi Denza】",
+    "artist": "Luigi Denza",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "La Campanella【Franz Liszt】",
+    "artist": "Franz Liszt",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Tokyo Ondo\n東京音頭",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Furusato (Hometown)\nふるさと",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★1",
+      "Oni": "★1"
+    }
+  },
+  {
+    "title": "Fuji no Yama (Mt. Fuji)\nふじの山",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★1",
+      "Hard": "★3",
+      "Oni": "★3"
+    }
+  }
+]

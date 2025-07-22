@@ -1,0 +1,753 @@
+[
+  {
+    "title": "MIXED NUTS【SPY×FAMILY】",
+    "artist": "SPY×FAMILY",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Gurenge【Demon Slayer: Kimetsu no Yaiba】",
+    "artist": "Demon Slayer: Kimetsu no Yaiba",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★6",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Kaikai Kitan【Jujutsu Kaisen】",
+    "artist": "Jujutsu Kaisen",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Into the Unknown【Frozen 2】",
+    "artist": "Frozen 2",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Guren no Yumiya【Attack on Titan】",
+    "artist": "Attack on Titan",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Yume o Kanaete Doraemon\n夢をかなえてドラえもん",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★2",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "A Cruel Angel's Thesis【Neon Genesis Evangelion】",
+    "artist": "Neon Genesis Evangelion",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Butter-Fly【Digimon Adventures】",
+    "artist": "Digimon Adventures",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Moonlight Densetsu【Pretty Guardian Sailor Moon】",
+    "artist": "Pretty Guardian Sailor Moon",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Makafushigi Adventure!【Dragon Ball】",
+    "artist": "Dragon Ball",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Tonari no Totoro\nとなりのトトロ",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★1",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Iinazukkyun【Ranma 1/2】",
+    "artist": "Ranma 1/2",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Lilac【Oblivion Battery】",
+    "artist": "Oblivion Battery",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Detective Conan Main Theme\n名探偵コナン　メイン・テーマ／アニメ「名探偵コナン」より",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★1",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Sunny【Frieren: Beyond Journey's End】",
+    "artist": "Frieren: Beyond Journey's End",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Yuusha【Frieren: Beyond Journey's End】",
+    "artist": "Frieren: Beyond Journey's End",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "UUUUUS！【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "I’m invincible【One Piece Film: Red】",
+    "artist": "One Piece Film: Red",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "New Genesis【One Piece Film: Red】",
+    "artist": "One Piece Film: Red",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "OVER THE TOP【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★2",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "One day【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "BRAND NEW WORLD【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Kokoro no Chizu【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "We Are!【One Piece】",
+    "artist": "One Piece",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★6",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Kura Kura【SPY×FAMILY】",
+    "artist": "SPY×FAMILY",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "SOUVENIR【SPY×FAMILY】",
+    "artist": "SPY×FAMILY",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "WISE - BONDMAN - STRIX【SPY×FAMILY】",
+    "artist": "SPY×FAMILY",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Dai-Zero Kan【The First Slam Dunk】",
+    "artist": "The First Slam Dunk",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "STONE OCEAN【JoJo's Bizarre Adventure: Stone Ocean】",
+    "artist": "JoJo's Bizarre Adventure: Stone Ocean",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "JoJo ~Sono Chi no Sadame~【JoJo's Bizarre Adventure】",
+    "artist": "JoJo's Bizarre Adventure",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "THE DAY【My Hero Academia】",
+    "artist": "My Hero Academia",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Ukiuki Otoppe【Otoppe】",
+    "artist": "Otoppe",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Doraemon no Uta\nドラえもんのうた",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★3"
+    }
+  },
+  {
+    "title": "Anpanman no March【Soreike! Anpanman】",
+    "artist": "Soreike! Anpanman",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★1",
+      "Hard": "★5",
+      "Oni": "★1"
+    }
+  },
+  {
+    "title": "Anpanman Taisou【Soreike! Anpanman】",
+    "artist": "Soreike! Anpanman",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "Yuuki Rinrin【Soreike! Anpanman】",
+    "artist": "Soreike! Anpanman",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★3",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Yuruyuru de DE-O【Crayon Shin-chan】",
+    "artist": "Crayon Shin-chan",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Kimi ni 100 Percent【Crayon Shin-Chan】",
+    "artist": "Crayon Shin-Chan",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "OLA!!【Yuzu】",
+    "artist": "Yuzu",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Tomo yo - Kono Saki mo Zutto...【Crayon Shin-chan: Fast Asleep! \nThe Great Assault on Dreamy World!】",
+    "artist": "Crayon Shin-chan: Fast Asleep! \nThe Great Assault on Dreamy World!",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Road Movie【Crayon Shin-chan: Invasion!! Alien Shiriri】",
+    "artist": "Crayon Shin-chan: Invasion!! Alien Shiriri",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "Muscat【Crayon Shin-chan】",
+    "artist": "Crayon Shin-chan",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★1",
+      "Oni": "★2"
+    }
+  },
+  {
+    "title": "Odoru Ponpokorin【Chibi Maruko-chan】",
+    "artist": "Chibi Maruko-chan",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★4",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Genkai Toppa x Survivor【Dragon Ball Super】",
+    "artist": "Dragon Ball Super",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★3",
+      "Oni": "★3",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Dragon Soul【Dragon Ball Z Kai】",
+    "artist": "Dragon Ball Z Kai",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "CHA-LA HEAD-CHA-LA【Dragon Ball Z】",
+    "artist": "Dragon Ball Z",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Kaibutsu【YOASOBI】",
+    "artist": "YOASOBI",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Inferno【Fire Force】",
+    "artist": "Fire Force",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Onegai Muscle【How Heavy Are the Dumbbells You Lift?】",
+    "artist": "How Heavy Are the Dumbbells You Lift?",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Blue Bird【Naruto Shippuden】",
+    "artist": "Naruto Shippuden",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "GO!!!【Naruto】",
+    "artist": "Naruto",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Rhapsody of Blue Sky【Miss Kobayashi's Dragon Maid】",
+    "artist": "Miss Kobayashi's Dragon Maid",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Sugar Song to Bitter Step【Kekkai Sensen】",
+    "artist": "Kekkai Sensen",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Hikarunara【Your Lie in April】",
+    "artist": "Your Lie in April",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Netsujou no Spectrum【Ikimono Gakari】",
+    "artist": "Ikimono Gakari",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Uso【Sid】",
+    "artist": "Sid",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Rewrite【Fullmetal Alchemist】",
+    "artist": "Fullmetal Alchemist",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★3",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "God knows...【The Melancholy of Haruhi Suzumiya】",
+    "artist": "The Melancholy of Haruhi Suzumiya",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Sousei no Aquarion\n創聖のアクエリオン",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Tank!【Cowboy Bebop】",
+    "artist": "Cowboy Bebop",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Get Wild【City Hunter】",
+    "artist": "City Hunter",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Lum no Love Song【Urusei Yatsura】",
+    "artist": "Urusei Yatsura",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Gake no Ue no Ponyo\n崖の上のポニョ",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★1",
+      "Oni": "★2"
+    }
+  },
+  {
+    "title": "Merry-Go-Round of Life【Howl's Moving Castle】",
+    "artist": "Howl's Moving Castle",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Kaze ni Naru【The Cat Returns】",
+    "artist": "The Cat Returns",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★2",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Always With Me【Spirited Away】",
+    "artist": "Spirited Away",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★1",
+      "Hard": "★2",
+      "Oni": "★1"
+    }
+  },
+  {
+    "title": "A Town With an Ocean View【Kiki's Delivery Service】",
+    "artist": "Kiki's Delivery Service",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Kimi o Nosete【Laputa: Castle in the Sky】",
+    "artist": "Laputa: Castle in the Sky",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "The Path of the Wind【My Neighbour Totoro】",
+    "artist": "My Neighbour Totoro",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Sanpo【My Neighbor Totoro】",
+    "artist": "My Neighbor Totoro",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★5",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Try Everything【Zootopia】",
+    "artist": "Zootopia",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★3"
+    }
+  },
+  {
+    "title": "Do You Want to Build A Snowman【Frozen】",
+    "artist": "Frozen",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★3",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Let It Go ~Ari no Mama de~【Frozen】",
+    "artist": "Frozen",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★2",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "Let It Go【Frozen】",
+    "artist": "Frozen",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★2",
+      "Oni": "★4"
+    }
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "title": "He's A Pirate【Pirates of the Caribbean】",
+    "artist": "Pirates of the Caribbean",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Pixel Galaxy【Snail's House】",
+    "artist": "Snail's House",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "FREEDOM DiVE↓【xi】",
+    "artist": "xi",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★10"
+    }
+  },
+  {
+    "title": "Mopemope【LeaF】",
+    "artist": "LeaF",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★10"
+    }
+  },
+  {
+    "title": "Night of Knights【Touhou Project Arrange beatMARIO】",
+    "artist": "Touhou Project Arrange beatMARIO",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Last Brutal Sister Flandre S【Touhou Project Arrange beatMARIO】",
+    "artist": "Touhou Project Arrange beatMARIO",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★10"
+    }
+  },
+  {
+    "title": "Asteroid【KORG Gadget Kamata Demo Song】",
+    "artist": "KORG Gadget Kamata Demo Song",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★7",
+      "Hard": "★8",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Jamboree Mickey!\nジャンボリミッキー！",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★5",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Mickey Mouse March\nミッキーマウス･マーチ",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Baby Shark（ベイビー・シャーク）",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★3",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "CHEMY×STORY【Kamen Rider Gotchard】",
+    "artist": "Kamen Rider Gotchard",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★3",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "Trust・Last【Kamen Rider Geats】",
+    "artist": "Kamen Rider Geats",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "liveDevil【Kamen Rider Revice】",
+    "artist": "Kamen Rider Revice",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "ALMIGHTY ~ Kamen no Yakusoku【Kamen Rider Saber】",
+    "artist": "Kamen Rider Saber",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★4",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "REAL×EYEZ【Kamen Rider Zero-One】",
+    "artist": "Kamen Rider Zero-One",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★4"
+    }
+  },
+  {
+    "title": "Over \"Quartzer\"【Kamen Rider Zi-O】",
+    "artist": "Kamen Rider Zi-O",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★2",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Be The One【Kamen Rider Build】",
+    "artist": "Kamen Rider Build",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★2",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "EXCITE【Kamen Rider Ex-Aid】",
+    "artist": "Kamen Rider Ex-Aid",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Warera Omou, Yue ni Warera Ari【Kamen Rider Ghost】",
+    "artist": "Kamen Rider Ghost",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★5"
+    }
+  },
+  {
+    "title": "SURPRISE-DRIVE【Kamen Rider Drive】",
+    "artist": "Kamen Rider Drive",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "JUST LIVE MORE【Kamen Rider Gaim】",
+    "artist": "Kamen Rider Gaim",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Life is SHOW TIME【Kamen Rider Wizard】",
+    "artist": "Kamen Rider Wizard",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★3",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "SWITCH ON!【Kamen Rider Fourze】",
+    "artist": "Kamen Rider Fourze",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★1",
+      "Hard": "★3",
+      "Oni": "★3",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Bad Apple!! feat.nomico【Touhou Project Arrange Alstroemeria Records】",
+    "artist": "Touhou Project Arrange Alstroemeria Records",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Usatei【Touhou Project Arrange Amane+beatMARIO (COOL&CREATE)】",
+    "artist": "Touhou Project Arrange Amane+beatMARIO (COOL&CREATE)",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Ganso! Tensai Cirno-chan【Touhou Project Arrange \nKobayashi Yuuya(IOSYS) feat.miko(Alternative ending)】",
+    "artist": "Touhou Project Arrange \nKobayashi Yuuya(IOSYS) feat.miko(Alternative ending)",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Cirno's Perfect Math Class: ⑨th Anniversary Edition【Touhou Project Arrange IOSYS to yukaina ⑨ shuunen friends】",
+    "artist": "Touhou Project Arrange IOSYS to yukaina ⑨ shuunen friends",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★9",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Scarlet Police Getto Patrol 24 hour【Touhou Project Arrange Shichijo Lettuce Group】",
+    "artist": "Touhou Project Arrange Shichijo Lettuce Group",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★2",
+      "Hard": "★5",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Sai ha Nagerareta【Touhou Project Arrange IOSYS】",
+    "artist": "Touhou Project Arrange IOSYS",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Cirno's Perfect Math Class【Touhou Project Arrange ARM+Yoshimi Youno(IOSYS) feat.miko】",
+    "artist": "Touhou Project Arrange ARM+Yoshimi Youno(IOSYS) feat.miko",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★8",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Marisa Stole the Precious Thing【Touhou Project Arrange \nARM+Yoshimi Youno(IOSYS) feat.Karin Fujisaki】",
+    "artist": "Touhou Project Arrange \nARM+Yoshimi Youno(IOSYS) feat.Karin Fujisaki",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Necrofantasia ~ Arr.Demetori【Touhou Project Arrange Demetori】",
+    "artist": "Touhou Project Arrange Demetori",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★7",
+      "Hard": "★8",
+      "Oni": "★10"
+    }
+  },
+  {
+    "title": "Grip & Break down !! -Tatsujin Edit.-【Touhou Project Arrange SOUND HOLIC feat. Nana Takahashi】",
+    "artist": "Touhou Project Arrange SOUND HOLIC feat. Nana Takahashi",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  }
+]

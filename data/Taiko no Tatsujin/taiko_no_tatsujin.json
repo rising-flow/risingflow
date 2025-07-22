@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Natsu Matsuri 【Whiteberry】",
+    "artist": "Whiteberry",
+    "difficulties": {"Easy": "★3", "Medium": "★2", "Hard": "★6", "Oni": "★6"}
+  },
+  {
+    "title": "Feel Special 【TWICE】",
+    "artist": "TWICE",
+    "difficulties": {"Easy": "★2", "Medium": "★4", "Hard": "★5", "Oni": "★7"}
+  },
+  {
+    "title": "DDU-DU DDU-DU 【BLACKPINK】",
+    "artist": "BLACKPINK",
+    "difficulties": {"Easy": "★2", "Medium": "★2", "Hard": "★4", "Oni": "★7"}
+  },
+  {
+    "title": "I LOVE... 【Official HIGE DANdism】",
+    "artist": "Official HIGE DANdism",
+    "difficulties": {"Easy": "★2", "Medium": "★3", "Hard": "★4", "Oni": "★7"}
+  },
+  {
+    "title": "Yoru ni Kakeru 【YOASOBI】",
+    "artist": "YOASOBI",
+    "difficulties": {"Easy": "★1", "Medium": "★2", "Hard": "★4", "Oni": "★8"}
+  },
+  {
+    "title": "That's Why I Gave Up on Music 【Yorushika】",
+    "artist": "Yorushika",
+    "difficulties": {"Easy": "★1", "Medium": "★2", "Hard": "★4", "Oni": "★6", "Ura Oni": "★8"}
+  },
+  {
+    "title": "Marigold 【Aimyon】",
+    "artist": "Aimyon",
+    "difficulties": {"Easy": "★1", "Medium": "★1", "Hard": "★4", "Oni": "★6"}
+  },
+  {
+    "title": "Ao to Natsu 【Mrs. GREEN APPLE】",
+    "artist": "Mrs. GREEN APPLE",
+    "difficulties": {"Easy": "★2", "Medium": "★2", "Hard": "★3", "Oni": "★6"}
+  },
+  {
+    "title": "Zenzenzense 【Radwimps】",
+    "artist": "Radwimps",
+    "difficulties": {"Easy": "★3", "Medium": "★4", "Hard": "★6", "Oni": "★8"}
+  },
+  {
+    "title": "Kurenai 【X-Japan】",
+    "artist": "X-Japan",
+    "difficulties": {"Easy": "★3", "Medium": "★4", "Hard": "★7", "Oni": "★8"}
+  }
+] 

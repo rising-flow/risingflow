@@ -1,0 +1,342 @@
+[
+  {
+    "title": "Roki【MikitoP feat. Kagamine Rin】",
+    "artist": "MikitoP feat. Kagamine Rin",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "KING【Kanaria】",
+    "artist": "Kanaria",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Villain【flower・Teniwoha】",
+    "artist": "flower・Teniwoha",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Dareka no Shinzou ni Nareta Nara【YurryCanon】",
+    "artist": "YurryCanon",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Charles【balloon feat. flower】",
+    "artist": "balloon feat. flower",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Tell Me Beat【kinoshita feat. Kagamine Rin】",
+    "artist": "kinoshita feat. Kagamine Rin",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Colorful Voice【cosMo@BousouP】",
+    "artist": "cosMo@BousouP",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★7",
+      "Hard": "★7",
+      "Oni": "★9",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Monochrome Voice【cosMo@BousouP】",
+    "artist": "cosMo@BousouP",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★10",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Lagtrain【INABAKUMORI feat. Kaai Yuki】",
+    "artist": "INABAKUMORI feat. Kaai Yuki",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Mesmerizer【Satsuki feat. Hatsune Miku・Kasane Teto】",
+    "artist": "Satsuki feat. Hatsune Miku・Kasane Teto",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★4",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Animal【DECO*27 feat. Hatsune Miku】",
+    "artist": "DECO*27 feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Cinderella【DECO*27 feat. Hatsune Miku】",
+    "artist": "DECO*27 feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★7",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Vampire【DECO*27 feat. Hatsune Miku】",
+    "artist": "DECO*27 feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Otome Dissection【DECO*27 feat. Hatsune Miku】",
+    "artist": "DECO*27 feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★4",
+      "Oni": "★6",
+      "Ura Oni": "★8"
+    }
+  },
+  {
+    "title": "Ghost Rule【DECO*27 feat. Hatsune Miku】",
+    "artist": "DECO*27 feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "God-ish【PinocchioP feat. Hatsune Miku】",
+    "artist": "PinocchioP feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "Darling Dance【Kairiki bear feat. Hatsune Miku】",
+    "artist": "Kairiki bear feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Alien Alien【NayutalieN feat. Hatsune Miku】",
+    "artist": "NayutalieN feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Dance Robot Dance【NayutalieN feat. Hatsune Miku】",
+    "artist": "NayutalieN feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★4",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Solar System Disco【NayutalieN feat. Hatsune Miku】",
+    "artist": "NayutalieN feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Buriki No Dance【Hinata Electric Works feat. Hatsune Miku】",
+    "artist": "Hinata Electric Works feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Tell Your World【livetune feat. Hatsune Miku】",
+    "artist": "livetune feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★2",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Black★Rock Shooter【supercell feat. Hatsune Miku】",
+    "artist": "supercell feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "World is Mine【supercell feat. Hatsune Miku】",
+    "artist": "supercell feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Melt【supercell feat. Hatsune Miku】",
+    "artist": "supercell feat. Hatsune Miku",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Miku Miku ni Shite Ageru♪【Shite Yan Yo】",
+    "artist": "Shite Yan Yo",
+    "difficulties": {
+      "Easy": "★1",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★6"
+    }
+  },
+  {
+    "title": "Yoidoreshirazu【Kanaria】",
+    "artist": "Kanaria",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Luka Luka Night Fever【samfree】",
+    "artist": "samfree",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Asu no Yozora Shoukaihan【Orangestar feat. IA】",
+    "artist": "Orangestar feat. IA",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Roku-chou Nen to Ichiya Monogatari【kemu feat. IA】",
+    "artist": "kemu feat. IA",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Lower【Lanndo feat. flower】",
+    "artist": "Lanndo feat. flower",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Goodbye Sengen【Chinozo feat. flower】",
+    "artist": "Chinozo feat. flower",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8",
+      "Ura Oni": "★9"
+    }
+  },
+  {
+    "title": "Venom（feat. flower）【Kairiki bear】",
+    "artist": "Kairiki bear",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  }
+]

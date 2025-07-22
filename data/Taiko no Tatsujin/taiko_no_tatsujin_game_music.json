@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Dr.WILY STAGE 1【Mega Man 2】",
+    "artist": "Mega Man 2",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Monster Hunter: World Medley\nモンスターハンター：ワールド メドレー",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Last Surprise【Persona 5】",
+    "artist": "Persona 5",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★5",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Life Will Change【Persona 5】",
+    "artist": "Persona 5",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "MEGALOVANIA【UNDERTALE】",
+    "artist": "UNDERTALE",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★9",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "JOIN THE PAC -Taiko no Tatsujin Ver.-【Pac-Man 40th Anniversary Official Theme Music】",
+    "artist": "Pac-Man 40th Anniversary Official Theme Music",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★3",
+      "Hard": "★6",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "Katamari On The Rocks\n塊オンザロック～メインテーマ／「塊魂」",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "The Windmill Song【Klonoa: Door to Phantomile】",
+    "artist": "Klonoa: Door to Phantomile",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "ESCAPE FROM CRISIS【CRITICAL VELOCITY】",
+    "artist": "CRITICAL VELOCITY",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★6",
+      "Oni": "★8",
+      "Ura Oni": "★10"
+    }
+  },
+  {
+    "title": "Synchronica Airlines【Taku Inoue(BNSI) \"Synchronica\"】",
+    "artist": "Taku Inoue(BNSI) \"Synchronica\"",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★9"
+    }
+  },
+  {
+    "title": "The arrow was shot【Tales of the Abyss】",
+    "artist": "Tales of the Abyss",
+    "difficulties": {
+      "Easy": "★5",
+      "Medium": "★6",
+      "Hard": "★7",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "EAT'EM UP!【R4 -RIDGE RACER TYPE4-】",
+    "artist": "R4 -RIDGE RACER TYPE4-",
+    "difficulties": {
+      "Easy": "★3",
+      "Medium": "★5",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Boku no Jikyuu Bokura no Jikyuu【Mr. Driller: Drill Land】",
+    "artist": "Mr. Driller: Drill Land",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★7"
+    }
+  },
+  {
+    "title": "GOING TO LUNATEA【Klonoa 2: Lunatea's Veil】",
+    "artist": "Klonoa 2: Lunatea's Veil",
+    "difficulties": {
+      "Easy": "★2",
+      "Medium": "★4",
+      "Hard": "★6",
+      "Oni": "★8"
+    }
+  },
+  {
+    "title": "Symphonic Valkyrie\nシンフォニック ワルキューレ",
+    "artist": "",
+    "difficulties": {
+      "Easy": "★4",
+      "Medium": "★5",
+      "Hard": "★5",
+      "Oni": "★7"
+    }
+  }
+]
