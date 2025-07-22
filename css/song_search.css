@@ -479,7 +479,7 @@
     font-weight: bold;
 }
 .category-header h2 {
-    font-size: 1.08em;
+    font-size: 0.6em;
     margin: 0;
 }
 .category-header {
@@ -490,13 +490,13 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: var(--color-text-dark);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: background-color 0.3s ease;
 }
 .song-count {
-    font-size: 0.8em;
+    font-size: 0.6em;
     background: none !important;
     color: inherit;
     padding: 0 6px;
