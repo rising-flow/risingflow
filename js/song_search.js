@@ -94,10 +94,11 @@ const gameDataSources = {
     }
 };
 
+// Global to store category order for Stepmania
+let stepmaniaCategoryOrder = [];
+
 // --- Utility to fetch all JSON files in a folder (flat, not recursive) ---
 async function fetchJsonFilesInFolder(folderPath) {
-    // This function assumes you know the file names or have an API to list them.
-    // For now, hardcode for Stepmania (DDR)
     if (folderPath === 'data/Stepmania/') {
         const jsonFiles = [
             '1 - Anime Channel.json',
@@ -141,17 +142,15 @@ async function fetchJsonFilesInFolder(folderPath) {
             const response = await fetch(folderPath + file);
             if (!response.ok) return null;
             const data = await response.json();
-            // Extract display name (remove number prefix and separator)
             const match = file.match(/^[0-9]+\s*[-_]?\s*(.*)\.json$/i);
             const categoryName = match ? match[1] : file.replace('.json', '');
-            // Store the order for later sorting
             const order = parseInt(file.match(/^([0-9]+)/)?.[1] || '9999', 10);
             return { categoryName, data, order };
         });
-        // Sort by order before returning
         const results = (await Promise.all(fetchPromises)).filter(Boolean);
         results.sort((a, b) => a.order - b.order);
-        // Remove 'order' property before returning
+        // Store the order for Stepmania
+        stepmaniaCategoryOrder = results.map(r => r.categoryName);
         return results.map(({categoryName, data}) => ({categoryName, data}));
     }
     // For other folders, return empty (no data yet)
@@ -450,8 +449,17 @@ function applyFilter() {
         }
     }
 
-    // Sort Categories Alphabetically
-    let sortedCategoryNames = Object.keys(categoriesToRender).sort((a, b) => a.localeCompare(b));
+    // Sort Categories
+    let sortedCategoryNames;
+    // Detect if Stepmania is the current game
+    const isStepmania = stepmaniaCategoryOrder.length > 0 && Object.keys(categoriesToRender).some(cat => stepmaniaCategoryOrder.includes(cat));
+    if (isStepmania) {
+        // Use the order from stepmaniaCategoryOrder, only for categories present
+        sortedCategoryNames = stepmaniaCategoryOrder.filter(cat => categoriesToRender.hasOwnProperty(cat));
+    } else {
+        // Alphabetical for other games
+        sortedCategoryNames = Object.keys(categoriesToRender).sort((a, b) => a.localeCompare(b));
+    }
 
     if (sortedCategoryNames.length === 0 && (searchTerm !== '' || activeFilters.length > 0)) {
         // Display a message if no results found after filtering
