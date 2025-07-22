@@ -272,7 +272,7 @@ function renderSongItem(song) {
         if (singleDiffs.length > 0) {
             const singleSpan = document.createElement('span');
             singleSpan.className = 'difficulty difficulty-single';
-            singleSpan.textContent = singleDiffs.join(' | ');
+            singleSpan.textContent = 'Single: ' + singleDiffs.join(' | ');
             difficultiesDiv.appendChild(singleSpan);
         }
     }
@@ -291,7 +291,7 @@ function renderSongItem(song) {
             }
             const doubleSpan = document.createElement('span');
             doubleSpan.className = 'difficulty difficulty-double';
-            doubleSpan.textContent = doubleDiffs.join(' | ');
+            doubleSpan.textContent = 'Doubles: ' + doubleDiffs.join(' | ');
             difficultiesDiv.appendChild(doubleSpan);
         }
     }
