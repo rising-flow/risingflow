@@ -41,6 +41,7 @@ const translations = {
 };
 
 let currentLang = 'pt-BR'; // Default language
+window.getCurrentLang = function() { return currentLang; };
 
 function updateContent(lang) {
     htmlElement.lang = lang; // Update HTML lang attribute

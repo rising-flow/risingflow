@@ -24,6 +24,7 @@ const songSearcherTranslations = {
         noSongsFoundCriteria: 'Nenhuma música encontrada com seus critérios.',
         noSongsAvailable: 'Nenhuma música disponível.',
         selectGameTitle: 'Selecione um Jogo',
+        songsLabel: 'músicas'
     },
     'en-GB': {
         pageTitle: 'Rising Flow - Song Searcher',
@@ -36,11 +37,12 @@ const songSearcherTranslations = {
         noSongsFoundCriteria: 'No songs found matching your criteria.',
         noSongsAvailable: 'No songs available.',
         selectGameTitle: 'Select a Game',
+        songsLabel: 'songs'
     }
 };
 
 function getCurrentLang() {
-    // Try to get from main language switcher, fallback to pt-BR
+    if (window.getCurrentLang) return window.getCurrentLang();
     const btn = document.getElementById('language-flag');
     if (btn && btn.dataset.lang) {
         return btn.dataset.lang === 'en-GB' ? 'en-GB' : 'pt-BR';
@@ -471,7 +473,9 @@ function applyFilter() {
 
         const categoryHeader = document.createElement('div');
         categoryHeader.className = 'category-header';
-        categoryHeader.innerHTML = `<h2>${categoryName}</h2><span class="song-count">(${categorySongs.length} songs)</span><i class="fas fa-chevron-down toggle-icon"></i>`;
+        const lang = getCurrentLang();
+        const t = songSearcherTranslations[lang];
+        categoryHeader.innerHTML = `<h2>${categoryName}</h2><span class="song-count">(${categorySongs.length} ${t.songsLabel})</span><i class="fas fa-chevron-down toggle-icon"></i>`;
         categoryDiv.appendChild(categoryHeader);
 
         const categoryContent = document.createElement('div');

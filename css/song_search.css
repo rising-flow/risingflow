@@ -443,8 +443,8 @@
 }
 
 .game-btn.selected {
-    border: 2.5px solid var(--color-primary-yellow);
-    box-shadow: 0 0 0 4px rgba(242,214,6,0.18);
+    border: 2.5px solid #ffe600;
+    box-shadow: 0 0 0 4px rgba(255,230,0,0.28);
     background: rgba(0,0,0,0.85);
     color: #fff;
     z-index: 5;
@@ -472,5 +472,35 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
+}
+
+#search-page-title, .game-selection h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.category-header h2 {
+    font-size: 1.08em;
+    margin: 0;
+}
+.category-header {
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--color-text-dark);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+.song-count {
+    font-size: 0.8em;
+    background: none !important;
+    color: inherit;
+    padding: 0 6px;
+    border-radius: 0;
+    margin-left: 8px;
 }
 
