@@ -26,9 +26,12 @@
 
     <nav>
         <div class="navbar-content">
-            <ul>
+            <button id="navbar-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navbar-links">
+                <span class="hamburger-icon">&#9776;</span>
+            </button>
+            <ul id="navbar-links">
                 <li class="dropdown">
-                    <a href="#products">Products <i class="fas fa-caret-down"></i></a>
+                    <a href="#products"><span id="products-link-text">Products</span> <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="#">Arcade Systems</a>
                         <a href="#">Home Editions</a>
@@ -36,14 +39,15 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#events">Events <i class="fas fa-caret-down"></i></a>
+                    <a href="#events"><span id="events-link-text">Events</span> <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <a href="#">Upcoming</a>
                         <a href="#">Past Events</a>
                         <a href="#">Host an Event</a>
                     </div>
                 </li>
-                <li><a href="./song_search" id="song-search-link">Song Searcher</a></li> <li><a href="#contact" id="contact-link">Contact</a></li>
+                <li><a href="./song_search" id="song-search-link">Song Searcher</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
             </ul>
         </div>
     </nav>
