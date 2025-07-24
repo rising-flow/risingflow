@@ -69,10 +69,19 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContactPageUI();
     // AJAX form submission and modal logic
     const form = document.getElementById('contactForm');
-    const modal = document.getElementById('thankYouModal');
+    const modalEl = document.getElementById('thankYouModal');
     const closeModalBtn = document.getElementById('closeModalBtn');
+    let bsModal = null;
+    if (window.bootstrap && window.bootstrap.Modal) {
+        bsModal = new bootstrap.Modal(modalEl);
+    }
+    // Bootstrap validation
     form.addEventListener('submit', function(e) {
         e.preventDefault();
+        if (!form.checkValidity()) {
+            form.classList.add('was-validated');
+            return;
+        }
         const formData = new FormData(form);
         fetch('https://formspree.io/f/xvgqapob', {
             method: 'POST',
@@ -82,7 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => {
             if (response.ok) {
                 form.reset();
-                modal.style.display = 'flex';
+                form.classList.remove('was-validated');
+                if (bsModal) {
+                    bsModal.show();
+                } else {
+                    modalEl.style.display = 'flex';
+                }
             } else {
                 response.json().then(data => {
                     alert(data.error || 'There was a problem sending your message. Please try again later.');
@@ -93,7 +107,16 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('There was a problem sending your message. Please try again later.');
         });
     });
+    // Redirect to home after modal closes
+    if (modalEl) {
+        modalEl.addEventListener('hidden.bs.modal', function () {
+            window.location.href = 'https://risingflow.com.br/';
+        });
+    }
+    // Fallback for manual close button (if modal API fails)
     closeModalBtn.addEventListener('click', function() {
-        window.location.href = 'https://risingflow.com.br/';
+        if (!window.bootstrap || !window.bootstrap.Modal) {
+            window.location.href = 'https://risingflow.com.br/';
+        }
     });
 }); 
