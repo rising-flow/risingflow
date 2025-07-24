@@ -388,4 +388,76 @@ footer {
         aspect-ratio: 1.5/0.6;
     }
     #hero-announcer .carousel-caption h1 { font-size: 1.2rem; }
+    .navbar-nav .nav-link, .navbar .dropdown-item {
+        font-size: 0.95em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .navbar .dropdown-menu {
+        font-size: 0.95em;
+    }
+}
+
+.navbar, .navbar-nav, .navbar .dropdown-menu {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--color-primary-yellow) !important;
+}
+.navbar-nav .nav-link, .navbar .dropdown-item {
+    color: var(--color-text-dark) !important;
+    font-weight: bold;
+    font-family: inherit;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
+    background: var(--color-neutral-grey) !important;
+}
+.navbar-nav .nav-link:hover, .navbar .dropdown-item:hover, .navbar-nav .nav-link:focus, .navbar .dropdown-item:focus {
+    background-color: var(--color-darker-yellow) !important;
+    color: var(--color-text-dark) !important;
+    transform: scale(1.08);
+}
+
+.navbar .dropdown-menu {
+    z-index: 2000 !important;
+    background: var(--color-neutral-grey) !important;
+}
+@media (max-width: 768px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .navbar-nav .nav-item, .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .navbar .dropdown-menu {
+        font-size: 0.95em;
+        background: var(--color-primary-yellow) !important;
+        border-radius: 0 !important;
+        margin-top: 0.7em !important;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+        padding: 0.5em 0;
+        min-width: 160px;
+        text-align: center;
+    }
+}
+
+/* Mobile hamburger icon: hide default, use FontAwesome */
+.navbar-toggler-icon {
+    display: none;
+}
+.navbar-toggler .fa-bars {
+    font-size: 1.44em;
+    margin-right: 2px;
+    color: var(--color-text-dark);
+    display: inline-block;
+}
+#mainNavbar {
+    padding-top: 10px;
+}
+.nav-item, .nav-item .nav-link {
+    background: var(--color-primary-yellow) !important;
 }
