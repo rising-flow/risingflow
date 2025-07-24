@@ -52,37 +52,38 @@
     </nav>
 
     <main class="container">
-        <div id="game-selection" class="game-selection">
-            <h2>Select a Game</h2>
-            <div class="game-list">
-                <button class="game-btn" data-game="Dance Dance Revolution" data-bg="images/ddr_bg.jpg"><span class="game-btn-label">Dance Dance Revolution</span></button>
-                <button class="game-btn" data-game="YARG" data-bg="images/yarg_bg.jpg"><span class="game-btn-label">YARG</span></button>
-                <button class="game-btn" data-game="Project Diva" data-bg="images/diva_bg.jpg"><span class="game-btn-label">Project Diva</span></button>
-                <button class="game-btn" data-game="Taiko no Tatsujin" data-bg="images/taiko_bg.jpg"><span class="game-btn-label">Taiko no Tatsujin</span></button>
-            </div>
-        </div>
-        <section class="song-search-section">
-            <div id="search-ui-wrapper">
-                <h1 id="search-page-title">Song Searcher</h1>
-                <div class="filter-container">
-                    <div class="search-input-row">
-                        <input type="text" id="filter-input" placeholder="Search by title, artist, or subtitle...">
-                        <button id="add-filter-btn" class="icon-button" title="Add Filter">
-                            <i class="fas fa-search"></i>
-                        </button>
-                        <button id="clear-filters-btn" class="icon-button clear-icon-button" title="Clear All Filters">
-                            <i class="fas fa-times"></i> </button>
-                    </div>
-                    
-                    <div class="filter-tags" id="filter-tags">
-                        </div>
+        <div class="col-12 mb-4">
+            <div id="game-selection" class="game-selection">
+                <h2>Select a Game</h2>
+                <div class="game-list">
+                    <button class="game-btn" data-game="Dance Dance Revolution" data-bg="images/ddr_bg.jpg"><span class="game-btn-label">Dance Dance Revolution</span></button>
+                    <button class="game-btn" data-game="YARG" data-bg="images/yarg_bg.jpg"><span class="game-btn-label">YARG</span></button>
+                    <button class="game-btn" data-game="Project Diva" data-bg="images/diva_bg.jpg"><span class="game-btn-label">Project Diva</span></button>
+                    <button class="game-btn" data-game="Taiko no Tatsujin" data-bg="images/taiko_bg.jpg"><span class="game-btn-label">Taiko no Tatsujin</span></button>
                 </div>
             </div>
-
-            <div id="category-list" class="category-list">
-                <div class="loading-message" id="loading-message">Loading songs...</div>
-            </div>
-        </section>
+        </div>
+        <div class="col-12 mb-4">
+            <section class="song-search-section">
+                <div id="search-ui-wrapper">
+                    <h1 id="search-page-title">Song Searcher</h1>
+                    <div class="filter-container">
+                        <div class="search-input-row">
+                            <input type="text" id="filter-input" placeholder="Search by title, artist, or subtitle...">
+                            <button id="add-filter-btn" class="icon-button" title="Add Filter">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <button id="clear-filters-btn" class="icon-button clear-icon-button" title="Clear All Filters">
+                                <i class="fas fa-times"></i> </button>
+                        </div>
+                        <div class="filter-tags" id="filter-tags"></div>
+                    </div>
+                </div>
+                <div id="category-list" class="category-list">
+                    <div class="loading-message" id="loading-message">Loading songs...</div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>

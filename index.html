@@ -50,29 +50,78 @@
     </nav>
 
     <main>
-        <section class="hero-section" id="home">
-            <h1 id="hero-title">Welcome to Rising Flow!</h1>
-            <p id="hero-description">Dive into the rhythm, embrace the challenge, and experience the ultimate music and dance game community. From classic beats to the latest hits, we bring the arcade experience to you.</p>
-            <a href="#about" class="call-to-action" id="learn-more-button">Learn More</a>
-        </section>
+        <div id="hero-announcer" class="carousel slide carousel-fade w-100 mx-auto" data-bs-ride="carousel" data-bs-interval="10000">
+                <div class="carousel-indicator-bar">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#hero-announcer" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#hero-announcer" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#hero-announcer" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#hero-announcer" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('images/carousel/ddr_bg.jpg');">
+                        <a href="#" class="carousel-link">
+                            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                                <h1>We are at the <b>~event~</b> on days x to y</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('images/carousel/taiko_bg.jpg');">
+                        <a href="song_search.html" class="carousel-link">
+                            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                                <h1>Looking for a song in our arcades?</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('images/carousel/diva_bg.jpg');">
+                        <a href="#" class="carousel-link">
+                            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                                <h1>Best items for rhythm games, controllers, accessories etc.</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('images/carousel/yarg_bg.jpg');">
+                        <a href="contact.html" class="carousel-link">
+                            <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                                <h1>Have a suggestion?</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#hero-announcer" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark bg-opacity-25 rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hero-announcer" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark bg-opacity-25 rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
         <section class="about-section" id="about">
             <h2 id="about-heading">About Rising Flow</h2>
-            <div class="about-content">
-                <div class="about-item">
-                    <i class="fas fa-music"></i>
-                    <h3 id="about-music-title">Vast Music Library</h3>
-                    <p id="about-music-desc">Explore thousands of songs from various genres and artists, constantly updated to keep your feet moving.</p>
+            <div class="about-content row justify-content-center">
+                <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="about-item h-100">
+                        <i class="fas fa-music"></i>
+                        <h3 id="about-music-title">Vast Music Library</h3>
+                        <p id="about-music-desc">Explore thousands of songs from various genres and artists, constantly updated to keep your feet moving.</p>
+                    </div>
                 </div>
-                <div class="about-item">
-                    <i class="fas fa-gamepad"></i>
-                    <h3 id="about-community-title">Thriving Community</h3>
-                    <p id="about-community-desc">Join a passionate community of rhythm game enthusiasts. Share scores, tips, and participate in online events.</p>
+                <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="about-item h-100">
+                        <i class="fas fa-gamepad"></i>
+                        <h3 id="about-community-title">Thriving Community</h3>
+                        <p id="about-community-desc">Join a passionate community of rhythm game enthusiasts. Share scores, tips, and participate in online events.</p>
+                    </div>
                 </div>
-                <div class="about-item">
-                    <i class="fas fa-trophy"></i>
-                    <h3 id="about-events-title">Exciting Events</h3>
-                    <p id="about-events-desc">Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.</p>
+                <div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="about-item h-100">
+                        <i class="fas fa-trophy"></i>
+                        <h3 id="about-events-title">Exciting Events</h3>
+                        <p id="about-events-desc">Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.</p>
+                    </div>
                 </div>
             </div>
         </section>
