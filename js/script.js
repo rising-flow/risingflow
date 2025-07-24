@@ -134,3 +134,4 @@ languageFlagButton.addEventListener('click', () => {
 // Initialize content and flag on first load
 updateContent(currentLang);
 updateFlagButton(currentLang);
+if (window.updateContactPageUI) window.updateContactPageUI();
