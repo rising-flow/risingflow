@@ -94,6 +94,20 @@
     font-size: 1rem;
     cursor: pointer;
 }
+/* Fix Bootstrap modal backdrop and centering */
+.modal-backdrop {
+    opacity: 0.3 !important; /* Less dark, but still visible */
+    z-index: 1040 !important;
+}
+.modal,
+.modal.show {
+    z-index: 1051 !important;
+}
+.modal-content {
+    margin: auto;
+    z-index: 1052 !important;
+    position: relative;
+}
 @media (max-width: 600px) {
     .contact-container {
         max-width: 98vw;
