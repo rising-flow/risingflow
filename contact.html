@@ -23,29 +23,38 @@
                 <span class="fi fi-gb" title="Switch to English"></span> </button>
         </div>
     </header>
-    <nav>
-        <div class="navbar-content">
-            <ul>
-                <li class="dropdown">
-                    <a href="#products"><span id="products-link-text">Products</span> <i class="fas fa-caret-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="#">Arcade Systems</a>
-                        <a href="#">Home Editions</a>
-                        <a href="#">Merchandise</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#events"><span id="events-link-text">Events</span> <i class="fas fa-caret-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="#">Upcoming</a>
-                        <a href="#">Past Events</a>
-                        <a href="#">Host an Event</a>
-                    </div>
-                </li>
-                <li><a href="./song_search" id="song-search-link">Song Searcher</a></li>
-                <li><a href="./contact" id="contact-link">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--color-primary-yellow); z-index: 1050;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#products" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="products-link-text">Products</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="productsDropdown" style="z-index: 2000;">
+                <li><a class="dropdown-item" href="#">Arcade Systems</a></li>
+                <li><a class="dropdown-item" href="#">Home Editions</a></li>
+                <li><a class="dropdown-item" href="#">Merchandise</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#events" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="events-link-text">Events</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="eventsDropdown" style="z-index: 2000;">
+                <li><a class="dropdown-item" href="#">Upcoming</a></li>
+                <li><a class="dropdown-item" href="#">Past Events</a></li>
+                <li><a class="dropdown-item" href="#">Host an Event</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="./song_search" id="song-search-link">Song Searcher</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact" id="contact-link">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
     <main>
         <div class="container py-4">
