@@ -12,7 +12,10 @@ const contactTranslations = {
         thankYou: 'Obrigado!',
         appreciate: 'Agradecemos sua mensagem e entraremos em contato o mais breve possível.',
         backToHome: 'Voltar para o Início',
-        directEmail: 'Ou envie um email diretamente para <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>'
+        directEmail: 'Ou envie um email diretamente para <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>',
+        invalidName: 'Por favor, insira seu nome.',
+        invalidEmail: 'Por favor, insira um email válido.',
+        invalidMessage: 'Por favor, insira sua mensagem.'
     },
     'en-GB': {
         contactTitle: 'Contact Us',
@@ -26,29 +29,30 @@ const contactTranslations = {
         thankYou: 'Thank You!',
         appreciate: 'We appreciate your message and will get in touch as soon as possible.',
         backToHome: 'Back to Home',
-        directEmail: 'Or email us directly at <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>'
+        directEmail: 'Or email us directly at <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>',
+        invalidName: 'Please enter your name.',
+        invalidEmail: 'Please enter a valid email.',
+        invalidMessage: 'Please enter your message.'
     }
 };
-function getCurrentLang() {
-    // Prevent infinite recursion if window.getCurrentLang is this function
-    if (window.getCurrentLang && window.getCurrentLang !== getCurrentLang) return window.getCurrentLang();
-    const btn = document.getElementById('language-flag');
-    if (btn && btn.dataset.lang) {
-        return btn.dataset.lang === 'en-GB' ? 'en-GB' : 'pt-BR';
-    }
-    return 'pt-BR';
-}
-function updateContactPageUI() {
-    const lang = getCurrentLang();
+// Only keep translation data and updateContactPageUI
+// Remove custom event listeners and flag logic
+// The global script.js will handle the language switching and flag
+// Optionally, expose updateContactPageUI for the global switcher
+window.updateContactPageUI = function() {
+    const lang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
     const t = contactTranslations[lang];
     document.title = lang === 'pt-BR' ? 'Rising Flow - Contato' : 'Rising Flow - Contact';
     document.getElementById('contact-title').textContent = t.contactTitle;
     document.getElementById('label-name').textContent = t.name;
     document.getElementById('name').placeholder = t.namePlaceholder;
+    document.getElementById('invalid-name').textContent = t.invalidName;
     document.getElementById('label-email').textContent = t.email;
     document.getElementById('email').placeholder = t.emailPlaceholder;
+    document.getElementById('invalid-email').textContent = t.invalidEmail;
     document.getElementById('label-message').textContent = t.message;
     document.getElementById('message').placeholder = t.messagePlaceholder;
+    document.getElementById('invalid-message').textContent = t.invalidMessage;
     document.getElementById('send-btn').innerHTML = '<i class="fas fa-paper-plane"></i> ' + t.sendMessage;
     document.getElementById('modal-title').textContent = t.thankYou;
     document.getElementById('modal-message').textContent = t.appreciate;
@@ -56,18 +60,10 @@ function updateContactPageUI() {
     document.getElementById('direct-email').innerHTML = t.directEmail;
     // Update email link title
     document.getElementById('email-link').title = t.sendMessage;
-}
-// Listen for language changes
-const contactLanguageFlagButton = document.getElementById('language-flag');
-if (contactLanguageFlagButton) {
-    contactLanguageFlagButton.addEventListener('click', () => {
-        setTimeout(() => {
-            updateContactPageUI();
-        }, 0);
-    });
-}
+};
+
 document.addEventListener('DOMContentLoaded', () => {
-    updateContactPageUI();
+    window.updateContactPageUI();
     // AJAX form submission and modal logic
     const form = document.getElementById('contactForm');
     const modalEl = document.getElementById('thankYouModal');

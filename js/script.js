@@ -1,3 +1,33 @@
+/*
+==================== TRANSLATION GUIDE FOR NEW PAGES ====================
+
+To ensure your new page supports language switching and translation:
+
+1. Assign unique IDs to all text elements you want to translate (e.g., <h1 id="my-title">Title</h1>).
+
+2. In your page-specific JS, create a translation object similar to:
+   const myPageTranslations = {
+     'pt-BR': { myTitle: 'Título', ... },
+     'en-GB': { myTitle: 'Title', ... }
+   };
+
+3. Write a function (e.g., window.updateMyPageUI) that updates all relevant elements using the current language:
+   window.updateMyPageUI = function() {
+     const lang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
+     const t = myPageTranslations[lang];
+     document.getElementById('my-title').textContent = t.myTitle;
+     // ...repeat for all translatable elements
+   };
+
+4. In js/script.js, the global language switcher will automatically call window.updateMyPageUI() if it exists after every language change.
+   (No need to add extra event listeners for the flag on your page.)
+
+5. Set the default text in your HTML to pt-BR for consistency.
+
+6. If you add a new page, just follow steps 1-3 above and the translation will work automatically!
+
+==========================================================================
+*/
 // --- Language Switcher (JavaScript) ---
 const languageFlagButton = document.getElementById('language-flag');
 const htmlElement = document.querySelector('html');
@@ -98,6 +128,7 @@ languageFlagButton.addEventListener('click', () => {
     currentLang = (currentLang === 'pt-BR') ? 'en-GB' : 'pt-BR';
     updateContent(currentLang);
     updateFlagButton(currentLang);
+    if (window.updateContactPageUI) window.updateContactPageUI();
 });
 
 // Initialize content and flag on first load

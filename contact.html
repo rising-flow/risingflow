@@ -50,46 +50,46 @@
     <main>
         <div class="container py-4">
             <div class="contact-container bg-white rounded shadow p-4 mx-auto" style="max-width:500px;">
-                <h1 id="contact-title" class="text-center mb-4">Contact Us</h1>
+                <h1 id="contact-title" class="text-center mb-4">Fale Conosco</h1>
                 <div class="contact-links d-flex justify-content-center gap-4 mb-4">
                     <a href="https://instagram.com/_risingflow" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="mailto:contato@risingflow.com.br" class="email-link" id="email-link" title="Send Email"><i class="fas fa-envelope"></i></a>
                 </div>
                 <form class="contact-form needs-validation" id="contactForm" novalidate>
                     <div class="mb-3">
-                        <label for="name" id="label-name" class="form-label">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Type your name here" class="form-control">
-                        <div class="invalid-feedback">Please enter your name.</div>
+                        <label for="name" id="label-name" class="form-label">Nome</label>
+                        <input type="text" id="name" name="name" required placeholder="Digite seu nome aqui" class="form-control">
+                        <div class="invalid-feedback" id="invalid-name">Por favor, insira seu nome.</div>
                     </div>
                     <div class="mb-3">
                         <label for="email" id="label-email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="Type your email here" class="form-control">
-                        <div class="invalid-feedback">Please enter a valid email.</div>
+                        <input type="email" id="email" name="email" required placeholder="seu email aqui" class="form-control">
+                        <div class="invalid-feedback" id="invalid-email">Por favor, insira um email válido.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="message" id="label-message" class="form-label">Message</label>
-                        <textarea id="message" name="message" required placeholder="Your message here" class="form-control" rows="4"></textarea>
-                        <div class="invalid-feedback">Please enter your message.</div>
+                        <label for="message" id="label-message" class="form-label">Mensagem</label>
+                        <textarea id="message" name="message" required placeholder="sua mensagem aqui" class="form-control" rows="4"></textarea>
+                        <div class="invalid-feedback" id="invalid-message">Por favor, insira sua mensagem.</div>
                     </div>
-                    <button type="submit" id="send-btn" class="btn btn-primary w-100"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <button type="submit" id="send-btn" class="btn btn-primary w-100"><i class="fas fa-paper-plane"></i> Enviar Mensagem</button>
                 </form>
                 <!-- Bootstrap Modal for confirmation -->
                 <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header border-0">
-                        <h2 id="modal-title" class="modal-title w-100 text-center">Thank You!</h2>
+                        <h2 id="modal-title" class="modal-title w-100 text-center">Obrigado!</h2>
                       </div>
                       <div class="modal-body text-center">
-                        <p id="modal-message">We appreciate your message and will get in touch as soon as possible.</p>
+                        <p id="modal-message">Agradecemos sua mensagem e entraremos em contato o mais breve possível.</p>
                       </div>
                       <div class="modal-footer border-0 justify-content-center">
-                        <button id="closeModalBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Back to Home</button>
+                        <button id="closeModalBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Voltar para o Início</button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <p id="direct-email" class="text-center text-muted mt-3" style="font-size:0.95em;">Or email us directly at <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a></p>
+                <p id="direct-email" class="text-center text-muted mt-3" style="font-size:0.95em;">Ou envie um email diretamente para <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a></p>
             </div>
         </div>
     </main>
