@@ -233,10 +233,13 @@
 }
 
 .difficulties {
+    display: block;
+    width: 100%;
     text-align: center;
 }
 .difficulty-single, .difficulty-double {
-    display: block;
+    display: block !important;
+    width: 100%;
     margin: 0 auto 4px auto;
     text-align: center;
     float: none;
