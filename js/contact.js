@@ -70,6 +70,12 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContactPageUI();
     // AJAX form submission and modal logic
     const form = document.getElementById('contactForm');
+    const modalEl = document.getElementById('thankYouModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    let bsModal = null;
+    if (window.bootstrap && window.bootstrap.Modal) {
+        bsModal = new bootstrap.Modal(modalEl);
+    }
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         if (!form.checkValidity()) {
@@ -86,11 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (response.ok) {
                 form.reset();
                 form.classList.remove('was-validated');
-                // Show alert and redirect
-                const lang = getCurrentLang();
-                const t = contactTranslations[lang];
-                alert(t.appreciate);
-                window.location.href = 'https://risingflow.com.br/';
+                if (bsModal) {
+                    bsModal.show();
+                } else {
+                    modalEl.style.display = 'flex';
+                }
             } else {
                 response.json().then(data => {
                     alert(data.error || 'There was a problem sending your message. Please try again later.');
@@ -100,5 +106,17 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(() => {
             alert('There was a problem sending your message. Please try again later.');
         });
+    });
+    // Redirect to home after modal closes
+    if (modalEl) {
+        modalEl.addEventListener('hidden.bs.modal', function () {
+            window.location.href = 'https://risingflow.com.br/';
+        });
+    }
+    // Fallback for manual close button (if modal API fails)
+    closeModalBtn.addEventListener('click', function() {
+        if (!window.bootstrap || !window.bootstrap.Modal) {
+            window.location.href = 'https://risingflow.com.br/';
+        }
     });
 }); 
