@@ -194,7 +194,7 @@
 
 .song-item {
     padding: 16px 24px 16px 24px;
-    text-align: left;
+    text-align: center;
     overflow: visible;
     word-break: break-word;
     border-bottom: 1px solid var(--color-neutral-grey, #eee);
@@ -230,6 +230,13 @@
     .category-content.expanded .song-item:nth-last-child(-n+2) {
         border-bottom: none;
     }
+}
+
+.difficulty-double {
+    display: block;
+    margin-top: 10px;
+    border-top: 1px solid var(--color-neutral-grey, #eee);
+    padding-top: 8px;
 }
 
 
