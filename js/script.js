@@ -135,3 +135,5 @@ languageFlagButton.addEventListener('click', () => {
 updateContent(currentLang);
 updateFlagButton(currentLang);
 if (window.updateContactPageUI) window.updateContactPageUI();
+
+// --- Hero Announcer Blurred Background Sync ---

@@ -16,11 +16,19 @@ body {
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--color-background-light);
+    background-color: var(--color-neutral-grey) !important;
     color: var(--color-dark-grey);
     line-height: 1.6;
     padding-top: 64px; /* Adjusted for larger header */
     padding-bottom: 36px; /* Prevent content under footer */
+}
+
+html {
+    background-color: var(--color-neutral-grey);
+}
+
+main, .container, .row, .col-12, .col-md-2, .col-md-4, .col-md-6, .col-md-12 {
+    background-color: var(--color-neutral-grey) !important;
 }
 
 .container {
@@ -256,7 +264,6 @@ footer {
     overflow: hidden;
     padding: 0;
     display: block;
-    min-height: 210px;
 }
 #hero-announcer .carousel-inner,
 #hero-announcer .carousel-item {
