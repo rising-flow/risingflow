@@ -32,9 +32,9 @@ body {
 /* --- Header / Top Bar --- */
 header {
     background-color: var(--color-text-dark);
-    padding: 4px 0; /* Thinner header */
+    padding: 4px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center everything horizontally */
     align-items: center;
     color: var(--color-background-light);
     position: fixed;
@@ -42,22 +42,29 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 64px; /* More comfortable height for logo */
+    height: 64px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
-
 .logo-area {
-    flex-grow: 1; /* Allows logo area to take available space */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .logo-area img {
     max-height: 56px; /* Larger logo for better visibility */
     width: auto;
 }
-
 .language-switcher {
-    padding-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0;
 }
 
 .language-switcher button {
