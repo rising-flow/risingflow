@@ -240,7 +240,7 @@
 .difficulty-single {
     display: block !important;
     width: 100%;
-    margin: 0 auto 0.25em auto;
+    margin: 0 auto 0 auto;
     text-align: center;
     float: none;
 }
