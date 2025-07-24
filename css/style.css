@@ -206,7 +206,9 @@ nav {
 .about-item {
     flex: 1;
     min-width: 280px;
-    max-width: 350px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--color-background-light);
     padding: 30px;
     border-radius: 10px;
