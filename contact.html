@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising Flow - Contact</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+            padding: 32px 24px;
+        }
+        .contact-container h1 {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+        .contact-links a {
+            color: #e1306c;
+            font-size: 2rem;
+            transition: color 0.2s;
+        }
+        .contact-links a.email-link {
+            color: #4285f4;
+        }
+        .contact-links a:hover {
+            color: #111;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        .contact-form textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: #e1306c;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .contact-form button:hover {
+            background: #b91d5a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <a href="./">
+                <img src="images/rising_flow_logo.svg" alt="Rising Flow Logo">
+            </a>
+        </div>
+        <div class="language-switcher">
+            <button id="language-flag" data-lang="en">
+                <span class="fi fi-gb" title="Switch to English"></span> </button>
+        </div>
+    </header>
+    <nav>
+        <div class="navbar-content">
+            <ul>
+                <li class="dropdown">
+                    <a href="#products"><span id="products-link-text">Products</span> <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Arcade Systems</a>
+                        <a href="#">Home Editions</a>
+                        <a href="#">Merchandise</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#events"><span id="events-link-text">Events</span> <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Upcoming</a>
+                        <a href="#">Past Events</a>
+                        <a href="#">Host an Event</a>
+                    </div>
+                </li>
+                <li><a href="./song_search" id="song-search-link">Song Searcher</a></li>
+                <li><a href="contact.html" id="contact-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="contact-container">
+            <h1 id="contact-title">Contact Us</h1>
+            <div class="contact-links">
+                <a href="https://instagram.com/_risingflow" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:contato@risingflow.com.br" class="email-link" id="email-link" title="Send Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Type your name here">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="your email here">
+                <label for="message" id="label-message">Message</label>
+                <textarea id="message" name="message" required placeholder="your message here"></textarea>
+                <button type="submit" id="send-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+            <!-- Modal -->
+            <div id="thankYouModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center;">
+                <div style="background:#fff;padding:32px 24px;border-radius:12px;max-width:90vw;width:350px;text-align:center;box-shadow:0 2px 16px rgba(0,0,0,0.15);">
+                    <h2 id="modal-title" style="margin-bottom:16px;">Thank You!</h2>
+                    <p id="modal-message" style="margin-bottom:24px;">We appreciate your message and will get in touch as soon as possible.</p>
+                    <button id="closeModalBtn" style="padding:10px 24px;background:#e1306c;color:#fff;border:none;border-radius:6px;font-size:1rem;cursor:pointer;">Back to Home</button>
+                </div>
+            </div>
+            <p id="direct-email" style="margin-top:18px; color:#888; font-size:0.95em; text-align:center;">Or email us directly at <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rising Flow. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <script>
+    // --- Contact Page Translations ---
+    const contactTranslations = {
+        'pt-BR': {
+            contactTitle: 'Fale Conosco',
+            name: 'Nome',
+            namePlaceholder: 'Digite seu nome aqui',
+            email: 'Email',
+            emailPlaceholder: 'seu email aqui',
+            message: 'Mensagem',
+            messagePlaceholder: 'sua mensagem aqui',
+            sendMessage: 'Enviar Mensagem',
+            thankYou: 'Obrigado!',
+            appreciate: 'Agradecemos sua mensagem e entraremos em contato o mais breve possível.',
+            backToHome: 'Voltar para o Início',
+            directEmail: 'Ou envie um email diretamente para <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>'
+        },
+        'en-GB': {
+            contactTitle: 'Contact Us',
+            name: 'Name',
+            namePlaceholder: 'Type your name here',
+            email: 'Email',
+            emailPlaceholder: 'your email here',
+            message: 'Message',
+            messagePlaceholder: 'your message here',
+            sendMessage: 'Send Message',
+            thankYou: 'Thank You!',
+            appreciate: 'We appreciate your message and will get in touch as soon as possible.',
+            backToHome: 'Back to Home',
+            directEmail: 'Or email us directly at <a href="mailto:contact@risingflow.com.br">contact@risingflow.com.br</a>'
+        }
+    };
+    function getCurrentLang() {
+        if (window.getCurrentLang) return window.getCurrentLang();
+        const btn = document.getElementById('language-flag');
+        if (btn && btn.dataset.lang) {
+            return btn.dataset.lang === 'en-GB' ? 'en-GB' : 'pt-BR';
+        }
+        return 'pt-BR';
+    }
+    function updateContactPageUI() {
+        const lang = getCurrentLang();
+        const t = contactTranslations[lang];
+        document.title = lang === 'pt-BR' ? 'Rising Flow - Contato' : 'Rising Flow - Contact';
+        document.getElementById('contact-title').textContent = t.contactTitle;
+        document.getElementById('label-name').textContent = t.name;
+        document.getElementById('name').placeholder = t.namePlaceholder;
+        document.getElementById('label-email').textContent = t.email;
+        document.getElementById('email').placeholder = t.emailPlaceholder;
+        document.getElementById('label-message').textContent = t.message;
+        document.getElementById('message').placeholder = t.messagePlaceholder;
+        document.getElementById('send-btn').innerHTML = '<i class="fas fa-paper-plane"></i> ' + t.sendMessage;
+        document.getElementById('modal-title').textContent = t.thankYou;
+        document.getElementById('modal-message').textContent = t.appreciate;
+        document.getElementById('closeModalBtn').textContent = t.backToHome;
+        document.getElementById('direct-email').innerHTML = t.directEmail;
+        // Update email link title
+        document.getElementById('email-link').title = t.sendMessage;
+    }
+    // Listen for language changes
+    const contactLanguageFlagButton = document.getElementById('language-flag');
+    if (contactLanguageFlagButton) {
+        contactLanguageFlagButton.addEventListener('click', () => {
+            setTimeout(() => {
+                updateContactPageUI();
+            }, 0);
+        });
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        updateContactPageUI();
+    });
+    </script>
+</body>
+</html> 
