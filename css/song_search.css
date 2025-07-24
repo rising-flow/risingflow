@@ -232,11 +232,16 @@
     }
 }
 
+.difficulty, .difficulty-single, .difficulty-double {
+    display: inline-block;
+    margin: 0 auto 4px auto;
+    text-align: center;
+    float: none;
+}
 .difficulty-double {
-    display: block;
     margin-top: 10px;
-    border-top: 1px solid var(--color-neutral-grey, #eee);
-    padding-top: 8px;
+    border-top: none;
+    padding-top: 0;
 }
 
 
