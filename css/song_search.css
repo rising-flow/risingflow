@@ -237,10 +237,17 @@
     width: 100%;
     text-align: center;
 }
-.difficulty-single, .difficulty-double {
+.difficulty-single {
     display: block !important;
     width: 100%;
-    margin: 0 auto 4px auto;
+    margin: 0 auto 0.25em auto;
+    text-align: center;
+    float: none;
+}
+.difficulty-double {
+    display: block !important;
+    width: 100%;
+    margin: 0 auto 0 0 auto;
     text-align: center;
     float: none;
 }
