@@ -49,7 +49,21 @@ const translations = {
         aboutCommunityTitle: 'Comunidade Próspera',
         aboutCommunityDesc: 'Junte-se a uma comunidade apaixonada por jogos de ritmo. Compartilhe pontuações, dicas e participe de eventos online.',
         aboutEventsTitle: 'Eventos Emocionantes',
-        aboutEventsDesc: 'Compita em torneios, participe de workshops e conecte-se com outros jogadores em nossos emocionantes eventos.'
+        aboutEventsDesc: 'Compita em torneios, participe de workshops e conecte-se com outros jogadores em nossos emocionantes eventos.',
+                       // Event pages translations
+        upcomingEventsTitle: 'Próximos Eventos',
+        pastEventsTitle: 'Eventos Passados',
+        noEventsMessage: 'Não há mais eventos programados no momento.',
+        checkBackMessage: 'Volte sempre para ver novos eventos!',
+        pastEventsMessage: 'Esses foram alguns dos nossos eventos mais recentes.',
+        stayTunedMessage: 'Fique atento aos próximos eventos!',
+        // Event card translations
+        website: 'Website',
+        details: 'Detalhes',
+        winner: 'Vencedor',
+        participants: 'participantes',
+        viewGallery: 'Ver Galeria',
+        highlights: 'Destaques'
     },
     'en-GB': { // UK English
         pageTitle: 'Rising Flow - Home',
@@ -66,12 +80,27 @@ const translations = {
         aboutCommunityTitle: 'Thriving Community',
         aboutCommunityDesc: 'Join a passionate community of rhythm game enthusiasts. Share scores, tips, and participate in online events.',
         aboutEventsTitle: 'Exciting Events',
-        aboutEventsDesc: 'Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.'
+        aboutEventsDesc: 'Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.',
+        // Event pages translations
+        upcomingEventsTitle: 'Upcoming Events',
+        pastEventsTitle: 'Past Events',
+        noEventsMessage: 'No more events scheduled at the moment.',
+        checkBackMessage: 'Check back often for new events!',
+        pastEventsMessage: 'These were some of our most recent events.',
+        stayTunedMessage: 'Stay tuned for upcoming events!',
+        // Event card translations
+        website: 'Website',
+        details: 'Details',
+        winner: 'Winner',
+        participants: 'participants',
+        viewGallery: 'View Gallery',
+        highlights: 'Highlights'
     }
 };
 
 let currentLang = 'pt-BR'; // Default language
 window.getCurrentLang = function() { return currentLang; };
+window.translations = translations; // Make translations globally accessible
 
 function updateContent(lang) {
     htmlElement.lang = lang; // Update HTML lang attribute
@@ -129,11 +158,13 @@ languageFlagButton.addEventListener('click', () => {
     updateContent(currentLang);
     updateFlagButton(currentLang);
     if (window.updateContactPageUI) window.updateContactPageUI();
+    if (window.updateEventsPageUI) window.updateEventsPageUI();
 });
 
 // Initialize content and flag on first load
 updateContent(currentLang);
 updateFlagButton(currentLang);
 if (window.updateContactPageUI) window.updateContactPageUI();
+if (window.updateEventsPageUI) window.updateEventsPageUI();
 
 // --- Hero Announcer Blurred Background Sync ---

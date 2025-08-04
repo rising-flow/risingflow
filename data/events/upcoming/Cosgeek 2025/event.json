@@ -1,0 +1,15 @@
+{
+  "id": "event-001",
+  "title": "Cosgeek Festival 2025",
+  "description": "O maior campeonato de rhythm games do Brasil com premiação de R$ 10.000",
+  "starting_date": "2025-08-16",
+  "ending_date": "2025-08-17",
+  "location": "ARENA DE EVENTOS EM SANTANA DE PARNAÍBA - Av. Esperança, 450 - Campo da Vila",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/festivalcosgeek/",
+  "website_url": "",
+  "rising_flow_contribution": "Rising Flow levará 4 jogos de rhythm games, incluindo DDR, Taiko no Tatsujin, Project Diva e YARG. Teremos também produtos exclusivos Rising Flow como bottons estilizado e a linha de quebra-cabeças Pixel Blocks.",
+  "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
+  "registration_required": false,
+  "entry_fee": "1Kg de Alimento"
+} 

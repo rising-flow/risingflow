@@ -1,0 +1,15 @@
+{
+  "id": "event-001",
+  "title": "Rising Flow Championship 2025",
+  "description": "O maior campeonato de rhythm games do Brasil com premiação de R$ 10.000",
+  "starting_date": "2025-03-15",
+  "ending_date": "2025-03-16",
+  "location": "Centro de Eventos, São Paulo",
+  "title_image": "title-image.jpg",
+  "instagram_url": "https://www.instagram.com/risingflow_events",
+  "website_url": "https://risingflow.com.br/events/championship-2025",
+  "rising_flow_contribution": "Rising Flow levará 8 arcades completos com os melhores jogos de rhythm games, incluindo DDR, Taiko no Tatsujin, Project Diva e YARG. Nossa equipe também oferecerá workshops gratuitos sobre técnicas avançadas de jogo.",
+  "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
+  "registration_required": true,
+  "entry_fee": "R$ 50,00"
+} 

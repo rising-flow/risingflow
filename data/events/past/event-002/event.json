@@ -1,0 +1,20 @@
+{
+  "id": "event-002",
+  "title": "YARG Tournament 2024",
+  "description": "Primeiro torneio oficial de YARG no Brasil com participantes de todo o país",
+  "starting_date": "2024-11-10",
+  "ending_date": "2024-11-10",
+  "location": "Convention Center, São Paulo",
+  "title_image": "title-image.jpg",
+  "gallery_images": [
+    "gallery/photo1.jpg",
+    "gallery/photo2.jpg",
+    "gallery/photo3.jpg",
+    "gallery/photo4.jpg"
+  ],
+  "instagram_highlights": "https://www.instagram.com/risingflow_events/highlights/17895678901234567",
+  "winner": "João Silva",
+  "participants_count": 32,
+  "games": ["YARG"],
+  "event_highlights": "O evento foi um sucesso com 32 participantes de 8 estados diferentes. João Silva venceu com uma pontuação impressionante de 98.5% no modo Expert."
+} 
