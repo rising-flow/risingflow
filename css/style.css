@@ -1,13 +1,13 @@
 /* --- Color Variables --- */
 :root {
-    --color-primary-yellow: #F2D606;
-    --color-secondary-orange: #FFA300;
+    --color-primary-yellow: #F7CD00;
+    --color-secondary-orange: #F49915;
     --color-text-dark: #000000;
     --color-background-light: #FFFFFF;
-    --color-neutral-grey: #F0F0F0;
-    --color-complementary-blue: #007BFF;
-    --color-darker-yellow: #CCB300;
-    --color-darker-orange: #D88D00;
+    --color-neutral-grey: #F8F8F8;
+    --color-complementary-blue: #0066CC;
+    --color-darker-yellow: #E6B800;
+    --color-darker-orange: #E08A00;
     --color-dark-grey: #333333; /* For general text or darker sections */
 }
 
@@ -19,7 +19,7 @@ body {
     background-color: var(--color-neutral-grey) !important;
     color: var(--color-dark-grey);
     line-height: 1.6;
-    padding-top: 64px; /* Adjusted for larger header */
+    padding-top: 120px; /* Adjusted for larger header */
     padding-bottom: 36px; /* Prevent content under footer */
 }
 
@@ -50,7 +50,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 64px;
+    height: 120px; /* Increased height to accommodate larger logo */
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 .logo-area {
@@ -64,8 +64,11 @@ header {
     align-items: center;
 }
 .logo-area img {
-    max-height: 56px; /* Larger logo for better visibility */
+    max-height: 160px; /* Doubled height to make logo twice as big */
     width: auto;
+    object-fit: contain; /* Ensures the logo content fits properly */
+    object-position: center; /* Centers the logo content */
+    padding: 8px 0; /* Add 20px padding above and below the logo */
 }
 .language-switcher {
     position: absolute;

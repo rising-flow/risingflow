@@ -79,10 +79,10 @@ function updateContent(lang) {
 
     
     // Navigation
-    const productsLink = document.querySelector('a[href="#products"]');
-    if (productsLink && productsLink.childNodes[0]) productsLink.childNodes[0].nodeValue = translations[lang].productsLink + ' ';
-    const eventsLink = document.querySelector('a[href="#events"]');
-    if (eventsLink && eventsLink.childNodes[0]) eventsLink.childNodes[0].nodeValue = translations[lang].eventsLink + ' ';
+    const productsLinkText = document.getElementById('products-link-text');
+    if (productsLinkText) productsLinkText.textContent = translations[lang].productsLink;
+    const eventsLinkText = document.getElementById('events-link-text');
+    if (eventsLinkText) eventsLinkText.textContent = translations[lang].eventsLink;
     const songSearchLink = document.getElementById('song-search-link');
     if (songSearchLink) songSearchLink.textContent = translations[lang].songSearchLink;
     const contactLink = document.getElementById('contact-link');

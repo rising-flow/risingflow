@@ -18,15 +18,15 @@
     margin-bottom: 32px;
 }
 .contact-links a {
-    color: #e1306c;
+    color: var(--color-secondary-orange);
     font-size: 2rem;
     transition: color 0.2s;
 }
 .contact-links a.email-link {
-    color: #4285f4;
+    color: var(--color-complementary-blue);
 }
 .contact-links a:hover {
-    color: #111;
+    color: var(--color-darker-orange);
 }
 .contact-form label {
     display: block;
@@ -48,8 +48,8 @@
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background: #e1306c;
-    color: #fff;
+    background: var(--color-secondary-orange);
+    color: var(--color-background-light);
     border: none;
     border-radius: 6px;
     font-size: 1.1rem;
@@ -57,7 +57,7 @@
     transition: background 0.2s;
 }
 .contact-form button:hover {
-    background: #b91d5a;
+    background: var(--color-darker-orange);
 }
 #thankYouModal {
     display: none;
@@ -87,8 +87,8 @@
 }
 #closeModalBtn {
     padding: 10px 24px;
-    background: #e1306c;
-    color: #fff;
+    background: var(--color-secondary-orange);
+    color: var(--color-background-light);
     border: none;
     border-radius: 6px;
     font-size: 1rem;

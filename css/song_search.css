@@ -54,17 +54,17 @@
 }
 
 .icon-button:hover {
-    background-color: #0056B3; /* Darker blue on hover */
+    background-color: #0052A3; /* Darker blue on hover */
     transform: translateY(-2px);
 }
 
 /* Specific style for the Clear All icon button */
 .clear-icon-button {
-    background-color: #dc3545; /* A standard red for 'clear' actions */
+    background-color: #E53E3E; /* A standard red for 'clear' actions */
 }
 
 .clear-icon-button:hover {
-    background-color: #c82333; /* Darker red on hover */
+    background-color: #C53030; /* Darker red on hover */
 }
 
 /* The cta-button class is now only used for the "Learn More" on index.html,
@@ -84,7 +84,7 @@
 }
 
 .cta-button:hover {
-    background-color: #0056B3;
+    background-color: #0052A3;
     transform: translateY(-2px);
 }
 
@@ -461,7 +461,7 @@
 .game-btn-label {
     position: relative;
     z-index: 3;
-    color: #fff;
+    color: var(--color-background-light);
     opacity: 1;
     text-shadow: 0 3px 16px rgba(0,0,0,0.7), 0 1px 0 #222;
     font-weight: bold;
@@ -531,10 +531,10 @@
 }
 
 .game-btn.selected {
-    border: 2.5px solid #ffe600;
-    box-shadow: 0 0 0 4px rgba(255,230,0,0.28);
+    border: 2.5px solid var(--color-primary-yellow);
+    box-shadow: 0 0 0 4px rgba(247,205,0,0.28);
     background: rgba(0,0,0,0.85);
-    color: #fff;
+    color: var(--color-background-light);
     z-index: 5;
 }
 
