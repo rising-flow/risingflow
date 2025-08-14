@@ -103,21 +103,34 @@ def scan_yarg_songs(root_path):
                 song_data = parse_ini_file(ini_file)
                 
                 if song_data and song_data["name"]:
-                    # Format the song data similar to Project Diva format
-                    formatted_song = {
-                        "title": song_data["name"],
-                        "artist": song_data["artist"] if song_data["artist"] else None,
-                        "album": song_data["album"] if song_data["album"] else None,
-                        "pro_drums": song_data["pro_drums"],
-                        "difficulties": {
-                            "guitar": song_data["diff_guitar"],
-                            "bass": song_data["diff_bass"],
-                            "drums": song_data["diff_drums"],
-                            "vocals": song_data["diff_vocals"],
-                            "vocals_harmony": song_data["diff_vocals_harm"]
+                    # Check if all difficulties are -1 (no valid difficulties)
+                    all_difficulties = [
+                        song_data["diff_guitar"],
+                        song_data["diff_bass"], 
+                        song_data["diff_drums"],
+                        song_data["diff_vocals"],
+                        song_data["diff_vocals_harm"]
+                    ]
+                    
+                    # Only add song if at least one difficulty is not -1
+                    if any(diff != -1 for diff in all_difficulties):
+                        # Format the song data similar to Project Diva format
+                        formatted_song = {
+                            "title": song_data["name"],
+                            "artist": song_data["artist"] if song_data["artist"] else None,
+                            "album": song_data["album"] if song_data["album"] else None,
+                            "pro_drums": song_data["pro_drums"],
+                            "difficulties": {
+                                "guitar": song_data["diff_guitar"],
+                                "bass": song_data["diff_bass"],
+                                "drums": song_data["diff_drums"],
+                                "vocals": song_data["diff_vocals"],
+                                "vocals_harmony": song_data["diff_vocals_harm"]
+                            }
                         }
-                    }
-                    songs.append(formatted_song)
+                        songs.append(formatted_song)
+                    else:
+                        print(f"  Skipping: All difficulties are -1 in {ini_file}")
                 else:
                     print(f"  Skipping: Invalid song data in {ini_file}")
             else:

@@ -391,7 +391,7 @@ function renderSongItem(song, gameType = 'default') {
         const yargOrder = ['guitar', 'bass', 'drums', 'vocals', 'vocals_harmony'];
         
         for (const diff of yargOrder) {
-            if (song.difficulties[diff] && song.difficulties[diff] !== -1) {
+            if (song.difficulties[diff] !== undefined && song.difficulties[diff] !== -1) {
                 yargDiffs.push(`${diff.charAt(0).toUpperCase() + diff.slice(1)}: ${song.difficulties[diff]}`);
             }
         }
