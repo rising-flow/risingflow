@@ -262,6 +262,18 @@
     padding-top: 0;
 }
 
+.difficulty-yarg {
+    background-color: #E67E22;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin: 2px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
 
 /* Styles for the new Letter Filter Bar */
 .letter-filter-bar {
@@ -337,6 +349,12 @@
     font-size: 0.9em;
     color: var(--color-dark-grey);
     margin-top: 2px;
+}
+
+/* Special styling for YARG album display */
+.song-item .subtitle:not(:empty) {
+    font-style: italic;
+    color: var(--color-secondary-orange);
 }
 
 .song-item .difficulties {
@@ -560,6 +578,17 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
+    
+    /* Mobile optimization for YARG songs */
+    .difficulty-yarg {
+        font-size: 0.8em;
+        padding: 3px 6px;
+        margin: 1px 0;
+    }
+    
+    .song-item .subtitle {
+        font-size: 0.85em;
+    }
 }
 
 #search-page-title, .game-selection h2 {
@@ -569,6 +598,12 @@
 .category-header h2 {
     font-size: 0.9em;
     margin: 0;
+}
+
+/* Special styling for YARG artist groups */
+.category[data-category-name] h2 {
+    color: var(--color-complementary-blue);
+    font-weight: 600;
 }
 .category-header {
     padding: 6px 10px;

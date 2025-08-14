@@ -74,6 +74,23 @@ function getText(originalField, translitField) {
     return translitField && translitField.trim() !== '' ? translitField : originalField || '';
 }
 
+// Function to determine game type from category data
+function getGameTypeFromCategory(categoryDiv) {
+    // Check if this is a YARG category by looking at the songs data
+    const categoryName = categoryDiv.dataset.categoryName;
+    if (categoryName && allSongsData[categoryName]) {
+        const firstSong = allSongsData[categoryName][0];
+        // YARG songs have a specific structure with difficulties object containing guitar, bass, drums, vocals
+        if (firstSong && firstSong.difficulties && 
+            firstSong.difficulties.hasOwnProperty('guitar') && 
+            firstSong.difficulties.hasOwnProperty('bass') && 
+            firstSong.difficulties.hasOwnProperty('drums')) {
+            return 'YARG';
+        }
+    }
+    return 'default';
+}
+
 // --- Game Data Source Mapping ---
 const gameDataSources = {
     'Dance Dance Revolution': {
@@ -97,8 +114,8 @@ const gameDataSources = {
         ]
     },
     'YARG': {
-        type: 'folder',
-        path: 'data/YARG/'
+        type: 'file',
+        path: 'data/YARG/yarg_songs.json'
     }
 };
 
@@ -257,7 +274,35 @@ async function loadSongsForGame(gameName) {
             const response = await fetch(source.path);
             if (!response.ok) throw new Error('File not found');
             const data = await response.json();
-            allSongsData[gameName] = data;
+            
+            // Special handling for YARG: group by artist
+            if (gameName === 'YARG') {
+                const artistGroups = {};
+                data.forEach(song => {
+                    const artist = song.artist || 'Unknown Artist';
+                    if (!artistGroups[artist]) {
+                        artistGroups[artist] = [];
+                    }
+                    artistGroups[artist].push(song);
+                });
+                
+                // Sort songs within each artist group by title
+                Object.keys(artistGroups).forEach(artist => {
+                    artistGroups[artist].sort((a, b) => {
+                        const titleA = (a.title || '').toLowerCase();
+                        const titleB = (b.title || '').toLowerCase();
+                        return titleA.localeCompare(titleB);
+                    });
+                });
+                
+                // Store artist groups as categories
+                Object.keys(artistGroups).forEach(artist => {
+                    allSongsData[artist] = artistGroups[artist];
+                });
+            } else {
+                allSongsData[gameName] = data;
+            }
+            
             loadingMessage.textContent = '';
             applyFilter();
         } catch (e) {
@@ -267,7 +312,7 @@ async function loadSongsForGame(gameName) {
 }
 
 // Function to render song items
-function renderSongItem(song) {
+function renderSongItem(song, gameType = 'default') {
     const songItem = document.createElement('div');
     songItem.className = 'song-item';
 
@@ -276,17 +321,27 @@ function renderSongItem(song) {
     titleSpan.textContent = getText(song.title, song.title_translit);
     songItem.appendChild(titleSpan);
 
-    const artistSpan = document.createElement('span');
-    artistSpan.className = 'artist';
-    artistSpan.textContent = getText(song.artist, song.artist_translit);
-    songItem.appendChild(artistSpan);
+    // For YARG, don't show artist since it's already the category
+    if (gameType !== 'YARG') {
+        const artistSpan = document.createElement('span');
+        artistSpan.className = 'artist';
+        artistSpan.textContent = getText(song.artist, song.artist_translit);
+        songItem.appendChild(artistSpan);
+    }
 
-    const displaySubtitle = getText(song.subtitle, song.subtitle_translit);
-    if (displaySubtitle) {
-        const subtitleSpan = document.createElement('span');
-        subtitleSpan.className = 'subtitle';
-        subtitleSpan.textContent = displaySubtitle;
-        songItem.appendChild(subtitleSpan);
+    // For YARG, show album instead of subtitle
+    if (gameType === 'YARG' && song.album) {
+        const albumSpan = document.createElement('span');
+        albumSpan.className = 'subtitle';
+        albumSpan.textContent = song.album;
+        songItem.appendChild(albumSpan);
+    } else {
+        const displaySubtitle = getText(song.subtitle, song.subtitle_translit);
+        if (displaySubtitle) {
+            const subtitleSpan = document.createElement('span');
+            subtitleSpan.textContent = displaySubtitle;
+            songItem.appendChild(subtitleSpan);
+        }
     }
 
     const difficultiesDiv = document.createElement('div');
@@ -330,8 +385,30 @@ function renderSongItem(song) {
         }
     }
 
+    // YARG style difficulties
+    if (gameType === 'YARG' && song.difficulties) {
+        const yargDiffs = [];
+        const yargOrder = ['guitar', 'bass', 'drums', 'vocals', 'vocals_harmony'];
+        
+        for (const diff of yargOrder) {
+            if (song.difficulties[diff] && song.difficulties[diff] !== -1) {
+                yargDiffs.push(`${diff.charAt(0).toUpperCase() + diff.slice(1)}: ${song.difficulties[diff]}`);
+            }
+        }
+        
+        if (song.pro_drums) {
+            yargDiffs.push('Pro Drums: Yes');
+        }
+        
+        if (yargDiffs.length > 0) {
+            const yargSpan = document.createElement('span');
+            yargSpan.className = 'difficulty difficulty-yarg';
+            yargSpan.textContent = yargDiffs.join(' | ');
+            difficultiesDiv.appendChild(yargSpan);
+        }
+    }
     // Project Diva style difficulties (leave as fallback/other games)
-    if (song.difficulties && !song.single_difficulties && !song.double_difficulties) {
+    else if (song.difficulties && !song.single_difficulties && !song.double_difficulties) {
         const divaDiffs = [];
         for (const diff in song.difficulties) {
             if (Object.hasOwnProperty.call(song.difficulties, diff)) {
@@ -354,8 +431,8 @@ function renderSongItem(song) {
 }
 
 // Function to render songs within a given categoryContent div
-// Now accepts an optional letterFilter
-function renderSongsIntoCategory(categoryContentDiv, categorySongs, letterFilter = 'All') {
+// Now accepts an optional letterFilter and gameType
+function renderSongsIntoCategory(categoryContentDiv, categorySongs, letterFilter = 'All', gameType = 'default') {
     // Clear existing content (important for re-rendering on filter changes or letter filter)
     categoryContentDiv.innerHTML = '';
 
@@ -363,6 +440,12 @@ function renderSongsIntoCategory(categoryContentDiv, categorySongs, letterFilter
     let songsToDisplay = categorySongs;
     if (letterFilter !== 'All') {
         songsToDisplay = categorySongs.filter(song => {
+            // Determine game type for this song
+            const isYARG = song.difficulties && 
+                           song.difficulties.hasOwnProperty('guitar') && 
+                           song.difficulties.hasOwnProperty('bass') && 
+                           song.difficulties.hasOwnProperty('drums');
+            
             // Prioritize translit title for letter filtering
             const displayTitle = getText(song.title, song.title_translit);
             const firstChar = displayTitle.trim().charAt(0).toLowerCase();
@@ -387,7 +470,7 @@ function renderSongsIntoCategory(categoryContentDiv, categorySongs, letterFilter
     }
 
     songsToDisplay.forEach(song => {
-        const songItem = renderSongItem(song);
+        const songItem = renderSongItem(song, gameType);
         categoryContentDiv.appendChild(songItem);
     });
 }
@@ -437,7 +520,10 @@ function createLetterFilterBar(categoryContentDiv, categorySongs) {
             filterBar.dataset.currentFilter = target.dataset.filter; // Update active filter data
 
             // Re-render songs with the new letter filter
-            renderSongsIntoCategory(categoryContentDiv, categorySongs, target.dataset.filter);
+            // Determine game type from the category content div's parent
+            const categoryDiv = categoryContentDiv.closest('.category');
+            const gameType = categoryDiv ? getGameTypeFromCategory(categoryDiv) : 'default';
+            renderSongsIntoCategory(categoryContentDiv, categorySongs, target.dataset.filter, gameType);
         }
     });
 
@@ -462,25 +548,36 @@ function applyFilter() {
 
             // Filter songs based on search term and active filter tags
             const filteredSongs = songsInCurrentCategory.filter(song => {
+                // Determine game type for this song
+                const isYARG = song.difficulties && 
+                               song.difficulties.hasOwnProperty('guitar') && 
+                               song.difficulties.hasOwnProperty('bass') && 
+                               song.difficulties.hasOwnProperty('drums');
+                
                 // Use translit fields for filtering if available, otherwise original
                 const title = getText(song.title, song.title_translit).toLowerCase();
                 const artist = getText(song.artist, song.artist_translit).toLowerCase();
                 const subtitle = getText(song.subtitle, song.subtitle_translit).toLowerCase();
                 const mix = categoryName.toLowerCase(); // Use category name as mix
+                
+                // For YARG, also include album in search
+                const album = isYARG && song.album ? song.album.toLowerCase() : '';
 
-                // Check for search term match (title, artist, subtitle, mix)
+                // Check for search term match (title, artist, subtitle, mix, album for YARG)
                 const matchesSearchTerm = searchTerm === '' ||
                                           title.includes(searchTerm) ||
                                           artist.includes(searchTerm) ||
                                           subtitle.includes(searchTerm) ||
-                                          mix.includes(searchTerm);
+                                          mix.includes(searchTerm) ||
+                                          (isYARG && album.includes(searchTerm));
 
                 // Check for active filter tags match
                 const matchesFilterTags = activeFilters.every(filterTag =>
                     title.includes(filterTag) ||
                     artist.includes(filterTag) ||
                     subtitle.includes(filterTag) ||
-                    mix.includes(filterTag)
+                    mix.includes(filterTag) ||
+                    (isYARG && album.includes(filterTag))
                 );
 
                 return matchesSearchTerm && matchesFilterTags;
@@ -490,7 +587,7 @@ function applyFilter() {
                 // Ensure songs within each category are sorted alphabetically by title
                 filteredSongs.sort((a, b) => {
                     const titleA = getText(a.title, a.title_translit).toLowerCase(); // Use translit for sorting
-                    const titleB = getText(b.title, a.title_translit).toLowerCase(); // Use translit for sorting
+                    const titleB = getText(b.title, b.title_translit).toLowerCase(); // Use translit for sorting
                     return titleA.localeCompare(titleB);
                 });
                 categoriesToRender[categoryName] = filteredSongs;
@@ -564,7 +661,9 @@ function applyFilter() {
                 // Check currentFilter from existing filter bar or default to 'All'
                 const currentLetterFilter = categoryContent.querySelector('.letter-filter-bar') ?
                                             categoryContent.querySelector('.letter-filter-bar').dataset.currentFilter : 'All';
-                renderSongsIntoCategory(categoryContent, categorySongs, currentLetterFilter);
+                // Determine game type from the category div
+                const gameType = getGameTypeFromCategory(categoryDiv);
+                renderSongsIntoCategory(categoryContent, categorySongs, currentLetterFilter, gameType);
 
                 categoryContent.classList.add('expanded');
                 icon.classList.remove('fa-chevron-down');
