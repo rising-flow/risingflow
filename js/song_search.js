@@ -674,11 +674,11 @@ function applyFilter() {
                 icon.classList.remove('fa-chevron-up');
                 icon.classList.add('fa-chevron-down');
 
-                // Clear content after transition to free up memory
-                // Match this timeout to your CSS transition duration (0.5s)
+                // Clear content after transition completes to prevent centering glitch
+                // Match this timeout to your CSS transition duration (0.3s)
                 setTimeout(() => {
                     categoryContent.innerHTML = ''; // Clear songs and filter bar
-                }, 500);
+                }, 300);
             }
         });
     });

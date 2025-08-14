@@ -168,6 +168,7 @@
     border-radius: 0 0 8px 8px;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transform-origin: top;
 }
 
 .category-content.expanded {
@@ -279,6 +280,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     text-align: center;
     display: inline-block;
+    transition: none; /* Prevent any transitions that might cause positioning issues */
 }
 
 
@@ -373,6 +375,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: none; /* Prevent any transitions that might cause centering issues */
 }
 
 .song-item .difficulty-level {
@@ -614,6 +617,11 @@
 .category[data-category-name] h2 {
     color: var(--color-complementary-blue);
     font-weight: 600;
+}
+
+/* Ensure smooth transitions for YARG categories */
+.category[data-category-name] .category-content {
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 }
 .category-header {
     padding: 6px 10px;
