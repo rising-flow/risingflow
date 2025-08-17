@@ -63,7 +63,12 @@ const translations = {
         winner: 'Vencedor',
         participants: 'participantes',
         viewGallery: 'Ver Galeria',
-        highlights: 'Destaques'
+        highlights: 'Destaques',
+        // Pixel Block translations
+        pixelBlockLink: 'Pixel Block',
+        pixelBlockModalTitle: 'Comprou um Pixel Block?',
+        pixelBlockModalBody: 'Você comprou um Pixel Block? Clique no botão abaixo para navegar até a página e selecionar o personagem para montar. Caso contrário, clique no X para fechar o modal.',
+        pixelBlockModalButton: 'Ir para Pixel Block'
     },
     'en-GB': { // UK English
         pageTitle: 'Rising Flow - Home',
@@ -94,7 +99,12 @@ const translations = {
         winner: 'Winner',
         participants: 'participants',
         viewGallery: 'View Gallery',
-        highlights: 'Highlights'
+        highlights: 'Highlights',
+        // Pixel Block translations
+        pixelBlockLink: 'Pixel Block',
+        pixelBlockModalTitle: 'Did you buy a Pixel Block?',
+        pixelBlockModalBody: 'Did you buy a Pixel Block? Click the button below to navigate to the page and select the character to assemble. Otherwise, click the X to close the modal.',
+        pixelBlockModalButton: 'Go to Pixel Block'
     }
 };
 
@@ -140,6 +150,16 @@ function updateContent(lang) {
     if (aboutEventsTitle) aboutEventsTitle.textContent = translations[lang].aboutEventsTitle;
     const aboutEventsDesc = document.getElementById('about-events-desc');
     if (aboutEventsDesc) aboutEventsDesc.textContent = translations[lang].aboutEventsDesc;
+    
+    // Pixel Block elements
+    const pixelBlockLink = document.getElementById('pixel-block-link');
+    if (pixelBlockLink) pixelBlockLink.textContent = translations[lang].pixelBlockLink;
+    const pixelBlockModalLabel = document.getElementById('pixelBlockModalLabel');
+    if (pixelBlockModalLabel) pixelBlockModalLabel.textContent = translations[lang].pixelBlockModalTitle;
+    const pixelBlockModalBody = document.querySelector('#pixelBlockModal .modal-body p');
+    if (pixelBlockModalBody) pixelBlockModalBody.textContent = translations[lang].pixelBlockModalBody;
+    const pixelBlockModalButton = document.querySelector('#pixelBlockModal .modal-footer .btn');
+    if (pixelBlockModalButton) pixelBlockModalButton.textContent = translations[lang].pixelBlockModalButton;
 }
 
 function updateFlagButton(lang) {
@@ -159,6 +179,7 @@ languageFlagButton.addEventListener('click', () => {
     updateFlagButton(currentLang);
     if (window.updateContactPageUI) window.updateContactPageUI();
     if (window.updateEventsPageUI) window.updateEventsPageUI();
+    if (window.updatePixelBlockPageUI) window.updatePixelBlockPageUI();
 });
 
 // Initialize content and flag on first load
@@ -166,5 +187,13 @@ updateContent(currentLang);
 updateFlagButton(currentLang);
 if (window.updateContactPageUI) window.updateContactPageUI();
 if (window.updateEventsPageUI) window.updateEventsPageUI();
+if (window.updatePixelBlockPageUI) window.updatePixelBlockPageUI();
+
+// Pixel Block Modal - Show on page load
+document.addEventListener('DOMContentLoaded', function() {
+    // Show the Pixel Block modal when the page loads
+    const pixelBlockModal = new bootstrap.Modal(document.getElementById('pixelBlockModal'));
+    pixelBlockModal.show();
+});
 
 // --- Hero Announcer Blurred Background Sync ---

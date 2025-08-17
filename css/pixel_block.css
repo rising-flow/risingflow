@@ -1,0 +1,214 @@
+/* Pixel Block Page Styles */
+
+/* Hero Section */
+.pixel-block-hero {
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pixel-block-hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-text-dark);
+    margin-bottom: 10px;
+}
+
+.pixel-block-hero p {
+    font-size: 1.1rem;
+    color: var(--color-text-dark);
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+/* Gallery Section */
+.pixel-block-gallery {
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+.pixel-block-gallery h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--color-text-dark);
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gallery-item {
+    position: relative;
+    background: var(--color-background-light);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    aspect-ratio: 1;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Icon Names */
+.icon-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-background-light);
+    color: var(--color-text-dark);
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--color-neutral-grey);
+}
+
+/* Icon Overlay */
+.icon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .icon-overlay {
+    opacity: 1;
+}
+
+.icon-overlay i {
+    color: var(--color-background-light);
+    font-size: 2.5rem;
+    background: var(--color-primary-yellow);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Full Screen Modal */
+.modal-fullscreen .modal-content {
+    background: #808080;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-fullscreen .modal-header {
+    border: none;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1060;
+}
+
+.modal-fullscreen .btn-close {
+    background-color: var(--color-background-light);
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.modal-fullscreen .btn-close:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.modal-fullscreen .modal-body {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pixel-block-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .pixel-block-hero p {
+        font-size: 1rem;
+    }
+    
+    .pixel-block-gallery h2 {
+        font-size: 2rem;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .gallery-item {
+        aspect-ratio: 1;
+    }
+    
+    .icon-overlay i {
+        font-size: 2rem;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pixel-block-hero {
+        padding: 30px 0;
+    }
+    
+    .pixel-block-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .fullscreen-image {
+        max-width: 95%;
+        max-height: 95%;
+    }
+}
