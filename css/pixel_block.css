@@ -52,26 +52,15 @@
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
     cursor: pointer;
     aspect-ratio: 1;
-}
-
-.gallery-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
 
 .gallery-item img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transition: transform 0.3s ease;
     padding: 20px;
-}
-
-.gallery-item:hover img {
-    transform: scale(1.05);
 }
 
 /* Icon Names */
@@ -101,7 +90,6 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.3s ease;
 }
 
 .gallery-item:hover .icon-overlay {
@@ -117,7 +105,7 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
-/* Full Screen Modal */
+/* Full Screen Modal with Simple Image Viewer */
 .modal-fullscreen .modal-content {
     background: #808080;
     border: none;
@@ -139,12 +127,6 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    transition: all 0.3s ease;
-}
-
-.modal-fullscreen .btn-close:hover {
-    opacity: 1;
-    transform: scale(1.1);
 }
 
 .modal-fullscreen .modal-body {
@@ -155,12 +137,60 @@
     height: 100vh;
 }
 
+/* Simple Image Viewer */
+.image-viewer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fullscreen-image {
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Image Navigation */
+.image-navigation {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.nav-btn {
+    background: var(--color-primary-yellow);
+    border: none;
+    color: var(--color-text-dark);
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn:hover {
+    background: #e6c200;
+}
+
+.image-counter {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 50px;
+    text-align: center;
 }
 
 /* Responsive Design */
@@ -210,5 +240,22 @@
     .fullscreen-image {
         max-width: 95%;
         max-height: 95%;
+    }
+    
+    .image-navigation {
+        bottom: 20px;
+        padding: 10px 20px;
+        gap: 15px;
+    }
+    
+    .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    
+    .image-counter {
+        font-size: 12px;
+        min-width: 40px;
     }
 }

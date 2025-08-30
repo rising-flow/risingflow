@@ -2,9 +2,9 @@
 ==================== PIXEL BLOCK PAGE FUNCTIONALITY ====================
 
 This file handles:
-1. Image modal functionality for full-screen viewing
+1. Simple image modal functionality for full-screen viewing
 2. Translation support for the Pixel Block page
-3. Interactive gallery features
+3. Interactive gallery features with multiple images per item
 
 ==========================================================================
 */
@@ -58,27 +58,80 @@ window.updatePixelBlockPageUI = function() {
     document.getElementById('gallery-title').textContent = t.galleryTitle;
 };
 
-// Image Modal Functionality
+// Global variables for image navigation
+let currentImages = [];
+let currentImageIndex = 0;
+
+// Function to show image in modal
+function showImageInModal(imageSrc, altText) {
+    const modalImage = document.getElementById('modalImage');
+    modalImage.src = imageSrc;
+    modalImage.alt = altText;
+}
+
+// Function to show next image
+function showNextImage() {
+    if (currentImages.length > 1) {
+        currentImageIndex = (currentImageIndex + 1) % currentImages.length;
+        showImageInModal(currentImages[currentImageIndex], 'Image');
+    }
+}
+
+// Function to show previous image
+function showPreviousImage() {
+    if (currentImages.length > 1) {
+        currentImageIndex = (currentImageIndex - 1 + currentImages.length) % currentImages.length;
+        showImageInModal(currentImages[currentImageIndex], 'Image');
+    }
+}
+
+// Function to update navigation buttons
+function updateNavigationButtons() {
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const imageCounter = document.getElementById('imageCounter');
+    
+    if (currentImages.length <= 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+        imageCounter.style.display = 'none';
+    } else {
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+        imageCounter.style.display = 'block';
+        imageCounter.textContent = `${currentImageIndex + 1} / ${currentImages.length}`;
+    }
+}
+
+// Simple Image Modal Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
-    const modalImage = document.getElementById('modalImage');
     
     // Add click event listeners to all gallery items
     const galleryItems = document.querySelectorAll('.gallery-item');
     
     galleryItems.forEach(item => {
         item.addEventListener('click', function() {
-            const imageSrc = this.getAttribute('data-image');
+            // Get images array from data attribute
+            const imagesData = this.getAttribute('data-images');
+            currentImages = JSON.parse(imagesData);
+            currentImageIndex = 0;
             const imageAlt = this.querySelector('img').getAttribute('alt');
             
-            // Set the modal image source and alt text
-            modalImage.src = imageSrc;
-            modalImage.alt = imageAlt;
+            // Show first image
+            showImageInModal(currentImages[0], imageAlt);
+            
+            // Update navigation
+            updateNavigationButtons();
             
             // Show the modal
             imageModal.show();
         });
     });
+    
+    // Navigation button event listeners
+    document.getElementById('prevBtn').addEventListener('click', showPreviousImage);
+    document.getElementById('nextBtn').addEventListener('click', showNextImage);
     
     // Close modal when clicking outside the image
     document.getElementById('imageModal').addEventListener('click', function(e) {
@@ -91,6 +144,17 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && imageModal._isShown) {
             imageModal.hide();
+        }
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (imageModal._isShown) {
+            if (e.key === 'ArrowLeft') {
+                showPreviousImage();
+            } else if (e.key === 'ArrowRight') {
+                showNextImage();
+            }
         }
     });
     

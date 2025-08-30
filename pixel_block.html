@@ -78,47 +78,54 @@
                     <div class="col-12">
                         <h2 id="gallery-title">Modelos Pixel Block</h2>
                         <div class="gallery-grid">
-                            <div class="gallery-item" data-image="images/PixelBlock/miku_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/miku_cropped.png", "images/PixelBlock/miku_cropped.png", "images/PixelBlock/miku_cropped.png"]'>
                                 <img src="images/PixelBlock/miku_cropped.png" alt="Hatsune Miku" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Hatsune Miku</div>
                             </div>
-                            <div class="gallery-item" data-image="images/PixelBlock/luka_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/luka_cropped.png"]'>
                                 <img src="images/PixelBlock/luka_cropped.png" alt="Megurine Luka" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Megurine Luka</div>
                             </div>
-                            <div class="gallery-item" data-image="images/PixelBlock/rin_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/rin_cropped.png"]'>
                                 <img src="images/PixelBlock/rin_cropped.png" alt="Kagamine Rin" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Kagamine Rin</div>
                             </div>
-                            <div class="gallery-item" data-image="images/PixelBlock/len_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/len_cropped.png"]'>
                                 <img src="images/PixelBlock/len_cropped.png" alt="Kagamine Len" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Kagamine Len</div>
                             </div>
-                            <div class="gallery-item" data-image="images/PixelBlock/gh_red_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/gh_red_cropped.png"]'>
                                 <img src="images/PixelBlock/gh_red_cropped.png" alt="Guitar Hero Vermelha" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Guitar Hero Vermelha</div>
                             </div>
-                            <div class="gallery-item" data-image="images/PixelBlock/gh_black_cropped.png">
+                            <div class="gallery-item" data-images='["images/PixelBlock/gh_black_cropped.png"]'>
                                 <img src="images/PixelBlock/gh_black_cropped.png" alt="Guitar Hero Preto" class="pixel-icon">
                                 <div class="icon-overlay">
                                     <i class="fas fa-search-plus"></i>
                                 </div>
                                 <div class="icon-name">Guitar Hero Preto</div>
+                            </div>
+                            <div class="gallery-item" data-images='["images/PixelBlock/star_trek_pin_cropped.png", "images/PixelBlock/star_trek_pin_cropped_base_1.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_2.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_3.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_4.jpeg"]'>
+                                <img src="images/PixelBlock/star_trek_pin_cropped.png" alt="Star Trek" class="pixel-icon">
+                                <div class="icon-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <div class="icon-name">Star Trek</div>
                             </div>
                         </div>
                     </div>
@@ -131,7 +138,7 @@
         <p>&copy; 2025 Rising Flow. All rights reserved.</p>
     </footer>
 
-    <!-- Full Screen Image Modal -->
+    <!-- Simple Full Screen Image Modal -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
@@ -139,7 +146,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <img id="modalImage" src="" alt="Full Screen Image" class="fullscreen-image">
+                    <div class="image-viewer">
+                        <img id="modalImage" src="" alt="Full Screen Image" class="fullscreen-image">
+                        
+                        <!-- Simple Navigation -->
+                        <div class="image-navigation">
+                            <button id="prevBtn" class="nav-btn" style="display: none;">‹</button>
+                            <span id="imageCounter" class="image-counter" style="display: none;">1 / 1</span>
+                            <button id="nextBtn" class="nav-btn" style="display: none;">›</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
