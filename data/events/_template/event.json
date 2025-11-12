@@ -1,0 +1,24 @@
+{
+  "id": "event-xxx",
+  "title": "Event Title",
+  "description": "Brief description of the event",
+  "starting_date": "2026-01-15",
+  "ending_date": "2026-01-16",
+  "location": "Event Location Address",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/event_handle/",
+  "website_url": "https://event-website.com",
+  "rising_flow_contribution": "Description of what Rising Flow will bring to the event",
+  "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
+  "registration_required": false,
+  "entry_fee": "Free",
+  "winner": "Winner Name (for past events only)",
+  "participants_count": 0,
+  "event_highlights": "Event highlights and summary (for past events only)",
+  "instagram_highlights": "https://www.instagram.com/stories/highlights/123456/",
+  "gallery_images": [
+    "gallery/photo1.jpg",
+    "gallery/photo2.jpg",
+    "gallery/photo3.jpg"
+  ]
+}

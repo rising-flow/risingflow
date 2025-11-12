@@ -22,8 +22,11 @@ const translations = {
         aboutEventsTitle: 'Eventos Emocionantes',
         aboutEventsDesc: 'Compita em torneios, participe de workshops e conecte-se com outros jogadores em nossos emocionantes eventos.',
         // Event pages translations
+        eventsPageTitle: 'Eventos Rising Flow',
         upcomingEventsTitle: 'Próximos Eventos',
+        upcomingTabText: 'Próximos Eventos',
         pastEventsTitle: 'Eventos Passados',
+        pastTabText: 'Eventos Passados',
         noEventsMessage: 'Não há mais eventos programados no momento.',
         checkBackMessage: 'Volte sempre para ver novos eventos!',
         pastEventsMessage: 'Esses foram alguns dos nossos eventos mais recentes.',
@@ -58,8 +61,11 @@ const translations = {
         aboutEventsTitle: 'Exciting Events',
         aboutEventsDesc: 'Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.',
         // Event pages translations
+        eventsPageTitle: 'Rising Flow Events',
         upcomingEventsTitle: 'Upcoming Events',
+        upcomingTabText: 'Upcoming Events',
         pastEventsTitle: 'Past Events',
+        pastTabText: 'Past Events',
         noEventsMessage: 'No more events scheduled at the moment.',
         checkBackMessage: 'Check back often for new events!',
         pastEventsMessage: 'These were some of our most recent events.',
@@ -139,6 +145,11 @@ class LanguageSwitcher {
         this.updateElement('about-community-desc', t.aboutCommunityDesc);
         this.updateElement('about-events-title', t.aboutEventsTitle);
         this.updateElement('about-events-desc', t.aboutEventsDesc);
+        
+        // Events page elements
+        this.updateElement('events-page-title', t.eventsPageTitle);
+        this.updateElement('upcoming-tab-text', t.upcomingTabText);
+        this.updateElement('past-tab-text', t.pastTabText);
         
         // Pixel Block elements
         this.updateElement('pixel-block-link', t.pixelBlockLink);

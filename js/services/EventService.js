@@ -1,83 +1,64 @@
 /**
  * EventService - Handles all event-related data operations
  * This service is responsible for fetching, processing, and categorizing event data.
+ * 
+ * Events are stored in individual folders under /data/events/
+ * Each folder contains an event.json file and associated assets (images, gallery, etc.)
+ * The manifest file /data/_manifests/events.json lists all event folders
  */
 
-/**
- * Fetches event data from a JSON file.
- * @param {string} path - The path to the event.json file.
- * @returns {Promise<object|null>}
- */
 import { fetchJson } from './DataService.js';
 
-async function loadEventData(path) {
-    return await fetchJson(path);
-}
-
 /**
- * Gets event folders for a specific type.
- * In a real app, this would be a server call or use a manifest file.
- * @param {string} type - 'upcoming' or 'past'.
- * @returns {Promise<string[]>}
- */
-async function getEventFolders(type) {
-    // Try to read a manifest first: data/_manifests/events.json
-    const manifest = await fetchJson('/data/_manifests/events.json');
-    if (manifest) {
-        if (type === 'upcoming' && Array.isArray(manifest.upcoming)) return manifest.upcoming;
-        if (type === 'past' && Array.isArray(manifest.past)) return manifest.past;
-    }
-
-    // Fallback: temporary placeholders (keeps current behavior)
-    if (type === 'upcoming') {
-        return ['Cosgeek 2025'];
-    } else if (type === 'past') {
-        return ['event-002'];
-    }
-    return [];
-}
-
-/**
- * Loads all events and categorizes them.
+ * Loads all events from their individual folders and categorizes them by date.
+ * Events are automatically classified as upcoming or past based on their ending_date.
  * @returns {Promise<{upcomingEvents: object[], pastEvents: object[]}>}
  */
 export async function getAllEvents() {
-    const events = [];
-    
     try {
-        // Load upcoming events
-        const upcomingFolders = await getEventFolders('upcoming');
-        for (const folder of upcomingFolders) {
-            const eventData = await loadEventData(`./data/events/upcoming/${folder}/event.json`);
-            if (eventData) {
-                events.push(eventData);
+        // Load the manifest that lists all event folders
+        const manifest = await fetchJson('/data/_manifests/events.json');
+        
+        if (!manifest) {
+            console.warn('No events manifest found at /data/_manifests/events.json');
+            return { upcomingEvents: [], pastEvents: [] };
+        }
+
+        const allEvents = [];
+        
+        // Get all folder names from manifest (both upcoming and past arrays)
+        const allFolders = [
+            ...(manifest.upcoming || []),
+            ...(manifest.past || [])
+        ];
+
+        // Load each event.json from its folder
+        for (const folder of allFolders) {
+            try {
+                const eventData = await fetchJson(`/data/events/${folder}/event.json`);
+                if (eventData) {
+                    // Add folder name to event data for building image paths
+                    eventData.folder = folder;
+                    allEvents.push(eventData);
+                }
+            } catch (err) {
+                console.warn(`Failed to load event from folder: ${folder}`, err);
             }
         }
 
-        // Load past events
-        const pastFolders = await getEventFolders('past');
-        for (const folder of pastFolders) {
-            const eventData = await loadEventData(`./data/events/past/${folder}/event.json`);
-            if (eventData) {
-                events.push(eventData);
-            }
-        }
-
-        // Categorize events
+        // Categorize events by date
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
         const upcomingEvents = [];
         const pastEvents = [];
 
-        events.forEach(event => {
+        allEvents.forEach(event => {
             const endDate = new Date(event.ending_date);
             endDate.setHours(0, 0, 0, 0);
             
-            const pastThreshold = new Date(endDate);
-            pastThreshold.setDate(pastThreshold.getDate() + 1);
-
-            if (today >= pastThreshold) {
+            // Event is past if today is after the end date
+            if (today > endDate) {
                 pastEvents.push(event);
             } else {
                 upcomingEvents.push(event);
