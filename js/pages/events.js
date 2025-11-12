@@ -86,8 +86,7 @@ class EventsPage {
     }
 
     createUpcomingEventCard(event) {
-        const startDate = new Date(event.starting_date);
-        const endDate = new Date(event.ending_date);
+        // Use raw date strings for formatting to avoid timezone issues
         const currentLang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
         
         const card = document.createElement('div');
@@ -112,7 +111,7 @@ class EventsPage {
                             <div class="mt-auto">
                                 <div class="d-flex align-items-center mb-1">
                                     <i class="fas fa-calendar text-primary me-2" style="width: 16px;"></i>
-                                    <small>${formatDateRange(startDate, endDate)}</small>
+                                    <small>${formatDateRange(event.starting_date, event.ending_date)}</small>
                                 </div>
                                 <div class="d-flex align-items-center mb-1">
                                     <i class="fas fa-map-marker-alt text-danger me-2" style="width: 16px;"></i>
@@ -133,7 +132,7 @@ class EventsPage {
     }
 
     createPastEventCard(event) {
-        const endDate = new Date(event.ending_date);
+        // Use raw date strings for consistent formatting
         const currentLang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
         
         const card = document.createElement('div');
@@ -156,7 +155,7 @@ class EventsPage {
                             <div class="mt-auto">
                                 <div class="d-flex align-items-center mb-1">
                                     <i class="fas fa-calendar text-primary me-2" style="width: 16px;"></i>
-                                    <small>${endDate.toLocaleDateString('pt-BR')}</small>
+                                    <small>${formatDateRange(event.ending_date, event.ending_date)}</small>
                                 </div>
                                 <div class="d-flex align-items-center mb-1">
                                     <i class="fas fa-trophy text-warning me-2" style="width: 16px;"></i>
@@ -200,8 +199,7 @@ class EventsPage {
 
     showEventDetailsModal(event, isUpcoming) {
         const currentLang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
-        const startDate = new Date(event.starting_date);
-        const endDate = new Date(event.ending_date);
+        // Use raw date strings for consistent formatting
         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
         const basePath = event._basePath || location.origin;
         const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
@@ -213,7 +211,7 @@ class EventsPage {
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <strong><i class="fas fa-calendar me-2"></i>${currentLang === 'pt-BR' ? 'Datas' : 'Dates'}:</strong>
-                    <p class="mb-0">${formatDateRange(startDate, endDate)}</p>
+                    <p class="mb-0">${formatDateRange(event.starting_date, event.ending_date)}</p>
                 </div>
                 <div class="col-md-6 mb-3">
                     <strong><i class="fas fa-map-marker-alt me-2"></i>${currentLang === 'pt-BR' ? 'Local' : 'Location'}:</strong>

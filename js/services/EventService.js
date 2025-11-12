@@ -10,6 +10,30 @@
 import { fetchJson } from './DataService.js';
 
 /**
+ * Parse YYYY-MM-DD date string as local midnight to avoid timezone shifts.
+ * @param {string} dateStr - Date string in YYYY-MM-DD format
+ * @returns {Date|null} - Local midnight Date object or null if invalid
+ */
+function parseDateLocal(dateStr) {
+    if (!dateStr) return null;
+    const [y, m, d] = dateStr.split('-').map(Number);
+    if (!y || !m || !d) return null;
+    // new Date(year, monthIndex, day) creates a local-midnight Date (no timezone shift)
+    return new Date(y, m - 1, d);
+}
+
+/**
+ * Get date with time set to local midnight for comparison purposes.
+ * @param {Date} date - Input date
+ * @returns {number} - Timestamp at local midnight
+ */
+function dateOnly(date) {
+    const d = new Date(date);
+    d.setHours(0, 0, 0, 0);
+    return d.getTime();
+}
+
+/**
  * Loads all events from their individual folders and categorizes them by date.
  * Events are automatically classified as upcoming or past based on their ending_date.
  * @returns {Promise<{upcomingEvents: object[], pastEvents: object[]}>}
@@ -111,7 +135,7 @@ export async function getAllEvents() {
             }
         }
 
-        // Categorize events by date
+        // Categorize events by date using local midnight to avoid timezone issues
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
@@ -119,20 +143,32 @@ export async function getAllEvents() {
         const pastEvents = [];
 
         allEvents.forEach(event => {
-            const endDate = new Date(event.ending_date);
-            endDate.setHours(0, 0, 0, 0);
+            // Parse end date as local midnight to avoid timezone shift
+            const endDate = parseDateLocal(event.ending_date);
+            if (!endDate) {
+                console.warn(`Invalid ending_date for event: ${event.id || event.title}`);
+                return;
+            }
             
-            // Event is past if today is after the end date
-            if (today > endDate) {
+            // Event is past if today is after the end date (both at local midnight)
+            if (dateOnly(today) > dateOnly(endDate)) {
                 pastEvents.push(event);
             } else {
                 upcomingEvents.push(event);
             }
         });
 
-        // Sort events
-        upcomingEvents.sort((a, b) => new Date(a.starting_date) - new Date(b.starting_date));
-        pastEvents.sort((a, b) => new Date(b.ending_date) - new Date(a.ending_date));
+        // Sort events using local date parsing
+        upcomingEvents.sort((a, b) => {
+            const dateA = parseDateLocal(a.starting_date);
+            const dateB = parseDateLocal(b.starting_date);
+            return (dateA?.getTime() || 0) - (dateB?.getTime() || 0);
+        });
+        pastEvents.sort((a, b) => {
+            const dateA = parseDateLocal(a.ending_date);
+            const dateB = parseDateLocal(b.ending_date);
+            return (dateB?.getTime() || 0) - (dateA?.getTime() || 0);
+        });
 
         return { upcomingEvents, pastEvents };
     } catch (error) {
@@ -152,14 +188,23 @@ export function getMonthAbbreviation(month) {
 }
 
 /**
- * Helper function to format date range.
- * @param {Date} startDate - Start date.
- * @param {Date} endDate - End date.
+ * Helper function to format date range from ISO date strings.
+ * @param {Date|string} startDate - Start date (Date object or YYYY-MM-DD string).
+ * @param {Date|string} endDate - End date (Date object or YYYY-MM-DD string).
  * @returns {string}
  */
 export function formatDateRange(startDate, endDate) {
-    if (startDate.toDateString() === endDate.toDateString()) {
-        return startDate.toLocaleDateString('pt-BR');
+    // Handle both Date objects (legacy) and string parsing (new)
+    const start = startDate instanceof Date ? startDate : parseDateLocal(startDate);
+    const end = endDate instanceof Date ? endDate : parseDateLocal(endDate);
+    
+    if (!start || !end) return '';
+    
+    // Compare dates at local midnight to avoid timezone issues
+    if (start.getFullYear() === end.getFullYear() &&
+        start.getMonth() === end.getMonth() &&
+        start.getDate() === end.getDate()) {
+        return start.toLocaleDateString('pt-BR');
     }
-    return `${startDate.toLocaleDateString('pt-BR')} - ${endDate.toLocaleDateString('pt-BR')}`;
+    return `${start.toLocaleDateString('pt-BR')} - ${end.toLocaleDateString('pt-BR')}`;
 }
