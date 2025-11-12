@@ -16,8 +16,12 @@ import { fetchJson } from './DataService.js';
  */
 export async function getAllEvents() {
     try {
-        // Load the manifest that lists all event folders
-        const manifest = await fetchJson('/data/_manifests/events.json');
+    // Resolve manifest path relative to current document so the site works under
+    // repo subpaths (GitHub Pages) or local folders. Using new URL(..., location.href)
+    // ensures we don't depend on root '/' being the site root.
+    const manifestUrl = new URL('data/_manifests/events.json', location.href).toString();
+    // Load the manifest that lists all event folders
+    const manifest = await fetchJson(manifestUrl);
         
         if (!manifest) {
             console.warn('No events manifest found at /data/_manifests/events.json');
@@ -35,11 +39,20 @@ export async function getAllEvents() {
         // Load each event.json from its folder
         for (const folder of allFolders) {
             try {
-                const eventData = await fetchJson(`/data/events/${folder}/event.json`);
+                // Encode folder to make safe URLs (spaces, accents, etc.)
+                const safeFolder = encodeURIComponent(folder);
+                // Build event.json URL relative to current document
+                const eventPath = new URL(`data/events/${safeFolder}/event.json`, location.href).toString();
+                const eventData = await fetchJson(eventPath);
                 if (eventData) {
-                    // Add folder name to event data for building image paths
-                    eventData.folder = folder;
+                    // Store both raw and encoded folder names. Other code can use
+                    // event.folderEncoded when building safe URLs, and event.folderRaw
+                    // if the original human-readable folder name is required.
+                    eventData.folderRaw = folder;
+                    eventData.folder = safeFolder; // prefer encoded folder for URL building
                     allEvents.push(eventData);
+                } else {
+                    console.warn(`Event JSON not found or invalid at: ${eventPath}`);
                 }
             } catch (err) {
                 console.warn(`Failed to load event from folder: ${folder}`, err);

@@ -20,6 +20,10 @@ class EventsPage {
     async init() {
         try {
             this.events = await getAllEvents();
+            console.debug('Events loaded:', {
+                upcoming: this.events.upcomingEvents.map(e => e.id || e.title),
+                past: this.events.pastEvents.map(e => e.id || e.title)
+            });
             this.renderEvents();
             this.setupEventHandlers();
         } catch (error) {
@@ -89,7 +93,9 @@ class EventsPage {
         const card = document.createElement('div');
         card.className = 'col-lg-6 col-md-12 mb-4';
         
-        const imagePath = `/data/events/${event.folder}/${event.title_image}`;
+    // event.folder contains the URL-encoded folder name (EventService sets this)
+    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
         
         card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
@@ -131,7 +137,8 @@ class EventsPage {
         const card = document.createElement('div');
         card.className = 'col-lg-6 col-md-12 mb-4';
         
-        const imagePath = `/data/events/${event.folder}/${event.title_image}`;
+    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
         
         card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
@@ -192,7 +199,8 @@ class EventsPage {
         const currentLang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
         const startDate = new Date(event.starting_date);
         const endDate = new Date(event.ending_date);
-        const imagePath = `/data/events/${event.folder}/${event.title_image}`;
+    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
         
         let modalContent = `
             <div class="text-center mb-3">
@@ -298,7 +306,8 @@ class EventsPage {
                             if (bsModal) bsModal.hide();
                         }
                         // Show gallery with proper paths
-                        const galleryImages = event.gallery_images.map(img => `/data/events/${event.folder}/${img}`);
+                        const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+                        const galleryImages = event.gallery_images.map(img => new URL(`data/events/${folderForUrl}/${img}`, location.href).toString());
                         this.uiManager.showGalleryModal(event.title, galleryImages);
                     });
                 }
