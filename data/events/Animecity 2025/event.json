@@ -1,0 +1,15 @@
+{
+  "id": "event-002",
+  "title": "Animecity Osasco 2025",
+  "description": "Projeto Animecity, evento de cultura geek-pop-nerd com temática no universo dos animes, mangás, games, e cosplay.",
+  "starting_date": "2025-10-19",
+  "ending_date": "2025-10-19",
+  "location": "Shopping Plaza Shopping (Estacionamento) - Rua Tenente Avelar Pires de Azevedo, 81, Osasco - SP",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/projetoanimecity/",
+  "website_url": "",
+  "rising_flow_contribution": "Rising Flow esteve presente com 4 jogos de rhythm games, incluindo Dance Dance Revolution, Sound Voltex, Project Diva e Pop'n Music. Teremos também produtos exclusivos Rising Flow como bottons estilizado e a linha de quebra-cabeças Pixel Blocks.",
+  "games": ["DDR", "Sound Voltex", "Project Diva", "Pop'n Music"],
+  "registration_required": false,
+  "entry_fee": "Entrada Gratuita"
+}

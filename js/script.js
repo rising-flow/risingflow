@@ -1,199 +1,69 @@
 /*
-==================== TRANSLATION GUIDE FOR NEW PAGES ====================
+==================== LEGACY SCRIPT - TRANSITIONING TO MODULAR ARCHITECTURE ====================
 
-To ensure your new page supports language switching and translation:
+This file is maintained for backward compatibility while we transition to a modular architecture.
+New functionality should be implemented in the modular structure under:
+- js/components/ (reusable components like LanguageSwitcher, UIManager)
+- js/services/ (data services like EventService, SongService) 
+- js/pages/ (page-specific logic)
 
-1. Assign unique IDs to all text elements you want to translate (e.g., <h1 id="my-title">Title</h1>).
+The main entry point is js/main.js which initializes global components.
 
-2. In your page-specific JS, create a translation object similar to:
-   const myPageTranslations = {
-     'pt-BR': { myTitle: 'Título', ... },
-     'en-GB': { myTitle: 'Title', ... }
-   };
-
-3. Write a function (e.g., window.updateMyPageUI) that updates all relevant elements using the current language:
-   window.updateMyPageUI = function() {
-     const lang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
-     const t = myPageTranslations[lang];
-     document.getElementById('my-title').textContent = t.myTitle;
-     // ...repeat for all translatable elements
-   };
-
-4. In js/script.js, the global language switcher will automatically call window.updateMyPageUI() if it exists after every language change.
-   (No need to add extra event listeners for the flag on your page.)
-
-5. Set the default text in your HTML to pt-BR for consistency.
-
-6. If you add a new page, just follow steps 1-3 above and the translation will work automatically!
-
+For new pages, follow the modular pattern shown in js/pages/
 ==========================================================================
 */
-// --- Language Switcher (JavaScript) ---
+
+// Legacy language switcher - now handled by LanguageSwitcher component
+// This is kept for pages that haven't been migrated yet
+
 const languageFlagButton = document.getElementById('language-flag');
 const htmlElement = document.querySelector('html');
 
-// Text content for different languages
-const translations = {
+// Basic fallback translations (full translations are in LanguageSwitcher component)
+const legacyTranslations = {
     'pt-BR': {
         pageTitle: 'Rising Flow - Início',
-        productsLink: 'Produtos',
-        eventsLink: 'Eventos',
-        songSearchLink: 'Buscador de Músicas',
-        contactLink: 'Contato',
-        heroTitle: 'Bem-vindo ao Rising Flow!',
-        heroDescription: 'Mergulhe no ritmo, aceite o desafio e experimente a melhor comunidade de jogos de música e dança. De batidas clássicas aos maiores sucessos, trazemos a experiência do arcade para você.',
-        learnMoreButton: 'Saiba Mais',
-        aboutHeading: 'Sobre a Rising Flow',
-        aboutMusicTitle: 'Vasta Biblioteca de Músicas',
-        aboutMusicDesc: 'Explore milhares de músicas de vários gêneros e artistas, constantemente atualizadas para manter seus pés em movimento.',
-        aboutCommunityTitle: 'Comunidade Próspera',
-        aboutCommunityDesc: 'Junte-se a uma comunidade apaixonada por jogos de ritmo. Compartilhe pontuações, dicas e participe de eventos online.',
-        aboutEventsTitle: 'Eventos Emocionantes',
-        aboutEventsDesc: 'Compita em torneios, participe de workshops e conecte-se com outros jogadores em nossos emocionantes eventos.',
-                       // Event pages translations
-        upcomingEventsTitle: 'Próximos Eventos',
-        pastEventsTitle: 'Eventos Passados',
-        noEventsMessage: 'Não há mais eventos programados no momento.',
-        checkBackMessage: 'Volte sempre para ver novos eventos!',
-        pastEventsMessage: 'Esses foram alguns dos nossos eventos mais recentes.',
-        stayTunedMessage: 'Fique atento aos próximos eventos!',
-        // Event card translations
-        website: 'Website',
-        details: 'Detalhes',
-        winner: 'Vencedor',
-        participants: 'participantes',
-        viewGallery: 'Ver Galeria',
-        highlights: 'Destaques',
-        // Pixel Block translations
-        pixelBlockLink: 'Pixel Block',
-        pixelBlockModalTitle: 'Comprou um Pixel Block?',
-        pixelBlockModalBody: 'Você comprou um Pixel Block? Clique no botão abaixo para navegar até a página e selecionar o personagem para montar. Caso contrário, clique no X para fechar o modal.',
-        pixelBlockModalButton: 'Ir para Pixel Block'
     },
-    'en-GB': { // UK English
+    'en-GB': {
         pageTitle: 'Rising Flow - Home',
-        productsLink: 'Products',
-        eventsLink: 'Events',
-        songSearchLink: 'Song Searcher',
-        contactLink: 'Contact',
-        heroTitle: 'Welcome to Rising Flow!',
-        heroDescription: 'Dive into the rhythm, embrace the challenge, and experience the ultimate music and dance game community. From classic beats to the latest hits, we bring the arcade experience to you.',
-        learnMoreButton: 'Learn More',
-        aboutHeading: 'About Rising Flow',
-        aboutMusicTitle: 'Vast Music Library',
-        aboutMusicDesc: 'Explore thousands of songs from various genres and artists, constantly updated to keep your feet moving.',
-        aboutCommunityTitle: 'Thriving Community',
-        aboutCommunityDesc: 'Join a passionate community of rhythm game enthusiasts. Share scores, tips, and participate in online events.',
-        aboutEventsTitle: 'Exciting Events',
-        aboutEventsDesc: 'Compete in tournaments, attend workshops, and connect with fellow players at our thrilling events.',
-        // Event pages translations
-        upcomingEventsTitle: 'Upcoming Events',
-        pastEventsTitle: 'Past Events',
-        noEventsMessage: 'No more events scheduled at the moment.',
-        checkBackMessage: 'Check back often for new events!',
-        pastEventsMessage: 'These were some of our most recent events.',
-        stayTunedMessage: 'Stay tuned for upcoming events!',
-        // Event card translations
-        website: 'Website',
-        details: 'Details',
-        winner: 'Winner',
-        participants: 'participants',
-        viewGallery: 'View Gallery',
-        highlights: 'Highlights',
-        // Pixel Block translations
-        pixelBlockLink: 'Pixel Block',
-        pixelBlockModalTitle: 'Did you buy a Pixel Block?',
-        pixelBlockModalBody: 'Did you buy a Pixel Block? Click the button below to navigate to the page and select the character to assemble. Otherwise, click the X to close the modal.',
-        pixelBlockModalButton: 'Go to Pixel Block'
     }
 };
 
-let currentLang = 'pt-BR'; // Default language
-window.getCurrentLang = function() { return currentLang; };
-window.translations = translations; // Make translations globally accessible
+let currentLang = 'pt-BR';
 
-function updateContent(lang) {
-    htmlElement.lang = lang; // Update HTML lang attribute
-    document.title = translations[lang].pageTitle;
+// Legacy compatibility functions
+window.getCurrentLang = function() { 
+    return window.languageSwitcher ? window.languageSwitcher.getCurrentLang() : currentLang; 
+};
 
-    
-    // Navigation
-    const productsLinkText = document.getElementById('products-link-text');
-    if (productsLinkText) productsLinkText.textContent = translations[lang].productsLink;
-    const eventsLinkText = document.getElementById('events-link-text');
-    if (eventsLinkText) eventsLinkText.textContent = translations[lang].eventsLink;
-    const songSearchLink = document.getElementById('song-search-link');
-    if (songSearchLink) songSearchLink.textContent = translations[lang].songSearchLink;
-    const contactLink = document.getElementById('contact-link');
-    if (contactLink) contactLink.textContent = translations[lang].contactLink;
+window.translations = legacyTranslations;
 
-    // Hero Section
-    const heroTitle = document.getElementById('hero-title');
-    if (heroTitle) heroTitle.textContent = translations[lang].heroTitle;
-    const heroDescription = document.getElementById('hero-description');
-    if (heroDescription) heroDescription.textContent = translations[lang].heroDescription;
-    const learnMoreButton = document.getElementById('learn-more-button');
-    if (learnMoreButton) learnMoreButton.textContent = translations[lang].learnMoreButton;
-
-    // About Section
-    const aboutHeading = document.getElementById('about-heading');
-    if (aboutHeading) aboutHeading.textContent = translations[lang].aboutHeading;
-    const aboutMusicTitle = document.getElementById('about-music-title');
-    if (aboutMusicTitle) aboutMusicTitle.textContent = translations[lang].aboutMusicTitle;
-    const aboutMusicDesc = document.getElementById('about-music-desc');
-    if (aboutMusicDesc) aboutMusicDesc.textContent = translations[lang].aboutMusicDesc;
-    const aboutCommunityTitle = document.getElementById('about-community-title');
-    if (aboutCommunityTitle) aboutCommunityTitle.textContent = translations[lang].aboutCommunityTitle;
-    const aboutCommunityDesc = document.getElementById('about-community-desc');
-    if (aboutCommunityDesc) aboutCommunityDesc.textContent = translations[lang].aboutCommunityDesc;
-    const aboutEventsTitle = document.getElementById('about-events-title');
-    if (aboutEventsTitle) aboutEventsTitle.textContent = translations[lang].aboutEventsTitle;
-    const aboutEventsDesc = document.getElementById('about-events-desc');
-    if (aboutEventsDesc) aboutEventsDesc.textContent = translations[lang].aboutEventsDesc;
-    
-    // Pixel Block elements
-    const pixelBlockLink = document.getElementById('pixel-block-link');
-    if (pixelBlockLink) pixelBlockLink.textContent = translations[lang].pixelBlockLink;
-    const pixelBlockModalLabel = document.getElementById('pixelBlockModalLabel');
-    if (pixelBlockModalLabel) pixelBlockModalLabel.textContent = translations[lang].pixelBlockModalTitle;
-    const pixelBlockModalBody = document.querySelector('#pixelBlockModal .modal-body p');
-    if (pixelBlockModalBody) pixelBlockModalBody.textContent = translations[lang].pixelBlockModalBody;
-    const pixelBlockModalButton = document.querySelector('#pixelBlockModal .modal-footer .btn');
-    if (pixelBlockModalButton) pixelBlockModalButton.textContent = translations[lang].pixelBlockModalButton;
+// Legacy language toggle (will be handled by LanguageSwitcher when loaded)
+if (languageFlagButton && !window.languageSwitcher) {
+    languageFlagButton.addEventListener('click', () => {
+        currentLang = (currentLang === 'pt-BR') ? 'en-GB' : 'pt-BR';
+        document.title = legacyTranslations[currentLang].pageTitle;
+        
+        if (currentLang === 'pt-BR') {
+            languageFlagButton.dataset.lang = 'en-GB';
+            languageFlagButton.innerHTML = '<span class="fi fi-gb" title="Switch to English"></span>';
+        } else {
+            languageFlagButton.dataset.lang = 'pt-BR';
+            languageFlagButton.innerHTML = '<span class="fi fi-br" title="Mudar para Português"></span>';
+        }
+    });
 }
 
-function updateFlagButton(lang) {
-    if (lang === 'pt-BR') {
-        languageFlagButton.dataset.lang = 'en-GB';
-        languageFlagButton.innerHTML = '<span class="fi fi-gb" title="Switch to English"></span>';
-    } else {
-        languageFlagButton.dataset.lang = 'pt-BR';
-        languageFlagButton.innerHTML = '<span class="fi fi-br" title="Mudar para Português"></span>';
-    }
-}
-
-languageFlagButton.addEventListener('click', () => {
-    // Toggle language
-    currentLang = (currentLang === 'pt-BR') ? 'en-GB' : 'pt-BR';
-    updateContent(currentLang);
-    updateFlagButton(currentLang);
-    if (window.updateContactPageUI) window.updateContactPageUI();
-    if (window.updateEventsPageUI) window.updateEventsPageUI();
-    if (window.updatePixelBlockPageUI) window.updatePixelBlockPageUI();
-});
-
-// Initialize content and flag on first load
-updateContent(currentLang);
-updateFlagButton(currentLang);
-if (window.updateContactPageUI) window.updateContactPageUI();
-if (window.updateEventsPageUI) window.updateEventsPageUI();
-if (window.updatePixelBlockPageUI) window.updatePixelBlockPageUI();
-
-// Pixel Block Modal - Show on page load
+// Legacy modal functionality
 document.addEventListener('DOMContentLoaded', function() {
-    // Show the Pixel Block modal when the page loads
-    const pixelBlockModal = new bootstrap.Modal(document.getElementById('pixelBlockModal'));
-    pixelBlockModal.show();
+    // Only show modal if not handled by main.js
+    if (!window.risingFlowApp) {
+        const pixelBlockModalElement = document.getElementById('pixelBlockModal');
+        if (pixelBlockModalElement) {
+            const pixelBlockModal = new bootstrap.Modal(pixelBlockModalElement);
+            pixelBlockModal.show();
+        }
+    }
 });
 
 // --- Hero Announcer Blurred Background Sync ---

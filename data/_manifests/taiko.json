@@ -1,0 +1,11 @@
+{
+  "files": [
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_pops.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_anime.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_vocaloid.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_variety.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_game_music.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_namco_original.json",
+    "data/Taiko no Tatsujin/taiko_no_tatsujin_classic.json"
+  ]
+}

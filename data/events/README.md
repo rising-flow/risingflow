@@ -4,117 +4,163 @@ This folder contains all event data for the Rising Flow website. Events are auto
 
 ## Folder Structure
 
+Each event has its own folder with a standardized structure:
+
 ```
 data/events/
-├── upcoming/           # Events that haven't ended yet
-│   ├── event-001/     # Unique event folder
-│   │   ├── event.json # Event data
-│   │   └── title-image.jpg # Event banner/title image
-│   └── event-002/
-│       ├── event.json
-│       └── title-image.jpg
-└── past/              # Events that have ended
-    ├── event-003/
-    │   ├── event.json
-    │   ├── title-image.jpg
-    │   └── gallery/   # Event photos
-    │       ├── photo1.jpg
-    │       ├── photo2.jpg
-    │       └── photo3.jpg
-    └── event-004/
-        ├── event.json
-        ├── title-image.jpg
-        └── gallery/
-            ├── photo1.jpg
-            └── photo2.jpg
+├── _template/              # Template folder - copy this to create new events
+│   ├── event.json         # Template event data
+│   ├── logo.png.md        # Placeholder for logo
+│   ├── gallery/           # Template gallery folder
+│   └── README.md          # Instructions
+├── _manifests/
+│   └── events.json        # Lists all event folders
+├── cosgeek2025/           # Example event folder
+│   ├── event.json         # Event data
+│   ├── logo.png           # Event logo/banner
+│   └── gallery/           # Event photos (optional, for past events)
+│       ├── photo1.jpg
+│       └── photo2.jpg
+├── event-002/             # Another event folder
+│   ├── event.json
+│   ├── title-image.jpg
+│   └── gallery/
+└── README.md              # This file
 ```
 
-## Adding New Events
+## Creating a New Event
 
-### For Upcoming Events:
+### Step 1: Copy the Template
+```bash
+# Copy the _template folder
+cp -r data/events/_template data/events/your-event-name
+```
 
-1. Create a new folder in `upcoming/` with a unique name (e.g., `event-005`)
-2. Add `event.json` with the event data
-3. Add `title-image.jpg` (recommended size: 800x400px)
+### Step 2: Edit event.json
+Open `your-event-name/event.json` and fill in your event information:
 
-### For Past Events:
-
-1. Create a new folder in `past/` with a unique name (e.g., `event-006`)
-2. Add `event.json` with the event data
-3. Add `title-image.jpg`
-4. Create a `gallery/` folder and add event photos
-
-## Event JSON Structure
-
-### Upcoming Events:
 ```json
 {
-  "id": "event-001",
-  "title": "Event Title",
-  "description": "Event description",
-  "starting_date": "2025-03-15",
-  "ending_date": "2025-03-16",
+  "id": "event-003",
+  "title": "Your Event Name",
+  "description": "Brief event description",
+  "starting_date": "2026-03-15",
+  "ending_date": "2026-03-16",
   "location": "Event Location",
-  "title_image": "title-image.jpg",
-  "instagram_url": "https://www.instagram.com/event",
-  "website_url": "https://event-website.com",
-  "rising_flow_contribution": "Description of what Rising Flow will bring to the event",
-  "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
-  "registration_required": true,
-  "entry_fee": "R$ 50,00"
+  "title_image": "logo.png",
+  "games": ["DDR", "Taiko no Tatsujin"],
+  "instagram_url": "https://www.instagram.com/your_event/",
+  "website_url": "",
+  "rising_flow_contribution": "What Rising Flow is bringing",
+  "registration_required": false,
+  "entry_fee": "Free"
 }
 ```
 
-### Past Events:
+### Step 3: Add Your Images
+- Replace `logo.png` with your event logo (800x400px recommended)
+- For past events: add photos to the `gallery/` folder
+
+### Step 4: Register the Event
+Add your folder name to `/data/_manifests/events.json`:
+
 ```json
 {
-  "id": "event-002",
-  "title": "Event Title",
-  "description": "Event description",
-  "starting_date": "2024-11-10",
-  "ending_date": "2024-11-10",
-  "location": "Event Location",
-  "title_image": "title-image.jpg",
-  "gallery_images": [
-    "gallery/photo1.jpg",
-    "gallery/photo2.jpg",
-    "gallery/photo3.jpg"
+  "upcoming": [
+    "cosgeek2025",
+    "your-event-name"
   ],
-  "instagram_highlights": "https://www.instagram.com/risingflow_events/highlights/123456",
-  "winner": "Winner Name",
-  "participants_count": 32,
-  "games": ["YARG"],
-  "event_highlights": "Description of event highlights and results"
+  "past": [
+    "event-002"
+  ]
 }
 ```
 
-## Date Logic
+**Note**: The manifest just lists folder names. The system automatically classifies events as upcoming/past based on their `ending_date`.
 
-- Events are considered "upcoming" until the day after their `ending_date`
-- Events automatically move to "past" the day after they end
-- Upcoming events are sorted by start date (earliest first)
-- Past events are sorted by end date (most recent first)
+## Event Object Schema
 
-## Button Functionality
+### Required Fields (All Events)
+- `id` (string): Unique event identifier (e.g., "event-003")
+- `title` (string): Event name
+- `description` (string): Brief event description
+- `starting_date` (string): Start date in ISO format (YYYY-MM-DD)
+- `ending_date` (string): End date in ISO format (YYYY-MM-DD)
+- `location` (string): Event location/address
+- `title_image` (string): Filename of the main event image (e.g., "logo.png")
+- `games` (array): List of games featured at the event
 
-### Upcoming Events:
-- **Instagram**: Links to event's Instagram page
-- **Website**: Links to event's website
-- **Details**: Shows modal with Rising Flow's contribution and event information
+### Optional Fields (Upcoming Events)
+- `instagram_url` (string): Instagram event page
+- `website_url` (string): Event website
+- `rising_flow_contribution` (string): Rising Flow's participation details
+- `registration_required` (boolean): Whether registration is required
+- `entry_fee` (string): Entry fee information or "Free"
 
-### Past Events:
-- **Ver Galeria**: Shows carousel modal with event photos
-- **Destaques**: Links to Instagram highlights page
+### Optional Fields (Past Events Only)
+- `winner` (string): Event winner name
+- `participants_count` (number): Number of participants
+- `event_highlights` (string): Summary of event highlights
+- `gallery_images` (array): Array of gallery image paths (e.g., `["gallery/photo1.jpg"]`)
+- `instagram_highlights` (string): Instagram highlights URL
 
-## Image Requirements
+## How It Works
 
-- **Title Image**: 800x400px recommended, JPG format
-- **Gallery Images**: Any size, JPG format recommended
-- All images should be optimized for web (compressed)
+### Automatic Classification
+The EventService automatically classifies events based on the current date:
+- **Upcoming**: Events where `ending_date` is today or in the future
+- **Past**: Events where `ending_date` has passed
 
-## Notes
+The manifest (`/data/_manifests/events.json`) just lists all event folders - classification is automatic.
 
-- Event IDs must be unique across both upcoming and past events
-- Dates should be in YYYY-MM-DD format
-- The system automatically handles event categorization based on dates
-- No manual intervention needed when events end - they automatically move to past events 
+### Image Paths
+All images are loaded relative to the event folder:
+- Title image: `/data/events/{folder-name}/{title_image}`
+- Gallery images: `/data/events/{folder-name}/{gallery_image_path}`
+
+### File Naming Convention
+- **event.json**: Always name the event data file `event.json`
+- **logo.png**: Recommended name for title image (or use any name and update `title_image` field)
+- **gallery/**: Optional subfolder for event photos
+
+## UI Features
+
+### Event Cards
+Events are displayed as Bootstrap cards with:
+- Event logo/image (4-column width)
+- Title, description, date, location, games (8-column width)
+- Click anywhere on card to view full details
+
+### Tabs
+- **Próximos Eventos / Upcoming Events**: Shows future events (sorted by start date)
+- **Eventos Passados / Past Events**: Shows completed events (sorted by end date, most recent first)
+
+### Modals
+- Click any event card to see full details
+- Past events can show image gallery (if `gallery_images` is provided)
+- Social media links (Instagram, website, highlights)
+
+## Quick Reference
+
+### Adding an Event Checklist
+- [ ] Copy `_template` folder and rename
+- [ ] Edit `event.json` with event details
+- [ ] Replace `logo.png` with event logo
+- [ ] (Optional) Add gallery photos to `gallery/` folder
+- [ ] Add folder name to `/data/_manifests/events.json`
+- [ ] Test on local server
+
+### Image Guidelines
+- **Title Image**: 800x400px recommended, PNG/JPG, under 500KB
+- **Gallery Images**: Any size, JPG recommended, compressed for web
+
+### Common Issues
+- **Event not showing?** Check that folder name is in `/data/_manifests/events.json`
+- **Wrong tab?** System auto-classifies by date - check `ending_date` in event.json
+- **Image not loading?** Verify `title_image` filename matches actual file in folder
+
+## Example Folder Name Conventions
+- Use lowercase and hyphens: `cosgeek2025`, `yarg-tournament-2026`
+- Or camelCase: `cosgeek2025`, `yargTournament2026`
+- Keep it short and readable
+- No spaces or special characters 

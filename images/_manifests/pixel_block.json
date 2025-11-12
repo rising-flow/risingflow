@@ -1,0 +1,17 @@
+{
+  "id": "pixel_block",
+  "title": "Pixel Block gallery",
+  "images": [
+    { "file": "PixelBlock/gh_black_cropped.png", "alt": "Guitar Hero black" },
+    { "file": "PixelBlock/gh_red_cropped.png", "alt": "Guitar Hero red" },
+    { "file": "PixelBlock/len_cropped.png", "alt": "Len" },
+    { "file": "PixelBlock/luka_cropped.png", "alt": "Luka" },
+    { "file": "PixelBlock/miku_cropped.png", "alt": "Miku" },
+    { "file": "PixelBlock/rin_cropped.png", "alt": "Rin" },
+    { "file": "PixelBlock/star_trek_pin_cropped.png", "alt": "Star Trek Pin" },
+    { "file": "PixelBlock/star_trek_pin_cropped_base_1.jpeg", "alt": "Star Trek Pin Base 1" },
+    { "file": "PixelBlock/star_trek_pin_cropped_base_2.jpeg", "alt": "Star Trek Pin Base 2" },
+    { "file": "PixelBlock/star_trek_pin_cropped_base_3.jpeg", "alt": "Star Trek Pin Base 3" },
+    { "file": "PixelBlock/star_trek_pin_cropped_base_4.jpeg", "alt": "Star Trek Pin Base 4" }
+  ]
+}
