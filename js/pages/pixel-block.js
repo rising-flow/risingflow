@@ -4,6 +4,7 @@
  */
 
 import UIManager from '../components/UIManager.js';
+import ImageService from '../services/ImageService.js';
 
 class PixelBlockPage {
     constructor() {
@@ -16,6 +17,9 @@ class PixelBlockPage {
         this.setupCharacterSelection();
         this.setupPixelBlockModal();
         this.updateUI();
+
+        // Render gallery from manifest (if present)
+        this.loadAndRenderGallery();
     }
 
     setupCharacterSelection() {
@@ -105,7 +109,7 @@ class PixelBlockPage {
                 description: 'O robô azul lutador pela justiça!',
                 difficulty: 'Difícil',
                 pieces: 287,
-                image: './images/PixelBlock/megaman-preview.jpg'
+                    image: './images/PixelBlock/megaman-preview.jpg'
             }
         };
 
@@ -137,6 +141,89 @@ class PixelBlockPage {
         `;
 
         detailsContainer.classList.add('visible');
+    }
+
+    async loadAndRenderGallery() {
+        const manifest = await ImageService.loadManifest('pixel_block');
+        if (!manifest || !manifest.images) return;
+
+        const galleryGrid = document.querySelector('.gallery-grid');
+        if (!galleryGrid) return;
+
+        // Clear existing static items
+        galleryGrid.innerHTML = '';
+
+        // Create gallery entries from manifest
+        manifest.images.forEach((imgEntry, idx) => {
+            const item = document.createElement('div');
+            item.className = 'gallery-item';
+            item.dataset.images = JSON.stringify([imgEntry.file]);
+            item.dataset.index = String(idx);
+
+            const img = ImageService.buildImageElement(imgEntry, { className: 'pixel-icon' });
+            item.appendChild(img);
+
+            const overlay = document.createElement('div');
+            overlay.className = 'icon-overlay';
+            overlay.innerHTML = '<i class="fas fa-search-plus"></i>';
+            item.appendChild(overlay);
+
+            const nameDiv = document.createElement('div');
+            nameDiv.className = 'icon-name';
+            nameDiv.textContent = imgEntry.alt || `Item ${idx + 1}`;
+            item.appendChild(nameDiv);
+
+            galleryGrid.appendChild(item);
+        });
+
+        // Wire simple modal viewer using existing DOM modal (modalImage, prevBtn, nextBtn)
+        this.setupGalleryModalHandlers();
+    }
+
+    setupGalleryModalHandlers() {
+        const galleryGrid = document.querySelector('.gallery-grid');
+        if (!galleryGrid) return;
+
+        const modalImage = document.getElementById('modalImage');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const imageCounter = document.getElementById('imageCounter');
+        let currentImages = [];
+        let currentIndex = 0;
+
+        function showImageAt(i) {
+            if (!modalImage) return;
+            currentIndex = (i + currentImages.length) % currentImages.length;
+            // currentImages entries are relative to images/ (manifest entries) or full paths; prefer manifest convention
+            modalImage.src = currentImages[currentIndex].startsWith('/') ? currentImages[currentIndex] : `/images/${currentImages[currentIndex]}`;
+            if (imageCounter) imageCounter.textContent = `${currentIndex + 1} / ${currentImages.length}`;
+            if (currentImages.length > 1) {
+                prevBtn.style.display = '';
+                nextBtn.style.display = '';
+                imageCounter.style.display = '';
+            } else {
+                prevBtn.style.display = 'none';
+                nextBtn.style.display = 'none';
+                imageCounter.style.display = 'none';
+            }
+        }
+
+        galleryGrid.addEventListener('click', (e) => {
+            const item = e.target.closest('.gallery-item');
+            if (!item) return;
+            const imgs = JSON.parse(item.dataset.images || '[]');
+            if (imgs.length === 0) return;
+
+            currentImages = imgs;
+            currentIndex = 0;
+            showImageAt(currentIndex);
+
+            const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+            imageModal.show();
+        });
+
+        if (prevBtn) prevBtn.addEventListener('click', () => showImageAt(currentIndex - 1));
+        if (nextBtn) nextBtn.addEventListener('click', () => showImageAt(currentIndex + 1));
     }
 
     getEstimatedTime(difficulty) {

@@ -1,0 +1,10 @@
+{
+  "id": "carousel",
+  "title": "Homepage carousel",
+  "images": [
+    { "file": "carousel/ddr_bg.jpg", "alt": "DDR background" },
+    { "file": "carousel/diva_bg.jpg", "alt": "Project Diva background" },
+    { "file": "carousel/taiko_bg.jpg", "alt": "Taiko background" },
+    { "file": "carousel/yarg_bg.jpg", "alt": "YARG background" }
+  ]
+}

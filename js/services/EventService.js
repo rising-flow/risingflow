@@ -8,16 +8,10 @@
  * @param {string} path - The path to the event.json file.
  * @returns {Promise<object|null>}
  */
+import { fetchJson } from './DataService.js';
+
 async function loadEventData(path) {
-    try {
-        const response = await fetch(path);
-        if (response.ok) {
-            return await response.json();
-        }
-    } catch (error) {
-        console.error(`Error loading event data from ${path}:`, error);
-    }
-    return null;
+    return await fetchJson(path);
 }
 
 /**
@@ -27,11 +21,18 @@ async function loadEventData(path) {
  * @returns {Promise<string[]>}
  */
 async function getEventFolders(type) {
-    // This is a temporary solution. A better approach would be a manifest file.
+    // Try to read a manifest first: data/_manifests/events.json
+    const manifest = await fetchJson('/data/_manifests/events.json');
+    if (manifest) {
+        if (type === 'upcoming' && Array.isArray(manifest.upcoming)) return manifest.upcoming;
+        if (type === 'past' && Array.isArray(manifest.past)) return manifest.past;
+    }
+
+    // Fallback: temporary placeholders (keeps current behavior)
     if (type === 'upcoming') {
-        return ['Cosgeek 2025']; // Example folder based on your structure
+        return ['Cosgeek 2025'];
     } else if (type === 'past') {
-        return ['event-002']; // Example folder based on your structure
+        return ['event-002'];
     }
     return [];
 }

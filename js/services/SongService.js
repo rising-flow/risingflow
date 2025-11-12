@@ -3,6 +3,8 @@
  * This service is responsible for fetching and processing song data from various games.
  */
 
+import { fetchJson } from './DataService.js';
+
 // Game Data Source Mapping
 const gameDataSources = {
     'Dance Dance Revolution': {
@@ -40,7 +42,9 @@ let stepmaniaCategoryOrder = [];
  * @returns {Promise<Array<{categoryName: string, data: object, order: number}>>}
  */
 async function fetchStepmaniaFiles(folderPath) {
-    const jsonFiles = [
+    // Try to load a manifest first to allow deterministic file lists
+    const manifest = await fetchJson('/data/_manifests/stepmania.json');
+    const jsonFiles = manifest && Array.isArray(manifest.files) ? manifest.files : [
         '1 - Anime Channel.json',
         '2 - KPOP Channel.json',
         '3 - World POP Channel.json',
@@ -81,9 +85,8 @@ async function fetchStepmaniaFiles(folderPath) {
 
     const fetchPromises = jsonFiles.map(async file => {
         try {
-            const response = await fetch(folderPath + file);
-            if (!response.ok) return null;
-            const data = await response.json();
+            const data = await fetchJson('/' + folderPath + file);
+            if (!data) return null;
             const match = file.match(/^[0-9]+\s*[-_]?\s*(.*)\.json$/i);
             const categoryName = match ? match[1] : file.replace('.json', '');
             const order = parseInt(file.match(/^([0-9]+)/)?.[1] || '9999', 10);
@@ -110,9 +113,8 @@ async function fetchStepmaniaFiles(folderPath) {
 async function fetchMultiJsonFiles(fileList) {
     const fetchPromises = fileList.map(async file => {
         try {
-            const response = await fetch(file);
-            if (!response.ok) return null;
-            const data = await response.json();
+            const data = await fetchJson('/' + file);
+            if (!data) return null;
             const match = file.match(/taiko_no_tatsujin_(.*)\.json$/i);
             const categoryName = match ? match[1].replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : file;
             return { categoryName, data };
@@ -141,8 +143,10 @@ export async function loadSongsForGame(gameName) {
 
     try {
         if (source.type === 'multi_file') {
-            // For Taiko: load all category files
-            const results = await fetchMultiJsonFiles(source.files);
+            // For Taiko and other multi-file games: prefer a manifest list if present
+            const manifest = await fetchJson('/data/_manifests/taiko.json');
+            const fileList = manifest && Array.isArray(manifest.files) ? manifest.files : source.files;
+            const results = await fetchMultiJsonFiles(fileList);
             results.forEach(({ categoryName, data }) => {
                 allSongsData[categoryName] = data;
             });
@@ -154,9 +158,8 @@ export async function loadSongsForGame(gameName) {
             });
         } else if (source.type === 'file') {
             // For single file games
-            const response = await fetch(source.path);
-            if (!response.ok) throw new Error('File not found');
-            const data = await response.json();
+            const data = await fetchJson('/' + source.path);
+            if (!data) throw new Error('File not found');
             
             // Special handling for YARG: group by artist
             if (gameName === 'YARG') {

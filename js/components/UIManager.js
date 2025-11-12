@@ -179,11 +179,15 @@ class UIManager {
                     `).join('')}
                 </div>
                 <div class="carousel-inner">
-                    ${images.map((image, index) => `
+                    ${images.map((image, index) => {
+                        // If image looks like a path (contains a slash), use it as-is; otherwise, assume it's a filename under the event folder
+                        const src = image.indexOf('/') !== -1 ? image : `./data/events/past/${eventId}/${image}`;
+                        return `
                         <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                            <img src="./data/events/past/${eventId}/${image}" class="d-block w-100" alt="Foto ${index + 1} do evento">
+                            <img src="${src}" class="d-block w-100" alt="Foto ${index + 1} do evento">
                         </div>
-                    `).join('')}
+                    `;
+                    }).join('')}
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
