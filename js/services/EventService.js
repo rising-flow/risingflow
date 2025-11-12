@@ -16,39 +16,44 @@ import { fetchJson } from './DataService.js';
  */
 export async function getAllEvents() {
     try {
-        // Try multiple candidate locations for the manifest to support different
-        // hosting layouts (root domain, repo subpath like GitHub Pages, nested).
+        // For custom domain GitHub Pages, files are served from domain root
+        // For repo-based GitHub Pages, files are under /repo-name/
+        // Try in order: domain root first, then relative to current page
         const candidates = [];
-        // 1) Relative to current page
-        candidates.push(new URL('data/_manifests/events.json', location.href).toString());
-        // 2) Relative to site root (leading slash) — some servers support this
-        try {
-            candidates.push(new URL('/data/_manifests/events.json', location.origin).toString());
-        } catch (e) {
-            // ignore
+        
+        // 1) Domain root (works for custom domains)
+        candidates.push(`${location.origin}/data/_manifests/events.json`);
+        
+        // 2) Relative to current page directory
+        const currentDir = location.pathname.endsWith('/') 
+            ? location.pathname 
+            : location.pathname.replace(/\/[^\/]*$/, '/');
+        candidates.push(`${location.origin}${currentDir}data/_manifests/events.json`);
+        
+        // 3) If we're in a subdirectory, try going up one level
+        if (currentDir !== '/') {
+            const parentDir = currentDir.replace(/\/[^\/]*\/$/, '/');
+            candidates.push(`${location.origin}${parentDir}data/_manifests/events.json`);
         }
-        // 3) Walk up path segments and try at each level (useful when page is nested)
-        const pathParts = location.pathname.split('/').filter(Boolean);
-        for (let i = pathParts.length; i >= 0; i--) {
-            const base = location.origin + '/' + pathParts.slice(0, i).join('/') + (i === 0 ? '/' : '/');
-            candidates.push(new URL('data/_manifests/events.json', base).toString());
-        }
+
+        console.debug('[EventService] Manifest candidate URLs:', candidates);
 
         let manifest = null;
         let manifestTried = [];
         for (const url of candidates) {
+            console.debug(`[EventService] Trying manifest: ${url}`);
             manifestTried.push(url);
             manifest = await fetchJson(url);
-            if (manifest) break;
+            if (manifest) {
+                console.debug(`[EventService] Manifest found at: ${url}`);
+                break;
+            }
         }
 
         if (!manifest) {
             console.warn('No events manifest found. Tried URLs:', manifestTried);
             return { upcomingEvents: [], pastEvents: [] };
         }
-        
-        
-
         const allEvents = [];
         
         // Get all folder names from manifest (both upcoming and past arrays)
@@ -57,24 +62,37 @@ export async function getAllEvents() {
             ...(manifest.past || [])
         ];
 
+        console.debug('[EventService] All folders to load:', allFolders);
+
+        // Determine the working base path from where manifest was found
+        const workingBase = manifestTried[manifestTried.findIndex((url, i) => i < manifestTried.length - 1 || manifest)] || candidates[0];
+        const basePath = workingBase.replace('/data/_manifests/events.json', '');
+        console.debug('[EventService] Using base path for events:', basePath);
+
         // Load each event.json from its folder
         for (const folder of allFolders) {
             try {
+                console.debug(`[EventService] Processing folder: "${folder}"`);
                 // Encode folder to make safe URLs (spaces, accents, etc.)
                 const safeFolder = encodeURIComponent(folder);
                 const tried = [];
 
                 // Try encoded path first
-                tried.push(new URL(`data/events/${safeFolder}/event.json`, location.href).toString());
+                tried.push(`${basePath}/data/events/${safeFolder}/event.json`);
                 // Also try raw folder name (some servers decode URLs differently)
-                tried.push(new URL(`data/events/${folder}/event.json`, location.href).toString());
+                tried.push(`${basePath}/data/events/${folder}/event.json`);
+
+                console.debug(`[EventService] Event JSON candidate URLs for "${folder}":`, tried);
 
                 let eventData = null;
                 for (const p of tried) {
+                    console.debug(`[EventService] Trying event URL: ${p}`);
                     eventData = await fetchJson(p);
                     if (eventData) {
+                        console.debug(`[EventService] Event JSON loaded from: ${p}`);
                         // store which URL succeeded
                         eventData._sourceEventJson = p;
+                        eventData._basePath = basePath; // store base for image URLs
                         break;
                     }
                 }
@@ -84,8 +102,9 @@ export async function getAllEvents() {
                     eventData.folderRaw = folder;
                     eventData.folder = safeFolder; // encoded folder for URLs
                     allEvents.push(eventData);
+                    console.debug(`[EventService] Added event: ${eventData.id || eventData.title}`);
                 } else {
-                    console.warn(`Event JSON not found for folder '${folder}'. Tried:`, tried);
+                    console.warn(`[EventService] Event JSON not found for folder '${folder}'. Tried:`, tried);
                 }
             } catch (err) {
                 console.warn(`Failed to load event from folder: ${folder}`, err);

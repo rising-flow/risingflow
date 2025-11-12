@@ -93,11 +93,13 @@ class EventsPage {
         const card = document.createElement('div');
         card.className = 'col-lg-6 col-md-12 mb-4';
         
-    // event.folder contains the URL-encoded folder name (EventService sets this)
-    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
-    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
+        // event.folder contains the URL-encoded folder name (EventService sets this)
+        // Use the base path determined during manifest loading
+        const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+        const basePath = event._basePath || location.origin;
+        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
         
-        card.innerHTML = `
+        console.debug(`[EventsPage] Image path for ${event.title}: ${imagePath}`);        card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
                 <div class="row g-0 h-100">
                     <div class="col-4 d-flex align-items-center justify-content-center p-3" style="background-color: #f8f9fa;">
@@ -137,8 +139,9 @@ class EventsPage {
         const card = document.createElement('div');
         card.className = 'col-lg-6 col-md-12 mb-4';
         
-    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
-    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
+        const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+        const basePath = event._basePath || location.origin;
+        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
         
         card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
@@ -199,8 +202,9 @@ class EventsPage {
         const currentLang = window.getCurrentLang ? window.getCurrentLang() : 'pt-BR';
         const startDate = new Date(event.starting_date);
         const endDate = new Date(event.ending_date);
-    const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
-    const imagePath = new URL(`data/events/${folderForUrl}/${event.title_image}`, location.href).toString();
+        const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
+        const basePath = event._basePath || location.origin;
+        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
         
         let modalContent = `
             <div class="text-center mb-3">
@@ -307,7 +311,8 @@ class EventsPage {
                         }
                         // Show gallery with proper paths
                         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
-                        const galleryImages = event.gallery_images.map(img => new URL(`data/events/${folderForUrl}/${img}`, location.href).toString());
+                        const basePath = event._basePath || location.origin;
+                        const galleryImages = event.gallery_images.map(img => `${basePath}/data/events/${folderForUrl}/${img}`);
                         this.uiManager.showGalleryModal(event.title, galleryImages);
                     });
                 }

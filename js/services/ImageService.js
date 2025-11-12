@@ -2,10 +2,14 @@
 
 export async function loadManifest(manifestId) {
   try {
-    const path = `/images/_manifests/${manifestId}.json`;
+    // Try domain root first (works for custom domains)
+    const path = `${location.origin}/images/_manifests/${manifestId}.json`;
+    console.debug(`[ImageService] Trying manifest: ${path}`);
     const res = await fetch(path);
     if (!res.ok) throw new Error(`Manifest not found: ${path}`);
-    return await res.json();
+    const data = await res.json();
+    console.debug(`[ImageService] Manifest loaded: ${manifestId}`);
+    return data;
   } catch (e) {
     console.error('ImageService.loadManifest error', e);
     return null;
@@ -14,7 +18,7 @@ export async function loadManifest(manifestId) {
 
 export function buildImageElement(entry, opts = {}) {
   const img = document.createElement('img');
-  img.src = `/images/${entry.file}`;
+  img.src = `${location.origin}/images/${entry.file}`;
   img.alt = entry.alt || '';
   if (opts.className) img.className = opts.className;
   if (opts.dataset) {
