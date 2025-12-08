@@ -75,55 +75,7 @@
                     <div class="col-12">
                         <h2 id="gallery-title">Modelos Pixel Block</h2>
                         <div class="gallery-grid">
-                            <div class="gallery-item" data-images='["images/PixelBlock/miku_cropped.png", "images/PixelBlock/miku_cropped.png", "images/PixelBlock/miku_cropped.png"]'>
-                                <img src="images/PixelBlock/miku_cropped.png" alt="Hatsune Miku" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Hatsune Miku</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/luka_cropped.png"]'>
-                                <img src="images/PixelBlock/luka_cropped.png" alt="Megurine Luka" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Megurine Luka</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/rin_cropped.png"]'>
-                                <img src="images/PixelBlock/rin_cropped.png" alt="Kagamine Rin" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Kagamine Rin</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/len_cropped.png"]'>
-                                <img src="images/PixelBlock/len_cropped.png" alt="Kagamine Len" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Kagamine Len</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/gh_red_cropped.png"]'>
-                                <img src="images/PixelBlock/gh_red_cropped.png" alt="Guitar Hero Vermelha" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Guitar Hero Vermelha</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/gh_black_cropped.png"]'>
-                                <img src="images/PixelBlock/gh_black_cropped.png" alt="Guitar Hero Preto" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Guitar Hero Preto</div>
-                            </div>
-                            <div class="gallery-item" data-images='["images/PixelBlock/star_trek_pin_cropped.png", "images/PixelBlock/star_trek_pin_cropped_base_1.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_2.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_3.jpeg", "images/PixelBlock/star_trek_pin_cropped_base_4.jpeg"]'>
-                                <img src="images/PixelBlock/star_trek_pin_cropped.png" alt="Star Trek" class="pixel-icon">
-                                <div class="icon-overlay">
-                                    <i class="fas fa-search-plus"></i>
-                                </div>
-                                <div class="icon-name">Star Trek</div>
-                            </div>
+                            <!-- Products will be loaded dynamically from JSON -->
                         </div>
                     </div>
                 </div>
@@ -159,8 +111,9 @@
     </div>
 
     <!-- Modular JavaScript architecture -->
+    <script src="js/services/PixelBlockService.js"></script>
+    <script src="js/pages/pixel_block.js"></script>
     <script src="js/main.js" type="module"></script>
-    <script src="js/pages/pixel-block.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

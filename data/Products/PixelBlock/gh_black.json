@@ -1,0 +1,10 @@
+{
+  "id": 6,
+  "name": "Guitar Hero Preto",
+  "name_en": "Guitar Hero Black",
+  "images": [
+    "images/PixelBlock/gh_black_cropped.png",
+    "images/PixelBlock/guitar_support_1.jpeg",
+    "images/PixelBlock/guitar_support_2.jpeg"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "Hatsune Miku",
+  "name_en": "Hatsune Miku",
+  "images": [
+    "images/PixelBlock/miku_cropped.png",
+    "images/PixelBlock/vocaloid_support_1.jpeg",
+    "images/PixelBlock/vocaloid_support_2.jpeg"
+  ]
+}

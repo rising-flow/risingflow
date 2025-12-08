@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Kagamine Len",
+  "name_en": "Kagamine Len",
+  "images": [
+    "images/PixelBlock/len_cropped.png",
+    "images/PixelBlock/vocaloid_support_1.jpeg",
+    "images/PixelBlock/vocaloid_support_2.jpeg"
+  ]
+}

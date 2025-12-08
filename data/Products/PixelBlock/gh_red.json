@@ -1,0 +1,10 @@
+{
+  "id": 5,
+  "name": "Guitar Hero Vermelha",
+  "name_en": "Guitar Hero Red",
+  "images": [
+    "images/PixelBlock/gh_red_cropped.png",
+    "images/PixelBlock/guitar_support_1.jpeg",
+    "images/PixelBlock/guitar_support_2.jpeg"
+  ]
+}
