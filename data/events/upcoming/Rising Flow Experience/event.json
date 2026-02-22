@@ -1,0 +1,20 @@
+{
+  "id": "rising-flow-experience",
+  "title": "Rising Flow Experience",
+  "description": "The first edition of the Rising Flow Experience, a celebration of rhythm games and community.",
+  "starting_date": "2026-04-04",
+  "ending_date": "2026-04-05",
+  "location": "Tamer Shop",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/rising.flow/",
+  "website_url": "",
+  "rising_flow_contribution": "Rising Flow is hosting this event, bringing a variety of rhythm games for everyone to enjoy.",
+  "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
+  "registration_required": false,
+  "entry_fee": "Free",
+  "winner": "",
+  "participants_count": 0,
+  "event_highlights": "",
+  "instagram_highlights": "",
+  "gallery_images": []
+}

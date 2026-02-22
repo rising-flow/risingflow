@@ -96,7 +96,7 @@ class EventsPage {
         // Use the base path determined during manifest loading
         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
         const basePath = event._basePath || location.origin;
-        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
+        const imagePath = `${basePath}/data/events/${event.year}/${folderForUrl}/${event.title_image}`;
         
         console.debug(`[EventsPage] Image path for ${event.title}: ${imagePath}`);        card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
@@ -117,10 +117,17 @@ class EventsPage {
                                     <i class="fas fa-map-marker-alt text-danger me-2" style="width: 16px;"></i>
                                     <small>${event.location}</small>
                                 </div>
-                                <div class="d-flex align-items-center">
+                                <div class="d-flex align-items-center mb-1">
                                     <i class="fas fa-gamepad text-success me-2" style="width: 16px;"></i>
                                     <small>${event.games.join(', ')}</small>
                                 </div>
+                                ${event.sympla_enabled && event.sympla_url ? `
+                                <div class="mt-2">
+                                    <a href="${event.sympla_url}" target="_blank" class="btn btn-sm btn-primary w-100" onclick="event.stopPropagation();">
+                                        <i class="fas fa-ticket-alt me-1"></i> Comprar Ingressos
+                                    </a>
+                                </div>
+                                ` : ''}
                             </div>
                         </div>
                     </div>
@@ -140,7 +147,7 @@ class EventsPage {
         
         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
         const basePath = event._basePath || location.origin;
-        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
+        const imagePath = `${basePath}/data/events/${event.year}/${folderForUrl}/${event.title_image}`;
         
         card.innerHTML = `
             <div class="card h-100 event-card" style="cursor: pointer;" data-event-id="${event.id}">
@@ -202,37 +209,47 @@ class EventsPage {
         // Use raw date strings for consistent formatting
         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
         const basePath = event._basePath || location.origin;
-        const imagePath = `${basePath}/data/events/${folderForUrl}/${event.title_image}`;
+        const imagePath = `${basePath}/data/events/${event.year}/${folderForUrl}/${event.title_image}`;
         
         let modalContent = `
-            <div class="text-center mb-3">
-                <img src="${imagePath}" alt="${event.title}" class="img-fluid rounded" style="max-height: 200px; object-fit: contain;">
+            <div class="text-center mb-4">
+                <img src="${imagePath}" alt="${event.title}" class="img-fluid rounded shadow-sm" style="max-height: 220px; object-fit: contain;">
             </div>
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <strong><i class="fas fa-calendar me-2"></i>${currentLang === 'pt-BR' ? 'Datas' : 'Dates'}:</strong>
-                    <p class="mb-0">${formatDateRange(event.starting_date, event.ending_date)}</p>
+                    <div class="modal-detail-item">
+                        <div class="modal-detail-title"><i class="fas fa-calendar me-2"></i>${currentLang === 'pt-BR' ? 'Datas' : 'Dates'}:</div>
+                        <div class="modal-detail-content">${formatDateRange(event.starting_date, event.ending_date)}</div>
+                    </div>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <strong><i class="fas fa-map-marker-alt me-2"></i>${currentLang === 'pt-BR' ? 'Local' : 'Location'}:</strong>
-                    <p class="mb-0">${event.location}</p>
+                    <div class="modal-detail-item">
+                        <div class="modal-detail-title"><i class="fas fa-map-marker-alt me-2"></i>${currentLang === 'pt-BR' ? 'Local' : 'Location'}:</div>
+                        <div class="modal-detail-content">${event.location}</div>
+                    </div>
                 </div>
             </div>
             <div class="mb-3">
-                <strong><i class="fas fa-info-circle me-2"></i>${currentLang === 'pt-BR' ? 'Descrição' : 'Description'}:</strong>
-                <p class="mb-0">${event.description}</p>
+                <div class="modal-detail-item">
+                    <div class="modal-detail-title"><i class="fas fa-info-circle me-2"></i>${currentLang === 'pt-BR' ? 'Descrição' : 'Description'}:</div>
+                    <div class="modal-detail-content">${event.description}</div>
+                </div>
             </div>
             <div class="mb-3">
-                <strong><i class="fas fa-gamepad me-2"></i>${currentLang === 'pt-BR' ? 'Jogos' : 'Games'}:</strong>
-                <p class="mb-0">${event.games.join(', ')}</p>
+                <div class="modal-detail-item">
+                    <div class="modal-detail-title"><i class="fas fa-gamepad me-2"></i>${currentLang === 'pt-BR' ? 'Jogos' : 'Games'}:</div>
+                    <div class="modal-detail-content">${event.games.join(', ')}</div>
+                </div>
             </div>
         `;
         
         if (event.rising_flow_contribution) {
             modalContent += `
                 <div class="mb-3">
-                    <strong><i class="fas fa-hands-helping me-2"></i>${currentLang === 'pt-BR' ? 'Contribuição Rising Flow' : 'Rising Flow Contribution'}:</strong>
-                    <p class="mb-0">${event.rising_flow_contribution}</p>
+                    <div class="modal-detail-item">
+                        <div class="modal-detail-title"><i class="fas fa-hands-helping me-2"></i>${currentLang === 'pt-BR' ? 'Contribuição Rising Flow' : 'Rising Flow Contribution'}:</div>
+                        <div class="modal-detail-content">${event.rising_flow_contribution}</div>
+                    </div>
                 </div>
             `;
         }
@@ -241,12 +258,16 @@ class EventsPage {
             modalContent += `
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <strong><i class="fas fa-clipboard-check me-2"></i>${currentLang === 'pt-BR' ? 'Inscrição' : 'Registration'}:</strong>
-                        <p class="mb-0">${event.registration_required ? (currentLang === 'pt-BR' ? 'Obrigatória' : 'Required') : (currentLang === 'pt-BR' ? 'Não obrigatória' : 'Not required')}</p>
+                        <div class="modal-detail-item">
+                            <div class="modal-detail-title"><i class="fas fa-clipboard-check me-2"></i>${currentLang === 'pt-BR' ? 'Inscrição' : 'Registration'}:</div>
+                            <div class="modal-detail-content">${event.registration_required ? (currentLang === 'pt-BR' ? 'Obrigatória' : 'Required') : (currentLang === 'pt-BR' ? 'Não obrigatória' : 'Not required')}</div>
+                        </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <strong><i class="fas fa-ticket-alt me-2"></i>${currentLang === 'pt-BR' ? 'Taxa de entrada' : 'Entry fee'}:</strong>
-                        <p class="mb-0">${event.entry_fee || (currentLang === 'pt-BR' ? 'Gratuito' : 'Free')}</p>
+                        <div class="modal-detail-item">
+                            <div class="modal-detail-title"><i class="fas fa-ticket-alt me-2"></i>${currentLang === 'pt-BR' ? 'Taxa de entrada' : 'Entry fee'}:</div>
+                            <div class="modal-detail-content">${event.entry_fee || (currentLang === 'pt-BR' ? 'Gratuito' : 'Free')}</div>
+                        </div>
                     </div>
                 </div>
             `;
@@ -254,24 +275,30 @@ class EventsPage {
             if (event.winner) {
                 modalContent += `
                     <div class="mb-3">
-                        <strong><i class="fas fa-trophy me-2"></i>${currentLang === 'pt-BR' ? 'Vencedor' : 'Winner'}:</strong>
-                        <p class="mb-0">${event.winner}</p>
+                        <div class="modal-detail-item">
+                            <div class="modal-detail-title"><i class="fas fa-trophy me-2"></i>${currentLang === 'pt-BR' ? 'Vencedor' : 'Winner'}:</div>
+                            <div class="modal-detail-content">${event.winner}</div>
+                        </div>
                     </div>
                 `;
             }
             if (event.participants_count) {
                 modalContent += `
                     <div class="mb-3">
-                        <strong><i class="fas fa-users me-2"></i>${currentLang === 'pt-BR' ? 'Participantes' : 'Participants'}:</strong>
-                        <p class="mb-0">${event.participants_count}</p>
+                        <div class="modal-detail-item">
+                            <div class="modal-detail-title"><i class="fas fa-users me-2"></i>${currentLang === 'pt-BR' ? 'Participantes' : 'Participants'}:</div>
+                            <div class="modal-detail-content">${event.participants_count}</div>
+                        </div>
                     </div>
                 `;
             }
             if (event.event_highlights) {
                 modalContent += `
                     <div class="mb-3">
-                        <strong><i class="fas fa-star me-2"></i>${currentLang === 'pt-BR' ? 'Destaques' : 'Highlights'}:</strong>
-                        <p class="mb-0">${event.event_highlights}</p>
+                        <div class="modal-detail-item">
+                            <div class="modal-detail-title"><i class="fas fa-star me-2"></i>${currentLang === 'pt-BR' ? 'Destaques' : 'Highlights'}:</div>
+                            <div class="modal-detail-content">${event.event_highlights}</div>
+                        </div>
                     </div>
                 `;
             }
@@ -279,6 +306,9 @@ class EventsPage {
         
         // Add social links
         let footerContent = '';
+        if (event.sympla_enabled && event.sympla_url && isUpcoming) {
+            footerContent += `<a href="${event.sympla_url}" target="_blank" class="btn btn-success me-2"><i class="fas fa-ticket-alt"></i> ${currentLang === 'pt-BR' ? 'Comprar Ingressos' : 'Buy Tickets'}</a>`;
+        }
         if (event.instagram_url) {
             footerContent += `<a href="${event.instagram_url}" target="_blank" class="btn btn-primary me-2"><i class="fab fa-instagram"></i> Instagram</a>`;
         }
@@ -293,7 +323,12 @@ class EventsPage {
         }
         footerContent += `<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">${currentLang === 'pt-BR' ? 'Fechar' : 'Close'}</button>`;
         
-        this.uiManager.showModal(event.title, modalContent, footerContent);
+        this.uiManager.showModal(
+            event.id, // Use a unique ID for the modal
+            event.title, 
+            modalContent, 
+            { footer: footerContent, size: 'lg' }
+        );
         
         // Add gallery button handler
         if (event.gallery_images && event.gallery_images.length > 0) {
@@ -310,7 +345,7 @@ class EventsPage {
                         // Show gallery with proper paths
                         const folderForUrl = event.folder || encodeURIComponent(event.folderRaw || '');
                         const basePath = event._basePath || location.origin;
-                        const galleryImages = event.gallery_images.map(img => `${basePath}/data/events/${folderForUrl}/${img}`);
+                        const galleryImages = event.gallery_images.map(img => `${basePath}/data/events/${event.year}/${folderForUrl}/${img}`);
                         this.uiManager.showGalleryModal(event.title, galleryImages);
                     });
                 }

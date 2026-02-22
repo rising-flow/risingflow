@@ -12,6 +12,8 @@
   "games": ["DDR", "Taiko no Tatsujin", "Project Diva", "YARG"],
   "registration_required": false,
   "entry_fee": "Free",
+  "sympla_enabled": false,
+  "sympla_url": "",
   "winner": "Winner Name (for past events only)",
   "participants_count": 0,
   "event_highlights": "Event highlights and summary (for past events only)",

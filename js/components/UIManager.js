@@ -19,11 +19,15 @@ class UIManager {
     showModal(id, title, content, options = {}) {
         const existingModal = document.getElementById(id);
         if (existingModal) {
+            const bsModal = bootstrap.Modal.getInstance(existingModal);
+            if (bsModal) {
+                bsModal.hide();
+            }
             existingModal.remove();
         }
 
         const modalSize = options.size || '';
-        const sizeClass = modalSize ? `modal-dialog-${modalSize}` : '';
+        const sizeClass = modalSize ? `modal-${modalSize}` : '';
         
         const modalHtml = `
             <div class="modal fade" id="${id}" tabindex="-1" aria-labelledby="${id}Title" aria-hidden="true">

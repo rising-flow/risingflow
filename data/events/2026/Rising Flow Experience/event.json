@@ -1,0 +1,22 @@
+{
+  "id": "rising-flow-experience",
+  "title": "Rising Flow Experience",
+  "description": "Primeira edição do Rising Flow Experience! Venha jogar o melhor dos jogos de ritmo com a gente.",
+  "starting_date": "2026-04-04",
+  "ending_date": "2026-04-05",
+  "location": "Tamer Shop Hobby Store",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/rising.flow/",
+  "website_url": "",
+  "rising_flow_contribution": "Evento próprio da Rising Flow, trazendo uma variedade de jogos de ritmo para todos se divertirem.",
+  "games": ["Em breve"],
+  "registration_required": false,
+  "entry_fee": "R$ 40,00 (R$ 70,00 para os dois dias) + Taxas Sympla",
+  "sympla_enabled": true,
+  "sympla_url": "https://www.sympla.com.br/evento/rising-flow-experience",
+  "winner": "",
+  "participants_count": 60,
+  "event_highlights": "",
+  "instagram_highlights": "",
+  "gallery_images": []
+}

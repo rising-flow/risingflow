@@ -80,13 +80,17 @@ export async function getAllEvents() {
         }
         const allEvents = [];
         
-        // Get all folder names from manifest (both upcoming and past arrays)
-        const allFolders = [
-            ...(manifest.upcoming || []),
-            ...(manifest.past || [])
-        ];
+        // Get all folder names from manifest (now organized by year)
+        const allFoldersWithYears = [];
+        for (const year in manifest) {
+            if (Array.isArray(manifest[year])) {
+                manifest[year].forEach(folder => {
+                    allFoldersWithYears.push({ year, folder });
+                });
+            }
+        }
 
-        console.debug('[EventService] All folders to load:', allFolders);
+        console.debug('[EventService] All folders to load:', allFoldersWithYears);
 
         // Determine the working base path from where manifest was found
         const workingBase = manifestTried[manifestTried.findIndex((url, i) => i < manifestTried.length - 1 || manifest)] || candidates[0];
@@ -94,17 +98,17 @@ export async function getAllEvents() {
         console.debug('[EventService] Using base path for events:', basePath);
 
         // Load each event.json from its folder
-        for (const folder of allFolders) {
+        for (const { year, folder } of allFoldersWithYears) {
             try {
-                console.debug(`[EventService] Processing folder: "${folder}"`);
+                console.debug(`[EventService] Processing folder: "${folder}" in year ${year}`);
                 // Encode folder to make safe URLs (spaces, accents, etc.)
                 const safeFolder = encodeURIComponent(folder);
                 const tried = [];
 
                 // Try encoded path first
-                tried.push(`${basePath}/data/events/${safeFolder}/event.json`);
+                tried.push(`${basePath}/data/events/${year}/${safeFolder}/event.json`);
                 // Also try raw folder name (some servers decode URLs differently)
-                tried.push(`${basePath}/data/events/${folder}/event.json`);
+                tried.push(`${basePath}/data/events/${year}/${folder}/event.json`);
 
                 console.debug(`[EventService] Event JSON candidate URLs for "${folder}":`, tried);
 
@@ -125,6 +129,7 @@ export async function getAllEvents() {
                     // Store both raw and encoded folder names. Use encoded for URL building.
                     eventData.folderRaw = folder;
                     eventData.folder = safeFolder; // encoded folder for URLs
+                    eventData.year = year; // store year for path building
                     allEvents.push(eventData);
                     console.debug(`[EventService] Added event: ${eventData.id || eventData.title}`);
                 } else {
