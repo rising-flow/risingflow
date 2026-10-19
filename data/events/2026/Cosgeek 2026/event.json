@@ -1,0 +1,15 @@
+{
+  "id": "event-004",
+  "title": "Cosgeek Festival 2026",
+  "description": "Evento inclusivo de cultura pop com foco em cosplay, animes, games e cultura geek. Venha se divertir com a gente!",
+  "starting_date": "2026-09-12",
+  "ending_date": "2026-09-13",
+  "location": "ARENA DE EVENTOS EM SANTANA DE PARNAÍBA - Av. Esperança, 450 - Campo da Vila",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/festivalcosgeek/",
+  "website_url": "",
+  "rising_flow_contribution": "Rising Flow levará 4 jogos de rhythm games, incluindo DDR, Taiko no Tatsujin, Sound Voltex e Groove Coaster. Teremos também produtos exclusivos Rising Flow como bottons estilizado e a linha de quebra-cabeças Pixel Blocks.",
+  "games": ["DDR", "Taiko no Tatsujin", "Sound Voltex", "Groove Coaster"],
+  "registration_required": false,
+  "entry_fee": "1Kg de Alimento"
+}
