@@ -24,7 +24,8 @@ class RisingFlowApp {
         window.uiManager = this.uiManager;
         
         // Setup global functionality
-        this.setupPixelBlockModal();
+        this.setupEventPromoFooter();
+        this.setupRisingFlowPlayModal();
         this.setupGlobalEventListeners();
         this.setupHomepageCarousel();
         this.setupPrettyUrlHandler();
@@ -173,17 +174,45 @@ class RisingFlowApp {
         }
     }
 
-    setupPixelBlockModal() {
-        // Show the Pixel Block modal when the page loads (only on index)
+    setupEventPromoFooter() {
+        let footer = document.querySelector('footer');
+        if (!footer) {
+            footer = document.createElement('footer');
+            document.body.appendChild(footer);
+        }
+
+        const eventLink = document.createElement('a');
+        eventLink.className = 'event-promo-strip-link';
+        eventLink.href = 'https://www.sympla.com.br/evento/rising-flow-play/3607121';
+        eventLink.target = '_blank';
+        eventLink.rel = 'noopener noreferrer';
+        eventLink.setAttribute('aria-label', 'Ver o evento Rising Flow Play');
+
+        const banner = document.createElement('img');
+        banner.className = 'event-promo-strip';
+        banner.src = 'images/RFPlay_Banner_Strip.png';
+        banner.alt = 'Rising Flow Play, dias 1 e 2 de novembro. Acesse o evento pelo QR code.';
+        banner.loading = 'lazy';
+        eventLink.appendChild(banner);
+
+        const copyright = document.createElement('p');
+        copyright.className = 'footer-copyright';
+        copyright.textContent = '\u00a9 2025 Rising Flow. All rights reserved.';
+
+        footer.replaceChildren(eventLink, copyright);
+    }
+
+    setupRisingFlowPlayModal() {
+        // Show the event announcement when the homepage loads.
         const isIndexPage = window.location.pathname === '/' || 
                            window.location.pathname.endsWith('index.html') ||
                            window.location.pathname === '/risingflow/';
         
         if (isIndexPage) {
-            const pixelBlockModalElement = document.getElementById('pixelBlockModal');
-            if (pixelBlockModalElement) {
-                const pixelBlockModal = new bootstrap.Modal(pixelBlockModalElement);
-                pixelBlockModal.show();
+            const eventModalElement = document.getElementById('risingFlowPlayModal');
+            if (eventModalElement) {
+                const eventModal = new bootstrap.Modal(eventModalElement);
+                eventModal.show();
             }
         }
     }

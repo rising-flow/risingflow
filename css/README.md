@@ -4,6 +4,8 @@ Purpose
 
 This file documents the current CSS layout and provides lightweight guidance for future refactors. The site currently uses plain CSS files split by page and a central `style.css` for globals.
 
+For the visual language, palette, component patterns, and guidance for new pages, see [GUIA_IDENTIDADE_VISUAL.md](GUIA_IDENTIDADE_VISUAL.md).
+
 Current structure
 
 - css/
