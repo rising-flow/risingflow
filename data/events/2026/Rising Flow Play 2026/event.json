@@ -1,0 +1,25 @@
+{
+  "id": "RFPlay",
+  "title": "Rising Flow Play 2026",
+  "description": "Evento de jogos de ritmo, incluindo DDR, Taiko no Tatsujin, Project Diva e YARG. Venha se divertir e competir com outros jogadores!",
+  "starting_date": "2026-11-01",
+  "ending_date": "2026-11-02",
+  "location": "R. Ipanema, 478 - Brás, São Paulo - SP, 03164-200",
+  "title_image": "logo.png",
+  "instagram_url": "https://www.instagram.com/_risingflow/",
+  "website_url": "https://www.sympla.com.br/evento/rising-flow-play/3607121",
+  "rising_flow_contribution": "Evento organizado pela Rising Flow, com o objetivo de promover a cultura dos jogos de ritmo e proporcionar uma experiência divertida e competitiva para os participantes.",
+  "games": ["A definir"],
+  "registration_required": true,
+  "entry_fee": "R$45,00 (por dia) + taxas do Sympla.",
+  "sympla_enabled": true,
+  "sympla_url": "https://www.sympla.com.br/evento/rising-flow-play/3607121",
+  "participants_count": 160,
+  "event_highlights": "Event highlights and summary (for past events only)",
+  "instagram_highlights": "https://www.instagram.com/stories/highlights/123456/",
+  "gallery_images": [
+    "gallery/photo1.jpg",
+    "gallery/photo2.jpg",
+    "gallery/photo3.jpg"
+  ]
+}
